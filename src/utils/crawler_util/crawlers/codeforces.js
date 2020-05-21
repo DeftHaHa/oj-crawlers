@@ -1,7 +1,6 @@
 const request = require('superagent')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
@@ -12,7 +11,7 @@ module.exports = async function (config, username) {
   return {
     solved: acSet.size,
     submissions: submissions,
-    solvedList: [...acSet],
+    solvedList: [...acSet]
   }
 }
 
@@ -26,12 +25,11 @@ const MAX_PAGE_SIZE = 10000
  * @returns {Promise<Number>}
  */
 async function queryForNumber(username, pageCount, acSet) {
-
   // 发起请求 /////////////////////////////////////////////////////////////
   const queryObject = {
     handle: username,
     from: (pageCount - 1) * MAX_PAGE_SIZE + 1,
-    count: MAX_PAGE_SIZE,
+    count: MAX_PAGE_SIZE
   }
 
   let res = null
@@ -40,8 +38,7 @@ async function queryForNumber(username, pageCount, acSet) {
       .get('http://codeforces.com/api/user.status')
       .query(queryObject)
   } catch (e) {
-
-    if (e.response && e.response.body.status) {// 有 response 一定有 body
+    if (e.response && e.response.body.status) { // 有 response 一定有 body
       // 有 response 且以 json 的格式相应
       const comment = e.response.body.comment
       if (/handle: User with handle .* not found/.test(comment)) {
@@ -63,7 +60,7 @@ async function queryForNumber(username, pageCount, acSet) {
     return 0
   }
 
-  problemArray.forEach(function (element) {
+  problemArray.forEach(function(element) {
     if (element.verdict === 'OK') {
       const problem = element.problem
       const title = problem.contestId + '-' + problem.index
