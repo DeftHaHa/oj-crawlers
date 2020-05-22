@@ -1,8 +1,7 @@
 const request = require('superagent')
 const cheerio = require('cheerio')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
@@ -22,7 +21,7 @@ module.exports = async function (config, username) {
   try {
     const solvedText = $('h5:contains("Fully Solved")').text().match(/\((\d+)\)/)[1]
     const solvedList = []
-    $('h5:contains("Fully Solved") + article a').each(function (i, el) {
+    $('h5:contains("Fully Solved") + article a').each(function(i, el) {
       solvedList.push($(el).text().trim())
     })
 
@@ -37,7 +36,7 @@ module.exports = async function (config, username) {
     return {
       solved: parseInt(solvedText),
       solvedList,
-      submissions,
+      submissions
     }
   } catch (err) {
     throw new Error('Error while parsing')

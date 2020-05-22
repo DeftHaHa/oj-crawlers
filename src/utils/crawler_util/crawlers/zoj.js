@@ -1,15 +1,14 @@
 const request = require('superagent')
 const cheerio = require('cheerio')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
 
   const res = await request
     .get('http://acm.zju.edu.cn/onlinejudge/showUserStatus.do')
-    .query({handle: username})
+    .query({ handle: username })
 
   if (!res.ok) {
     throw new Error(`Server Response Error: ${res.status}`)
@@ -32,7 +31,7 @@ module.exports = async function (config, username) {
     return {
       solved: Number(num[0]),
       submissions: Number(num[1]),
-      solvedList,
+      solvedList
     }
   } catch (e) {
     throw new Error('Error while parsing')

@@ -1,15 +1,14 @@
 const request = require('superagent')
 const cheerio = require('cheerio')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
 
   const res = await request
     .get('http://loj.ac/find_user')
-    .query({nickname: username})
+    .query({ nickname: username })
 
   if (!res.ok) {
     throw new Error(`Server Response Error: ${res.status}`)
@@ -21,7 +20,7 @@ module.exports = async function (config, username) {
   }
   try {
     const acList = []
-    $('[href^="/problem/"]').each(function (i, el) {
+    $('[href^="/problem/"]').each(function(i, el) {
       acList.push($(el).text().trim())
     })
 
@@ -34,11 +33,9 @@ module.exports = async function (config, username) {
     return {
       submissions,
       solved: parseInt($('a:has(i.check.icon)').text().trim().split(' ')[1]),
-      solvedList: acList,
+      solvedList: acList
     }
-  }
-  catch (e) {
+  } catch (e) {
     throw new Error('Error while parsing')
   }
-
 }

@@ -28,7 +28,7 @@ export default {
     Navbar,
     RightPanel,
     Settings,
-    Sidebar,
+    Sidebar
   },
   mixins: [ResizeMixin],
   computed: {

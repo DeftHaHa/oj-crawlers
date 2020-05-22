@@ -1,15 +1,14 @@
 const request = require('superagent')
 const cheerio = require('cheerio')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
 
   const res = await request
     .get('http://www.lydsy.com/JudgeOnline/userinfo.php')
-    .query({user: username})
+    .query({ user: username })
 
   if (!res.ok) {
     throw new Error(`Server Response Error: ${res.status}`)
@@ -22,7 +21,6 @@ module.exports = async function (config, username) {
   }
 
   try {
-
     // p(1000);p(1001);p(1002)....p(XXXX);
     // 这个题目列表是前端渲染的
     const acListScript = $('td[rowspan=14] > script').html().split('\n')[2]
@@ -33,7 +31,7 @@ module.exports = async function (config, username) {
     return {
       solved: Number($('td:contains("Solved") + td > a').text()),
       submissions: Number($('td:contains("Submit") + td > a').text()),
-      solvedList: acList,
+      solvedList: acList
     }
   } catch (e) {
     throw new Error('Error while parsing')

@@ -1,15 +1,14 @@
 const request = require('superagent')
 const cheerio = require('cheerio')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
 
   const res = await request
     .get('http://acm.fzu.edu.cn/user.php')
-    .query({uname: username})
+    .query({ uname: username })
 
   if (!res.ok) {
     throw new Error(`Server Response Error: ${res.status}`)
@@ -22,7 +21,6 @@ module.exports = async function (config, username) {
   }
 
   try {
-
     const acList = $('b > a[href^="problem.php?pid="]')
       .map((i, elem) => $(elem).text())
       .get()
@@ -30,7 +28,7 @@ module.exports = async function (config, username) {
     return {
       submissions: Number($('td:contains("Total Submitted") + td').text()),
       solved: Number($('td:contains("Total Accepted") + td').text()),
-      solvedList: acList,
+      solvedList: acList
     }
   } catch (e) {
     throw new Error('Error while parsing')

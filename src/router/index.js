@@ -79,7 +79,20 @@ export const constantRoutes = [
         path: 'dashboard',
         component: () => import('@/views/dashboard/index'),
         name: 'Dashboard',
-        meta: { title: 'Dashboard', icon: 'dashboard', affix: true }
+        meta: { title: '首页', icon: 'dashboard', affix: true }
+      }
+    ]
+  },
+  {
+    path: '/ranklist',
+    component: Layout,
+    redirect: '/ranklist/index',
+    children: [
+      {
+        path: 'ranklist',
+        component: () => import('@/views/ranklist/index'),
+        name: 'RankList',
+        meta: { title: '排行榜', icon: 'rank', affix: true }
       }
     ]
   },

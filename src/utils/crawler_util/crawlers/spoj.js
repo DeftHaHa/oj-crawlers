@@ -1,8 +1,7 @@
 const request = require('superagent')
 const cheerio = require('cheerio')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
@@ -25,7 +24,7 @@ module.exports = async function (config, username) {
 
   const $ = cheerio.load(res.text)
 
-  if ($('#user-profile-left').length == 0) {
+  if ($('#user-profile-left').length === 0) {
     throw new Error('The user does not exist')
   }
 
@@ -37,7 +36,7 @@ module.exports = async function (config, username) {
         .map((i, elem) => $(elem).text().trim())
         .get()
         // 移除表格中的空位
-        .filter(item => item.length > 0),
+        .filter(item => item.length > 0)
     }
   } catch (e) {
     throw new Error('Error while parsing')

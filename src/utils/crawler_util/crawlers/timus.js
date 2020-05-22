@@ -1,8 +1,7 @@
 const request = require('superagent')
 const cheerio = require('cheerio')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
@@ -38,7 +37,7 @@ module.exports = async function (config, username) {
   return {
     solved,
     submissions,
-    solvedList,
+    solvedList
   }
 }
 

@@ -1,7 +1,6 @@
 const request = require('superagent')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
@@ -26,7 +25,7 @@ module.exports = async function (config, username) {
 
   const submissions = res.body.length
   const acSet = new Set()
-  for (let item of res.body) {
+  for (const item of res.body) {
     if (item.result === 'AC') {
       acSet.add(item.problem_id)
     }
@@ -36,6 +35,6 @@ module.exports = async function (config, username) {
   return {
     submissions,
     solved: acList.length,
-    solvedList: acList,
+    solvedList: acList
   }
 }

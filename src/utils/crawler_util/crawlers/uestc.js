@@ -1,7 +1,6 @@
 const request = require('superagent')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
@@ -29,7 +28,7 @@ module.exports = async function (config, username) {
           }
         }
       }
-      `,
+      `
     })
 
   if (!res.ok) {
@@ -41,7 +40,6 @@ module.exports = async function (config, username) {
   }
 
   try {
-
     const solvedList = res.body.data.user.statistics.solve
       .filter(x => x.status)
       .map(x => x.pk)
@@ -51,10 +49,9 @@ module.exports = async function (config, username) {
     return {
       submissions: s.ac + s.tle + s.ce + s.wa + s.re + s.ole + s.mle,
       solved: res.body.data.user.solved,
-      solvedList,
+      solvedList
     }
-  }
-  catch (e) {
+  } catch (e) {
     throw new Error('Error while parsing')
   }
 }

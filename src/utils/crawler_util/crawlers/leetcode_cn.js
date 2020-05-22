@@ -1,14 +1,13 @@
 const request = require('superagent')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
 
   const input = {
     query: 'query userPublicProfile($userSlug:String!){userProfilePublicProfile(userSlug:$userSlug){submissionProgress{totalSubmissions acTotal}}}',
-    variables: { userSlug: username },
+    variables: { userSlug: username }
   }
 
   const res = await request
@@ -23,6 +22,6 @@ module.exports = async function (config, username) {
 
   return {
     solved: data.submissionProgress.acTotal,
-    submissions: data.submissionProgress.totalSubmissions,
+    submissions: data.submissionProgress.totalSubmissions
   }
 }

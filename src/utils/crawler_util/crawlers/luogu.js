@@ -1,14 +1,13 @@
 const request = require('superagent')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
 
   const uidRes = await request
     .get('https://www.luogu.com.cn/fe/api/user/search')
-    .query({keyword: username})
+    .query({ keyword: username })
 
   if (!uidRes.ok) {
     throw new Error(`Server Response Error: ${uidRes.status}`)
@@ -29,7 +28,6 @@ module.exports = async function (config, username) {
   }
 
   try {
-
     const userJson = JSON.parse(decodeURIComponent(res.text.match(/decodeURIComponent\("(.*?)"\)/i)[1]))
     const solvedJson = userJson.currentData.passedProblems
     const acList = solvedJson.map((p) => p.pid)
@@ -37,11 +35,9 @@ module.exports = async function (config, username) {
     return {
       submissions: userJson.currentData.user.submittedProblemCount,
       solved: userJson.currentData.user.passedProblemCount,
-      solvedList: acList,
+      solvedList: acList
     }
-  }
-  catch (e) {
+  } catch (e) {
     throw new Error('Error while parsing')
   }
-
 }

@@ -17,11 +17,12 @@ const aizu = require('./crawlers/aizu')
 const codechef = require('./crawlers/codechef')
 const eljudge = require('./crawlers/eljudge')
 const vjudge = require('./crawlers/vjudge')
+const putongoj = require('./crawlers/putongoj')
 /**
  * 返回 string映射所有爬虫函数的map
  * @returns {Promise<Map<any, any>>}
  */
-module.exports = async function() {
+module.exports = function() {
   const crawlers_map = new Map()
   crawlers_map.set('poj', poj)
   crawlers_map.set('hdu', hdu)
@@ -42,5 +43,6 @@ module.exports = async function() {
   crawlers_map.set('codechef', codechef)
   crawlers_map.set('eljudge', eljudge)
   crawlers_map.set('vjudge', vjudge)
+  crawlers_map.set('putongoj', putongoj)
   return crawlers_map
 }

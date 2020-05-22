@@ -26,9 +26,8 @@ module.exports = async function(config, username) {
     return {
       solved: Number($(tds[1]).text()),
       submissions: Number($(tds[2]).text()),
-      solvedList: $('#userinfo_left a[href^="/csuoj/problemset/problem?pid="]')
-        .map((i, elem) => $(elem).text().trim())
-        .get()
+      // eslint-disable-next-line no-undef
+      solvedList
     }
   } catch (e) {
     throw new Error('Error while parsing')

@@ -16,8 +16,7 @@ const hostName = 'vjudge.net'
  * @param username 要爬取的用户名
  * @returns {Promise<crawlerReturns>} - 见 configReader
  */
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
@@ -33,7 +32,7 @@ module.exports = async function (config, username) {
       .type('form')
       .send({
         'username': config.crawler_login_user,
-        'password': config.crawler_login_password,
+        'password': config.crawler_login_password
       })
   } catch (err) {
     const error = new Error('vjudge login failed')
@@ -54,18 +53,17 @@ module.exports = async function (config, username) {
     solved: acSet.size,
     submissions: submissions,
     solvedList: [...acSet],
-    submissionsByCrawlerName,
+    submissionsByCrawlerName
   }
 }
 
 /**
  * take a oj name in virtual judge and map its name to crawler name
- * 
+ *
  * if name cannot be mapped, return original name
- * @param {string} nameInVjudge 
+ * @param {string} nameInVjudge
  */
 function mapOjName(nameInVjudge) {
-
   // oj that can map its name to crawler name by changing into lower case
   const simpleMapOj = new Set([
     'codeforces',
@@ -80,7 +78,7 @@ function mapOjName(nameInVjudge) {
     // 'hust',
     'atcoder',
     'aizu',
-    'codechef',
+    'codechef'
   ])
   // crawler name map
   const ojMap = {
@@ -89,7 +87,7 @@ function mapOjName(nameInVjudge) {
     'URAL': 'timus',
     'HYSBZ': 'dashiye',
     // it looks like a typo of vjudge
-    'EIJudge': 'eljudge',
+    'EIJudge': 'eljudge'
   }
 
   if (simpleMapOj.has(nameInVjudge.toLowerCase())) {
@@ -113,11 +111,10 @@ const MAX_PAGE_SIZE = 500
  * @returns {Promise<Number>}
  */
 async function queryForNumber(agent, username, maxId, acSet, submissionsByCrawlerName) {
-
   // 发起请求 /////////////////////////////////////////////////////////////
   const queryObject = {
     username: username,
-    pageSize: MAX_PAGE_SIZE,
+    pageSize: MAX_PAGE_SIZE
   }
 
   if (maxId) {
@@ -153,7 +150,7 @@ async function queryForNumber(agent, username, maxId, acSet, submissionsByCrawle
     return 0
   }
 
-  problemArray.forEach(function (element) {
+  problemArray.forEach(function(element) {
     const crawlerName = mapOjName(element[2])
     if (!submissionsByCrawlerName[crawlerName]) {
       submissionsByCrawlerName[crawlerName] = 1

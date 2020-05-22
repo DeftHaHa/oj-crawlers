@@ -1,7 +1,6 @@
 const request = require('superagent')
 
-module.exports = async function (config, username) {
-
+module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
@@ -23,6 +22,6 @@ module.exports = async function (config, username) {
   return {
     solved: statusRes.body.status.solved,
     submissions: statusRes.body.status.submissions,
-    solvedList: [...solvedSet],
+    solvedList: [...solvedSet]
   }
 }
