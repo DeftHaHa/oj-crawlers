@@ -7,15 +7,35 @@ module.exports = async function(config, username) {
 
   const acSet = new Set()
   const submissions = await queryForNumber(username, 1, acSet)
-
+  const info = await query_user_info(username)
   return {
     solved: acSet.size,
     submissions: submissions,
+    info: info,
     solvedList: [...acSet]
   }
 }
 
 const MAX_PAGE_SIZE = 10000
+
+/**
+ * 查询 user.info
+ * @param username
+ * @returns {Promise<null>}
+ */
+async function query_user_info(username) {
+  let res = null
+  try {
+    res = await request
+      .get('http://codeforces.com/api/user.info')
+      .query({ handles: username })
+    res_obj = JSON.parse(res.text)
+    if(res_obj.status === 'OK') return JSON.parse(res.text).result[0]
+  } catch (e) {
+    //console.log(e)
+    return res;
+  }
+}
 
 /**
  * 递归查询题数

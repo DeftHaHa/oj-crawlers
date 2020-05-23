@@ -8,7 +8,7 @@
         <theme-picker style="float: right;height: 26px;margin: -3px 8px 0 0;" @change="themeChange" />
       </div>
 
-      <div class="drawer-item">
+      <div class="drawer-item" hidden = "true">
         <span>Open Tags-View</span>
         <el-switch v-model="tagsView" class="drawer-switch" />
       </div>
@@ -18,7 +18,7 @@
         <el-switch v-model="fixedHeader" class="drawer-switch" />
       </div>
 
-      <div class="drawer-item">
+      <div class="drawer-item" hidden = "true">
         <span>Sidebar Logo</span>
         <el-switch v-model="sidebarLogo" class="drawer-switch" />
       </div>

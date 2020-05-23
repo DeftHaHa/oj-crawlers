@@ -1,36 +1,37 @@
 const cralwers_map_init = require('./crawlers_map_init')
 const oj_crawler = require('./oj_crawler')
 const users_info = require('./users_info')
-
+//为pta jisuanke静态数据
 const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode', 'uva', 'poj', 'putongoj']
 
 /**
  * 'oj_name' 映射 爬虫函数 map 初始化
  */
 const crawlers_map = cralwers_map_init()
-
 console.time('x')
 const crawl_all = require('./crawl_all')
+
+// Promise.all([crawl_all()]).then(result => {
+//   console.log("#####"+JSON.stringify(result))
+//   console.timeEnd('x')
+// })
 crawl_all().then(result => {
-  console.log(result)
+  console.log("#####"+JSON.stringify(result))
   console.timeEnd('x')
-  for (const user of result) {
-    console.log(user['name'], '      Solved:' + user['total_sloved'] + '     Submissions:' + user['total_submissions'])
-  }
+  // for (const user of result) {
+  //   console.log(user['name'], '      Solved:' + user['total_sloved'] + '     Submissions:' + user['total_submissions'])
+  // }
 })
-console.log('###')
 
 /**
  * 查询示范,promise需要使用then
  * 异步方式，适用于每一单元格动态更新table
  */
-// const username = 'Deft_t'
-// const oj_name = 'luogu'
+// const username = 'GaragezWzz0504'
+// const oj_name = 'codeforces'
 // let res = { 'solved': -1, 'submissions': -1 }
 // oj_crawler(username, crawlers_map.get(oj_name)).then(result => {
-//   res['solved'] = result['solved']
-//   res['submissions'] = result['submissions']
-//   console.log(res)
+//   console.log(result.info)
 // })
 // console.log("####");
 /**
@@ -42,19 +43,41 @@ console.log('###')
 //   var tmp = {}
 //   let tmp_info = {}
 //   for (let key of Object.keys(user)) {
-//
 //     if (key === '姓名') {
 //       tmp.name = user[key]
 //     } else if (key === '班级') {
 //       tmp.class = user[key]
+//     } else if (key === 'pta_sloved') {
+//       if (user[key] !== '') {
+//         tmp_info['pta']['solved'] = parseInt(user[key])
+//       } else {
+//         tmp_info['pta']['solved'] = -1
+//       }
+//       //console.log(parseInt(tmp_info['pta']['solved']))
 //     } else {
-//       //console.log(key)
 //       let tmp_oj = {}
-//       tmp_oj['username'] = user[key]
-//       tmp_info[key] = tmp_oj
-//       //console.log(user[key])
+//       if (key === 'jisuanke_solved') {
+//         tmp_oj['username'] = ''
+//         if (user[key] !== '') {
+//           tmp_oj['solved'] = parseInt(user[key])
+//         } else {
+//           tmp_oj['solved'] = -1
+//         }
+//         tmp_oj['submissions'] = -1
+//         tmp_info['jisuanke'] = tmp_oj
+//       } else {
+//         //console.log(key)
+//         tmp_oj['username'] = user[key]
+//         tmp_oj['solved'] = -1
+//         tmp_oj['submissions'] = -1
+//         if (key === 'codeforces') tmp_oj['info'] = null
+//         tmp_info[key] = tmp_oj
+//         //console.log(user[key])
+//       }
 //     }
 //   }
+//   tmp_info.total_solved = 0
+//   tmp_info.total_submissions = 0
 //   tmp.oj_info = tmp_info
 //   newinfo[index] = tmp
 //   index++
