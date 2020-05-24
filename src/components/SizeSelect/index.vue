@@ -17,9 +17,9 @@ export default {
   data() {
     return {
       sizeOptions: [
-        { label: 'Mini', value: 'mini' },
-        { label: 'Medium', value: 'small' },
         { label: 'Big', value: 'medium' },
+        { label: 'Medium', value: 'small' },
+        { label: 'Mini', value: 'mini' },
       ]
     }
   },

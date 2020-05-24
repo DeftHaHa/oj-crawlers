@@ -5,29 +5,36 @@
     "oj_info": {
       "codeforces": {
         "username": "Deft_t",
-        "solved": 18,
-        "submissions": 23,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "Deft_t",
-        "solved": 18,
-        "submissions": 23
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "DeftHaHa",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "8953923",
-        "solved": 127,
-        "submissions": 489
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "DeftHaHa",
-        "solved": 32,
-        "submissions": 232
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "Deft",
@@ -36,18 +43,18 @@
       },
       "uva": {
         "username": "DeftHaHa",
-        "solved": 1,
-        "submissions": 2
+        "solved": -1,
+        "submissions": -1
       },
       "poj": {
         "username": "Deft",
-        "solved": 7,
-        "submissions": 33
+        "solved": -1,
+        "submissions": -1
       },
       "putongoj": {
         "username": "1630332223",
-        "solved": 251,
-        "submissions": 279
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "Deft_t",
@@ -59,8 +66,10 @@
         "solved": 468,
         "submissions": -1
       },
-      "total_solved": 927,
-      "total_submissions": 1299
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -69,29 +78,36 @@
     "oj_info": {
       "codeforces": {
         "username": "wood3s",
-        "solved": 71,
-        "submissions": 143,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "33DAI",
-        "solved": 41,
-        "submissions": 47
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "wood3s",
-        "solved": 10,
-        "submissions": 16
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "7882184",
-        "solved": 57,
-        "submissions": 176
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "wood3s",
-        "solved": 14,
-        "submissions": 80
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -105,13 +121,13 @@
       },
       "poj": {
         "username": "wood3s",
-        "solved": 12,
-        "submissions": 53
+        "solved": -1,
+        "submissions": -1
       },
       "putongoj": {
         "username": "cjluxk33",
-        "solved": 117,
-        "submissions": 128
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "",
@@ -123,8 +139,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 322,
-      "total_submissions": 643
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -133,9 +151,16 @@
     "oj_info": {
       "codeforces": {
         "username": "wood3xuxu",
-        "solved": 14,
-        "submissions": 27,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "",
@@ -154,8 +179,8 @@
       },
       "hdu": {
         "username": "wood3xuxu",
-        "solved": 32,
-        "submissions": 50
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -169,13 +194,13 @@
       },
       "poj": {
         "username": "wood3",
-        "solved": 7,
-        "submissions": 19
+        "solved": -1,
+        "submissions": -1
       },
       "putongoj": {
         "username": "计算机192林仁豪",
-        "solved": 32,
-        "submissions": 50
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "",
@@ -187,8 +212,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 85,
-      "total_submissions": 146
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -197,29 +224,36 @@
     "oj_info": {
       "codeforces": {
         "username": "Lqingyi",
-        "solved": 41,
-        "submissions": 47,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "lrj666",
-        "solved": 251,
-        "submissions": 279
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "lrh666",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "417360613",
-        "solved": 17,
-        "submissions": 83
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "Lqingyi",
-        "solved": 1,
-        "submissions": 2
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -228,8 +262,8 @@
       },
       "uva": {
         "username": "Lqingyi",
-        "solved": 0,
-        "submissions": 0
+        "solved": -1,
+        "submissions": -1
       },
       "poj": {
         "username": "",
@@ -251,8 +285,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 315,
-      "total_submissions": 416
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -261,24 +297,31 @@
     "oj_info": {
       "codeforces": {
         "username": "Joycer",
-        "solved": 54,
-        "submissions": 126,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "Joycer",
-        "solved": 87,
-        "submissions": 172
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "Joycer",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "274953579",
-        "solved": 123,
-        "submissions": 352
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -315,8 +358,10 @@
         "solved": 123,
         "submissions": -1
       },
-      "total_solved": 392,
-      "total_submissions": 753
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -325,29 +370,36 @@
     "oj_info": {
       "codeforces": {
         "username": "shroud777",
-        "solved": 18,
-        "submissions": 23,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "shroud777",
-        "solved": 18,
-        "submissions": 23
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "1932332129",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "740358309",
-        "solved": 44,
-        "submissions": 262
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "shroud777",
-        "solved": 10,
-        "submissions": 52
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -361,8 +413,8 @@
       },
       "poj": {
         "username": "1003726538",
-        "solved": 3,
-        "submissions": 11
+        "solved": -1,
+        "submissions": -1
       },
       "putongoj": {
         "username": "",
@@ -379,29 +431,38 @@
         "solved": 98,
         "submissions": -1
       },
-      "total_solved": 196,
-      "total_submissions": 467
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
     "name": "曾玮玮",
-    "class": "计算机191 ",
+    "class": "计算机191",
     "oj_info": {
       "codeforces": {
         "username": "GaragezWzz0504",
-        "solved": 18,
-        "submissions": 23,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "GaragezWzz",
-        "solved": 87,
-        "submissions": 172
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "GaragezWzz",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "",
@@ -443,8 +504,10 @@
         "solved": 70,
         "submissions": -1
       },
-      "total_solved": 180,
-      "total_submissions": 284
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -453,29 +516,36 @@
     "oj_info": {
       "codeforces": {
         "username": "afish33",
-        "solved": 5,
-        "submissions": 5,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "afish33",
-        "solved": 87,
-        "submissions": 172
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "ruanjiahao",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "932100503",
-        "solved": 40,
-        "submissions": 152
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "afish33",
-        "solved": 8,
-        "submissions": 45
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "afish",
@@ -494,8 +564,8 @@
       },
       "putongoj": {
         "username": "afish",
-        "solved": 65,
-        "submissions": 77
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "afish",
@@ -507,8 +577,10 @@
         "solved": 160,
         "submissions": -1
       },
-      "total_solved": 413,
-      "total_submissions": 730
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -517,29 +589,36 @@
     "oj_info": {
       "codeforces": {
         "username": "OBlueLine",
-        "solved": 83,
-        "submissions": 273,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "BlueLine",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "BlueLine",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "633417731",
-        "solved": 12,
-        "submissions": 32
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "BlueLine",
-        "solved": 71,
-        "submissions": 606
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -553,8 +632,8 @@
       },
       "poj": {
         "username": "zzyblueline",
-        "solved": 18,
-        "submissions": 98
+        "solved": -1,
+        "submissions": -1
       },
       "putongoj": {
         "username": "",
@@ -571,8 +650,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 194,
-      "total_submissions": 1019
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -581,24 +662,31 @@
     "oj_info": {
       "codeforces": {
         "username": "youisme",
-        "solved": 5,
-        "submissions": 5,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "hattp",
-        "solved": 41,
-        "submissions": 47
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "hattp",
-        "solved": 10,
-        "submissions": 16
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "315807304",
-        "solved": 6,
-        "submissions": 27
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -622,8 +710,8 @@
       },
       "putongoj": {
         "username": "hattp",
-        "solved": 9,
-        "submissions": 15
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "hattp",
@@ -635,8 +723,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 71,
-      "total_submissions": 193
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -645,24 +735,31 @@
     "oj_info": {
       "codeforces": {
         "username": "kk991",
-        "solved": 4,
-        "submissions": 13,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "kk991",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "sq373",
-        "solved": 10,
-        "submissions": 16
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "776961065",
-        "solved": 5,
-        "submissions": 29
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -699,8 +796,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 24,
-      "total_submissions": 148
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -709,24 +808,31 @@
     "oj_info": {
       "codeforces": {
         "username": "MengJing33",
-        "solved": 9,
-        "submissions": 12,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "MJ7825",
-        "solved": 37,
-        "submissions": 122
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "1hgcuv2d",
-        "solved": 10,
-        "submissions": 16
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "440426059",
-        "solved": 6,
-        "submissions": 34
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -763,8 +869,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 62,
-      "total_submissions": 269
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -773,29 +881,36 @@
     "oj_info": {
       "codeforces": {
         "username": "CJLCJL",
-        "solved": 5,
-        "submissions": 5,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "CJLDBB",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "ruanhaibin",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "110853396",
-        "solved": 14,
-        "submissions": 62
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "aixiadeshaonian",
-        "solved": 25,
-        "submissions": 66
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -827,8 +942,10 @@
         "solved": 124,
         "submissions": -1
       },
-      "total_solved": 178,
-      "total_submissions": 232
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -837,29 +954,36 @@
     "oj_info": {
       "codeforces": {
         "username": "thehun",
-        "solved": 41,
-        "submissions": 47,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "zhendicai",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "thehun",
-        "solved": 9,
-        "submissions": 12
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "204328503",
-        "solved": 9,
-        "submissions": 72
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "thehun",
-        "solved": 5,
-        "submissions": 35
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -891,8 +1015,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 112,
-      "total_submissions": 401
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -901,29 +1027,36 @@
     "oj_info": {
       "codeforces": {
         "username": "Feadil",
-        "solved": 41,
-        "submissions": 47,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "feadil",
-        "solved": 41,
-        "submissions": 47
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "1158345227",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "411992062",
-        "solved": 33,
-        "submissions": 168
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "Feadil",
-        "solved": 1,
-        "submissions": 3
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -942,8 +1075,8 @@
       },
       "putongoj": {
         "username": "Feadil",
-        "solved": 9,
-        "submissions": 12
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "Feadil",
@@ -955,8 +1088,10 @@
         "solved": 98,
         "submissions": -1
       },
-      "total_solved": 271,
-      "total_submissions": 525
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -965,24 +1100,31 @@
     "oj_info": {
       "codeforces": {
         "username": "ant_boy",
-        "solved": 5,
-        "submissions": 5,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "ant_boy",
-        "solved": 41,
-        "submissions": 47
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "antmake",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "573554307",
-        "solved": 9,
-        "submissions": 31
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -1006,8 +1148,8 @@
       },
       "putongoj": {
         "username": "antmake",
-        "solved": 18,
-        "submissions": 23
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "蚂蚁仔仔",
@@ -1019,8 +1161,10 @@
         "solved": 1,
         "submissions": -1
       },
-      "total_solved": 122,
-      "total_submissions": 336
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1029,29 +1173,36 @@
     "oj_info": {
       "codeforces": {
         "username": "DongGuaTang",
-        "solved": 5,
-        "submissions": 5,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "BlackAtao",
-        "solved": 39,
-        "submissions": 95
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "BlackAtao",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "995149722",
-        "solved": 72,
-        "submissions": 209
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "BlackAtao",
-        "solved": 1,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -1070,8 +1221,8 @@
       },
       "putongoj": {
         "username": "计算机182董文韬",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "BlackAtao",
@@ -1083,8 +1234,10 @@
         "solved": 104,
         "submissions": -1
       },
-      "total_solved": 274,
-      "total_submissions": 589
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1093,9 +1246,16 @@
     "oj_info": {
       "codeforces": {
         "username": "py_l",
-        "solved": 7,
-        "submissions": 17,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "",
@@ -1104,13 +1264,13 @@
       },
       "vjudge": {
         "username": "ojo",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "128238874",
-        "solved": 5,
-        "submissions": 14
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -1147,8 +1307,10 @@
         "solved": 41,
         "submissions": -1
       },
-      "total_solved": 101,
-      "total_submissions": 249
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1157,29 +1319,36 @@
     "oj_info": {
       "codeforces": {
         "username": "linzhijie",
-        "solved": 9,
-        "submissions": 12,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "linzhijie",
-        "solved": 87,
-        "submissions": 172
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "linzhijie",
-        "solved": 9,
-        "submissions": 12
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "260659180",
-        "solved": 9,
-        "submissions": 34
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "lwyamn",
-        "solved": 1,
-        "submissions": 6
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -1198,8 +1367,8 @@
       },
       "putongoj": {
         "username": "linzhijie",
-        "solved": 10,
-        "submissions": 16
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "",
@@ -1211,8 +1380,10 @@
         "solved": 35,
         "submissions": -1
       },
-      "total_solved": 160,
-      "total_submissions": 340
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1221,24 +1392,31 @@
     "oj_info": {
       "codeforces": {
         "username": "yumin25180",
-        "solved": 5,
-        "submissions": 5,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "yu25180",
-        "solved": 41,
-        "submissions": 47
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "yu25180",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "787321942",
-        "solved": 37,
-        "submissions": 122
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -1262,8 +1440,8 @@
       },
       "putongoj": {
         "username": "yu25180",
-        "solved": 41,
-        "submissions": 47
+        "solved": -1,
+        "submissions": -1
       },
       "pta": {
         "username": "yumin233",
@@ -1275,8 +1453,10 @@
         "solved": 80,
         "submissions": -1
       },
-      "total_solved": 252,
-      "total_submissions": 441
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1285,29 +1465,36 @@
     "oj_info": {
       "codeforces": {
         "username": "Praesepe",
-        "solved": 9,
-        "submissions": 12,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "Praesepe",
-        "solved": 87,
-        "submissions": 172
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "Praesepe",
-        "solved": 9,
-        "submissions": 12
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "7299557",
-        "solved": 32,
-        "submissions": 145
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "Praesepe",
-        "solved": 7,
-        "submissions": 16
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "Praesepe",
@@ -1316,13 +1503,13 @@
       },
       "uva": {
         "username": "Praesepe233",
-        "solved": 0,
-        "submissions": 0
+        "solved": -1,
+        "submissions": -1
       },
       "poj": {
         "username": "Praesepe233",
-        "solved": 0,
-        "submissions": 0
+        "solved": -1,
+        "submissions": -1
       },
       "putongoj": {
         "username": "",
@@ -1339,8 +1526,10 @@
         "solved": 125,
         "submissions": -1
       },
-      "total_solved": 269,
-      "total_submissions": 508
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1349,9 +1538,16 @@
     "oj_info": {
       "codeforces": {
         "username": "cbczgjl",
-        "solved": 9,
-        "submissions": 12,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "",
@@ -1360,13 +1556,13 @@
       },
       "vjudge": {
         "username": "cbczgjl",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "809322394",
-        "solved": 7,
-        "submissions": 53
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -1403,8 +1599,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 64,
-      "total_submissions": 299
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1413,9 +1611,16 @@
     "oj_info": {
       "codeforces": {
         "username": "njqchong",
-        "solved": 41,
-        "submissions": 47,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "",
@@ -1424,8 +1629,8 @@
       },
       "vjudge": {
         "username": "ning233",
-        "solved": 9,
-        "submissions": 12
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "",
@@ -1467,8 +1672,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 50,
-      "total_submissions": 59
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1477,19 +1684,26 @@
     "oj_info": {
       "codeforces": {
         "username": "anchen",
-        "solved": 41,
-        "submissions": 47,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "anchen",
-        "solved": 41,
-        "submissions": 47
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "shlfiuerb",
-        "solved": 9,
-        "submissions": 12
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "",
@@ -1531,8 +1745,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 91,
-      "total_submissions": 106
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1541,29 +1757,36 @@
     "oj_info": {
       "codeforces": {
         "username": "Rappt",
-        "solved": 18,
-        "submissions": 23,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "Rappt",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "ClorM",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "517336938",
-        "solved": 18,
-        "submissions": 87
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "Rapptclorm",
-        "solved": 22,
-        "submissions": 65
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "",
@@ -1595,8 +1818,10 @@
         "solved": 302,
         "submissions": -1
       },
-      "total_solved": 413,
-      "total_submissions": 430
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1605,19 +1830,26 @@
     "oj_info": {
       "codeforces": {
         "username": "JasonK",
-        "solved": 9,
-        "submissions": 12,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "JasonKong",
-        "solved": 251,
-        "submissions": 279
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "JasonKong",
-        "solved": 9,
-        "submissions": 12
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "",
@@ -1659,8 +1891,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 269,
-      "total_submissions": 303
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1669,24 +1903,31 @@
     "oj_info": {
       "codeforces": {
         "username": "cytabc",
-        "solved": 18,
-        "submissions": 23,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "cytabc",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "cytabc",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "180846225",
-        "solved": 25,
-        "submissions": 114
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -1723,8 +1964,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 96,
-      "total_submissions": 376
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1733,9 +1976,16 @@
     "oj_info": {
       "codeforces": {
         "username": "phoenix-666",
-        "solved": 18,
-        "submissions": 23,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "",
@@ -1744,8 +1994,8 @@
       },
       "vjudge": {
         "username": "alex10086",
-        "solved": 9,
-        "submissions": 12
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "",
@@ -1787,8 +2037,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 27,
-      "total_submissions": 35
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1797,9 +2049,16 @@
     "oj_info": {
       "codeforces": {
         "username": "Lilphoenix",
-        "solved": 9,
-        "submissions": 12,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "",
@@ -1808,13 +2067,13 @@
       },
       "vjudge": {
         "username": "liphoenix",
-        "solved": 9,
-        "submissions": 12
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "816332537",
-        "solved": 5,
-        "submissions": 11
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "",
@@ -1851,8 +2110,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 23,
-      "total_submissions": 117
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   },
   {
@@ -1861,29 +2122,36 @@
     "oj_info": {
       "codeforces": {
         "username": "xch112",
-        "solved": 9,
-        "submissions": 12,
-        "info": null
+        "solved": -1,
+        "submissions": -1,
+        "info": {
+          "lastOnlineTimeSeconds": -1,
+          "city": "",
+          "rating": -1,
+          "rank": "",
+          "maxRating": -1,
+          "maxRank": ""
+        }
       },
       "luogu": {
         "username": "xch33",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "vjudge": {
         "username": "xch33",
-        "solved": 5,
-        "submissions": 5
+        "solved": -1,
+        "submissions": -1
       },
       "nowcoder": {
         "username": "503927785",
-        "solved": 48,
-        "submissions": 149
+        "solved": -1,
+        "submissions": -1
       },
       "hdu": {
         "username": "xch112",
-        "solved": 38,
-        "submissions": 111
+        "solved": -1,
+        "submissions": -1
       },
       "leetcode": {
         "username": "xch33",
@@ -1897,8 +2165,8 @@
       },
       "poj": {
         "username": "xch33",
-        "solved": 10,
-        "submissions": 49
+        "solved": -1,
+        "submissions": -1
       },
       "putongoj": {
         "username": "",
@@ -1915,8 +2183,10 @@
         "solved": -1,
         "submissions": -1
       },
-      "total_solved": 158,
-      "total_submissions": 475
+      "other_solved": 0,
+      "other_submissions": 0,
+      "total_solved": 0,
+      "total_submissions": 0
     }
   }
 ]

@@ -13,7 +13,7 @@
         <el-switch v-model="tagsView" class="drawer-switch" />
       </div>
 
-      <div class="drawer-item">
+      <div class="drawer-item" hidden="true">
         <span>Fixed Header</span>
         <el-switch v-model="fixedHeader" class="drawer-switch" />
       </div>

@@ -7,7 +7,7 @@ const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode'
  */
 
 
-module.exports = async function() {
+// module.exports = async function() {
   const crawlers_map = cralwers_map_init()
   const total_cnt = parseInt(oj_names.length * users_info.length) //总共需要爬取的次数
   //const time_allbegin = new Date().getTime()
@@ -18,9 +18,8 @@ module.exports = async function() {
     if(user['oj_info']['jisuanke']['solved'] !== -1) user['oj_info']['total_solved'] += user['oj_info']['jisuanke']['solved']
     if(user['oj_info']['pta']['solved'] !== -1) user['oj_info']['total_submissions'] += user['oj_info']['pta']['solved']
     for (const oj_name of oj_names) {
-      let result = {}
-      let solved = -1
-      let submissions = -1
+      let solved = -2
+      let submissions = -2
       try {
         //const time_begin = new Date().getTime()  //计时
         const time_allbegin = new Date().getTime()
@@ -32,15 +31,15 @@ module.exports = async function() {
           user['oj_info'][oj_name]['solved'] = solved
           user['oj_info'][oj_name]['submissions'] = submissions
 
-          if (solved !== -1) user['oj_info']['total_solved'] += solved
-          if (submissions !== -1) user['oj_info']['total_submissions'] += submissions
+          if (solved !== -2) user['oj_info']['total_solved'] += solved
+          if (submissions !== -2) user['oj_info']['total_submissions'] += submissions
           // if (oj_name === 'codeforces'){
           //   console.log(result.info)
           //   user['oj_info']['codeforces']['info'] = result['info']
           // }
           finish_cnt++ //完成爬取计数
+          console.log(finish_cnt+"/"+total_cnt + "  " + oj_name)
           if(finish_cnt === total_cnt){ //计数判断所有爬虫完成
-
             const time_allspend = new Date().getTime() - time_allbegin
             console.log("Finish Time: " + time_allspend.toString())
             console.log(JSON.stringify(users_info))
@@ -58,4 +57,4 @@ module.exports = async function() {
     }
   }
   //return users_info
-}
+// }

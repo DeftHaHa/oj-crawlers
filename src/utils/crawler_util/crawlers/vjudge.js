@@ -35,6 +35,7 @@ module.exports = async function(config, username) {
         'password': config.crawler_login_password
       })
   } catch (err) {
+    console.log('vjudge login failed')
     const error = new Error('vjudge login failed')
     error.innerError = err
     throw error

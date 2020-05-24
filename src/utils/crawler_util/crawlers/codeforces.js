@@ -7,11 +7,11 @@ module.exports = async function(config, username) {
 
   const acSet = new Set()
   const submissions = await queryForNumber(username, 1, acSet)
-  const info = await query_user_info(username)
+  //const info = await query_user_info(username)
   return {
     solved: acSet.size,
     submissions: submissions,
-    info: info,
+    info: {},
     solvedList: [...acSet]
   }
 }
