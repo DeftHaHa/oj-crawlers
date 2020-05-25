@@ -17,8 +17,14 @@ export default async function start_oj_crawlers(users_info, vm) {
   for (const [index, user] of Object.entries(users_info)) {
     vm.users_oj_info_data[index]['oj_info']['total_solved'] = 0
     vm.users_oj_info_data[index]['oj_info']['total_submissions'] = 0
-    if (user['oj_info']['jisuanke']['solved'] >= 0) vm.users_oj_info_data[index]['oj_info']['total_solved'] += user['oj_info']['jisuanke']['solved']
-    if (user['oj_info']['pta']['solved'] >= 0) vm.users_oj_info_data[index]['oj_info']['total_solved'] += user['oj_info']['pta']['solved']
+    if (user['oj_info']['jisuanke']['solved'] >= 0){
+      vm.users_oj_info_data[index]['oj_info']['total_solved'] += user['oj_info']['jisuanke']['solved']
+      vm.users_oj_info_data[index]['oj_info']['total_submissions'] += user['oj_info']['jisuanke']['solved']
+    }
+    if (user['oj_info']['pta']['solved'] >= 0){
+      vm.users_oj_info_data[index]['oj_info']['total_solved'] += user['oj_info']['pta']['solved']
+      vm.users_oj_info_data[index]['oj_info']['total_submissions'] += user['oj_info']['pta']['solved']
+    }
   }
 
   for (const oj_name of oj_names) {

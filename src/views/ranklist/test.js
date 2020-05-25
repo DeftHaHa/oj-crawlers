@@ -9,10 +9,14 @@ export default async function start_oj_crawlers(users_info, vm) {
   const time_allbegin = new Date().getTime()
   let finish_cnt = 0 // 已经完成的爬取次数
   for (const [index, user] of Object.entries(users_info)) {
-    user['oj_info']['total_solved'] = 0
-    user['oj_info']['total_submissions'] = 0
-    if (user['oj_info']['jisuanke']['solved'] >= 0) vm.users_oj_info_data[index]['oj_info']['total_solved'] += user['oj_info']['jisuanke']['solved']
-    if (user['oj_info']['pta']['solved'] >= 0) vm.users_oj_info_data[index]['oj_info']['total_submissions'] += user['oj_info']['pta']['solved']
+    if (user['oj_info']['jisuanke']['solved'] >= 0){
+      vm.users_oj_info_data[index]['oj_info']['total_solved'] += user['oj_info']['jisuanke']['solved']
+      vm.users_oj_info_data[index]['oj_info']['total_submissions'] += user['oj_info']['jisuanke']['solved']
+    }
+    if (user['oj_info']['pta']['solved'] >= 0){
+      vm.users_oj_info_data[index]['oj_info']['total_solved'] += user['oj_info']['pta']['solved']
+      vm.users_oj_info_data[index]['oj_info']['total_submissions'] += user['oj_info']['pta']['solved']
+    }
     for (const oj_name of oj_names) {
       let solved = -2
       let submissions = -2
