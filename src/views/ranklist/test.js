@@ -1,11 +1,3 @@
-// export default function(users_info) {
-//   return new Promise(resolve => {
-//     setTimeout(() => {
-//       resolve(999)
-//     }, 5000)
-//   })
-// }
-
 import oj_names from './oj_names'
 import crawlers_map_init from './crawlers_map'
 const users_info_init = require('@/utils/crawler_util/users_info.json')

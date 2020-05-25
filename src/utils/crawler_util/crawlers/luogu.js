@@ -5,9 +5,20 @@ module.exports = async function(config, username) {
     throw new Error('Please enter username')
   }
 
-  const uidRes = await request
-    .get('https://www.luogu.com.cn/fe/api/user/search')
-    .query({ keyword: username })
+
+  let uidRes = {}
+  if(config.use_proxy){  //使用代理
+    const url = config.proxy_url +"?url="+ 'https://www.luogu.com.cn/fe/api/user/search?keyword=' + username
+    //console.log(url)
+    uidRes = await request.get(url)
+  }
+  else {
+    uidRes = await request
+      .get('https://www.luogu.com.cn/fe/api/user/search')
+      .query({ keyword: username })
+  }
+
+
 
   if (!uidRes.ok) {
     throw new Error(`Server Response Error: ${uidRes.status}`)
@@ -20,15 +31,27 @@ module.exports = async function(config, username) {
   }
 
   const uid = uidJSON.users[0].uid
-  const res = await request
-    .get('https://www.luogu.com.cn/user/' + uid)
+  let res = {}
+  if(config.use_proxy){  //使用代理
+    const url = config.proxy_url +"?url="+ 'https://www.luogu.com.cn/user/' + uid
+    //console.log(url)
+    res = await request.get(url)
+  }
+  else {
+    res = await request
+      .get('https://www.luogu.com.cn/user/' + uid)
+  }
+
+
 
   if (!res.ok) {
     throw new Error(`Server Response Error: ${res.status}`)
   }
-
+  // console.log(decodeURIComponent(res.text.match("(?<=decodeURIComponent\\(\\\\\\\")(.*?)(?=\\\\\\\"\\))")[0]))
+  // console.log("@@@")
   try {
-    const userJson = JSON.parse(decodeURIComponent(res.text.match(/decodeURIComponent\("(.*?)"\)/i)[1]))
+
+    const userJson = JSON.parse(decodeURIComponent(res.text.match("(?<=decodeURIComponent\\(\\\\\\\")(.*?)(?=\\\\\\\"\\))")[0]))
     const solvedJson = userJson.currentData.passedProblems
     const acList = solvedJson.map((p) => p.pid)
 

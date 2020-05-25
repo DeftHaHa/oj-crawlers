@@ -15,7 +15,7 @@
       :height="tableHeight"
     >
 
-      <el-table-column label="排名" type="index" />
+      <el-table-column label="排名" type="index"/>
 
       <el-table-column v-if="checked_showclass" label="班级">
         <template slot-scope="{row}">
@@ -33,8 +33,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['codeforces']['info']['rating'])"
-            :class="cell_icon_class(row['oj_info']['codeforces']['info']['rating'])"
-          />
+            :class="cell_icon_class(row['oj_info']['codeforces']['info']['rating'])"></i>
           <span
             v-if="!load_icon(row['oj_info']['codeforces']['info']['rating'])"
             :style="'color:'+rating_color(row['oj_info']['codeforces']['info']['rating'])+';font-weight:bold'"
@@ -44,8 +43,7 @@
           <span>/</span>
           <i
             v-if="load_icon(row['oj_info']['codeforces']['info']['maxRating'])"
-            :class="cell_icon_class(row['oj_info']['codeforces']['info']['maxRating'])"
-          />
+            :class="cell_icon_class(row['oj_info']['codeforces']['info']['maxRating'])"></i>
           <span
             v-if="!load_icon(row['oj_info']['codeforces']['info']['maxRating'])"
             :style="'color:'+rating_color(row['oj_info']['codeforces']['info']['maxRating'])+';font-weight:bold'"
@@ -59,8 +57,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['codeforces']['solved'])"
-            :class="cell_icon_class(row['oj_info']['codeforces']['solved'])"
-          />
+            :class="cell_icon_class(row['oj_info']['codeforces']['solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['codeforces']['solved'])">
             {{ row['oj_info']['codeforces']['solved'] }}
           </span>
@@ -71,8 +68,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['luogu']['solved'])"
-            :class="cell_icon_class(row['oj_info']['luogu']['solved'])"
-          />
+            :class="cell_icon_class(row['oj_info']['luogu']['solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['luogu']['solved'])">
             {{ row['oj_info']['luogu']['solved'] }}
           </span>
@@ -83,8 +79,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['vjudge']['solved'])"
-            :class="cell_icon_class(row['oj_info']['vjudge']['solved'])"
-          />
+            :class="cell_icon_class(row['oj_info']['vjudge']['solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['vjudge']['solved'])">
             {{ row['oj_info']['vjudge']['solved'] }}
           </span>
@@ -95,8 +90,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['nowcoder']['solved'])"
-            :class="cell_icon_class(row['oj_info']['nowcoder']['solved'])"
-          />
+            :class="cell_icon_class(row['oj_info']['nowcoder']['solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['nowcoder']['solved'])">
             {{ row['oj_info']['nowcoder']['solved'] }}
           </span>
@@ -107,8 +101,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['hdu']['solved'])"
-            :class="cell_icon_class(row['oj_info']['hdu']['solved'])"
-          />
+            :class="cell_icon_class(row['oj_info']['hdu']['solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['hdu']['solved'])">
             {{ row['oj_info']['hdu']['solved'] }}
           </span>
@@ -119,8 +112,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['putongoj']['solved'])"
-            :class="cell_icon_class(row['oj_info']['putongoj']['solved'])"
-          />
+            :class="cell_icon_class(row['oj_info']['putongoj']['solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['putongoj']['solved'])">
             {{ row['oj_info']['putongoj']['solved'] }}
           </span>
@@ -131,8 +123,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['pta']['solved'])"
-            :class="cell_icon_class_pta_jisuanke(row['oj_info']['pta']['solved'])"
-          />
+            :class="cell_icon_class_pta_jisuanke(row['oj_info']['pta']['solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['pta']['solved'])">
             {{ row['oj_info']['pta']['solved'] }}
           </span>
@@ -143,8 +134,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['jisuanke']['solved'])"
-            :class="cell_icon_class_pta_jisuanke(row['oj_info']['jisuanke']['solved'])"
-          />
+            :class="cell_icon_class_pta_jisuanke(row['oj_info']['jisuanke']['solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['jisuanke']['solved'])">
             {{ row['oj_info']['jisuanke']['solved'] }}
           </span>
@@ -155,8 +145,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['other_solved'])"
-            :class="cell_icon_class(row['oj_info']['other_solved'])"
-          />
+            :class="cell_icon_class(row['oj_info']['other_solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['other_solved'])">
             {{ row['oj_info']['other_solved'] }}
           </span>
@@ -167,8 +156,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['total_submissions'])"
-            :class="cell_icon_class(row['oj_info']['total_submissions'])"
-          />
+            :class="cell_icon_class(row['oj_info']['total_submissions'])"></i>
           <span v-if="!load_icon(row['oj_info']['total_submissions'])">
             {{ row['oj_info']['total_submissions'] }}
           </span>
@@ -179,8 +167,7 @@
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['total_solved'])"
-            :class="cell_icon_class(row['oj_info']['total_solved'])"
-          />
+            :class="cell_icon_class(row['oj_info']['total_solved'])"></i>
           <span v-if="!load_icon(row['oj_info']['total_solved'])">
             {{ row['oj_info']['total_solved'] }}
           </span>
@@ -219,7 +206,7 @@ export default {
   },
   watch: {},
   mounted: function() {
-    start_oj_crawlers(users_oj_info,this)
+    start_oj_crawlers(users_oj_info, this)
     // el-table表格高度监听
     this.$nextTick(function() {
       this.tableHeight = window.innerHeight - this.$refs.RankList.$el.offsetTop - 55

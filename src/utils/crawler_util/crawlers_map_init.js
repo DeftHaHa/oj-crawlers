@@ -17,7 +17,7 @@ module.exports = function() {
   crawlers_map.set('hdu', hdu)
   crawlers_map.set('codeforces', codeforces)
   crawlers_map.set('uva', uva)
-  crawlers_map.set('leetcode_cn', leetcode_cn)
+  crawlers_map.set('leetcode', leetcode_cn)
   crawlers_map.set('luogu', luogu)
   crawlers_map.set('nowcoder', nowcoder)
   crawlers_map.set('vjudge', vjudge)

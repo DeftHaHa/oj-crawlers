@@ -15,12 +15,19 @@ module.exports = async function(config, username) {
   let submissions = null
   const solvedList = new Set()
 
-  // eslint-disable-next-line no-constant-condition
-  const res = await request
-    .get(`https://acm.cjlu.edu.cn/api/user/${username}`)
-    .query({
-      uid: username
-    })
+  let res = {}
+  if (config.use_proxy) {  //使用代理
+    const url = config.proxy_url + '?url=' + `https://acm.cjlu.edu.cn/api/user/` + username
+    //console.log(url)
+    res = await request.get(url)
+  }
+  else {
+    res = await request
+      .get(`https://acm.cjlu.edu.cn/api/user/${username}`)
+      .query({
+        uid: username
+      })
+  }
 
   if (!res.ok) {
     throw new Error(`Server Response Error: ${res.status}`)

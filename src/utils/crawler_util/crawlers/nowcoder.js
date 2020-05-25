@@ -16,9 +16,16 @@ module.exports = async function(config, username) {
   let submissions = null
   const solvedList = new Set()
 
-  // eslint-disable-next-line no-constant-condition
-  const res = await request
-    .get(`https://ac.nowcoder.com/acm/contest/profile/${username}/practice-coding`)
+  let res = {}
+  if(config.use_proxy){  //使用代理
+    const url = config.proxy_url +"?url="+ "https://ac.nowcoder.com/acm/contest/profile/" + username + "/practice-coding"
+    //console.log(url)
+    res = await request.get(url)
+  }
+  else {
+    res = await request
+      .get(`https://ac.nowcoder.com/acm/contest/profile/${username}/practice-coding`)
+  }
 
   if (!res.ok) {
     throw new Error(`Server Response Error: ${res.status}`)

@@ -9,14 +9,30 @@ module.exports = async function(config, username) {
     throw new Error('Please enter username')
   }
 
-  const uidRes = await request.get('https://uhunt.onlinejudge.org/api/uname2uid/' + username)
+  let uidRes = {}
+  if (config.use_proxy) {  //使用代理
+    const url = config.proxy_url + '?url=' + `https://uhunt.onlinejudge.org/api/uname2uid/` + username
+    //console.log(url)
+    uidRes = await request.get(url)
+  }
+  else {
+    uidRes = await request.get('https://uhunt.onlinejudge.org/api/uname2uid/' + username)
+  }
 
   if (uidRes.body === 0) {
     throw new Error('The user does not exist')
   }
 
-  const res = await request
-    .get('https://uhunt.onlinejudge.org/api/subs-user/' + uidRes.body)
+  let res = {}
+  if (config.use_proxy) {  //使用代理
+    const url = config.proxy_url + '?url=' + `https://uhunt.onlinejudge.org/api/subs-user/` + uidRes.body
+    //console.log("@@  "+url)
+    res = await request.get(url)
+  }
+  else {
+    res = await request.get('https://uhunt.onlinejudge.org/api/subs-user/' + uidRes.body)
+  }
+
 
   const acSet = new Set()
   const problemArray = res.body.subs

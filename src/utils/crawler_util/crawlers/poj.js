@@ -6,9 +6,17 @@ module.exports = async function(config, username) {
     throw new Error('Please enter username')
   }
 
-  const res = await request
-    .get('http://poj.org/userstatus')
-    .query({ user_id: username })
+  let res = {}
+  if(config.use_proxy){  //使用代理
+    const url = config.proxy_url +"?url="+ "http://poj.org/userstatus?user_id=" + username
+    //console.log(url)
+    res = await request.get(url)
+  }
+  else{
+    res = await request
+      .get('http://poj.org/userstatus')
+      .query({ user_id: username })
+  }
 
   if (!res.ok) {
     throw new Error(`Server Response Error: ${res.status}`)
@@ -30,7 +38,6 @@ module.exports = async function(config, username) {
     const acListScript = $('td[rowspan=4] > script').html()
     // js 不支持零宽后发断言，所以没法加上 (?<=p\() 表达式
     const solvedList = acListScript.match(/\d+(?=\)\n)/g)
-
     return {
       solved: Number($('a[href^="status?result=0&user_id="]').text()),
       submissions: Number($('a[href^="status?user_id="]').text()),

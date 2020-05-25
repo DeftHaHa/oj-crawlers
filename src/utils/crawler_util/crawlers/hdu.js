@@ -1,19 +1,26 @@
 const request = require('superagent')
-const cheerio = require('cheerio')
 
+const cheerio = require('cheerio')
+//require('superagent-proxy')(request)
 module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
 
-  let res
+  let res = {}
 
   const RETRY_TIMES = config.env === 'server' ? 1 : 2
   for (let i = 0; i < RETRY_TIMES; ++i) {
     try {
-      res = await request
-        .get('http://acm.hdu.edu.cn/userstatus.php')
-        .query({ user: username })
+      if(config.use_proxy){  //使用代理
+        const url = config.proxy_url +"?url="+ 'http://acm.hdu.edu.cn/userstatus.php?user=' + username
+        res = await request.get(url)
+      }
+      else {
+        res = await request
+          .get('http://acm.hdu.edu.cn/userstatus.php')
+          .query({ user: username })
+      }
       break
     } catch (e) {
       if (i >= RETRY_TIMES - 1) {
@@ -32,6 +39,7 @@ module.exports = async function(config, username) {
   if ($('div').filter((i, el) => $(el).text() === 'No such user.').length >= 1) {
     throw new Error('The user does not exist')
   }
+
 
   try {
     // p(1000,3588,11274);p(1001,1951,7721);p(1002,1535,6550);...

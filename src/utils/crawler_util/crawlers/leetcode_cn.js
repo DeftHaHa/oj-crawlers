@@ -1,3 +1,6 @@
+
+
+
 const request = require('superagent')
 
 module.exports = async function(config, username) {
@@ -10,9 +13,16 @@ module.exports = async function(config, username) {
     variables: { userSlug: username }
   }
 
-  const res = await request
-    .post('https://leetcode-cn.com/graphql')
-    .send(input)
+  let res = {}
+  if (config.use_proxy) {  //使用代理
+    res = await request
+      .post('https://leetcode-cn.com/graphql')
+      .send(input)
+  } else {
+    res = await request
+      .post('https://leetcode-cn.com/graphql')
+      .send(input)
+  }
 
   const data = res.body.data.userProfilePublicProfile
 
@@ -24,4 +34,14 @@ module.exports = async function(config, username) {
     solved: data.submissionProgress.acTotal,
     submissions: data.submissionProgress.totalSubmissions
   }
+}
+
+function serialize(obj) {
+  let str = []
+  for (let p in obj) {
+    if (obj.hasOwnProperty(p)) {
+      str.push(encodeURIComponent(p) + '=' + encodeURIComponent(obj[p]))
+    }
+  }
+  return str.join('&')
 }
