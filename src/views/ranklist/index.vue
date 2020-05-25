@@ -220,9 +220,6 @@ export default {
   watch: {},
   mounted: function() {
     start_oj_crawlers(users_oj_info,this)
-    //  testfunction(users_oj_info).then(res => {
-    //    this.users_oj_info_data[0]['oj_info']['codeforces']['solved'] = res
-    // })
     // el-table表格高度监听
     this.$nextTick(function() {
       this.tableHeight = window.innerHeight - this.$refs.RankList.$el.offsetTop - 55
