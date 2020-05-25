@@ -198,9 +198,10 @@
     </el-table>
   </div>
 </template>
-<script>
+<script>/* eslint-disable */
 import testfunction from './test'
 import start_oj_crawlers from './start_oj_crawlers'
+
 const users_oj_info = require('@/utils/crawler_util/users_oj_info')
 // users_oj_info[0]['oj_info']['codeforces']['info']['rating'] = 1600
 // users_oj_info[0]['oj_info']['codeforces']['info']['maxRating'] = 2400
@@ -219,10 +220,7 @@ export default {
   watch: {},
   mounted: function() {
     //start_oj_crawlers(users_oj_info,this)
-    testfunction(users_oj_info).then(result=>{
-        this.$set(users_oj_info,0,result)
-    })
-
+    this.users_oj_info_data = testfunction(users_oj_info)
     // el-table表格高度监听
     this.$nextTick(function() {
       this.tableHeight = window.innerHeight - this.$refs.RankList.$el.offsetTop - 55
@@ -258,10 +256,10 @@ export default {
       if (rating >= 1200) return '#008000'
       return '#808080'
     },
-    load_row_data: function () {
+    load_row_data: function() {
 
     },
-    start_oj_crawlers,testfunction
+    start_oj_crawlers, testfunction
   }
 }
 </script>
