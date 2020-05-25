@@ -6,7 +6,7 @@
     <el-table
       ref="RankList"
       v-loading="listLoading"
-      :data="users_oj_info"
+      :data="users_oj_info_data"
       stripe
       border
       fit
@@ -118,11 +118,11 @@
       <el-table-column label="PutongOJ">
         <template slot-scope="{row}">
           <i
-            v-if="load_icon(row['oj_info']['codeforces']['solved'])"
-            :class="cell_icon_class(row['oj_info']['codeforces']['solved'])"
+            v-if="load_icon(row['oj_info']['putongoj']['solved'])"
+            :class="cell_icon_class(row['oj_info']['putongoj']['solved'])"
           />
-          <span v-if="!load_icon(row['oj_info']['codeforces']['solved'])">
-            {{ row['oj_info']['codeforces']['solved'] }}
+          <span v-if="!load_icon(row['oj_info']['putongoj']['solved'])">
+            {{ row['oj_info']['putongoj']['solved'] }}
           </span>
         </template>
       </el-table-column>
@@ -199,7 +199,7 @@
   </div>
 </template>
 <script>
-
+import testfunction from './test'
 import start_oj_crawlers from './start_oj_crawlers'
 const users_oj_info = require('@/utils/crawler_util/users_oj_info')
 // users_oj_info[0]['oj_info']['codeforces']['info']['rating'] = 1600
@@ -212,13 +212,17 @@ export default {
     return {
       checked_showclass: true, // 显示班级列
       listLoading: false,
-      users_oj_info: users_oj_info,
+      users_oj_info_data: users_oj_info,
       tableHeight: '100%'
     }
   },
   watch: {},
   mounted: function() {
-    start_oj_crawlers(users_oj_info)
+    //start_oj_crawlers(users_oj_info,this)
+    testfunction(users_oj_info).then(result=>{
+        this.$set(users_oj_info,0,result)
+    })
+
     // el-table表格高度监听
     this.$nextTick(function() {
       this.tableHeight = window.innerHeight - this.$refs.RankList.$el.offsetTop - 55
@@ -254,7 +258,10 @@ export default {
       if (rating >= 1200) return '#008000'
       return '#808080'
     },
-    start_oj_crawlers
+    load_row_data: function () {
+
+    },
+    start_oj_crawlers,testfunction
   }
 }
 </script>

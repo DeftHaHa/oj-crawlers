@@ -1,14 +1,14 @@
 import oj_names from './oj_names'
 import crawlers_map_init from './crawlers_map'
 const users_info_init = require('@/utils/crawler_util/users_info.json')
-export default async function start_oj_crawlers(users_info) {
+export default async function start_oj_crawlers(users_info,vm) {
   users_info = users_info_init
   const other_oj_names = ['poj', 'uva', 'leetcode']
   const crawlers_map = crawlers_map_init()
   const total_cnt = parseInt(oj_names.length * users_info.length) // 总共需要爬取的次数
   const time_allbegin = new Date().getTime()
   let finish_cnt = 0 // 已经完成的爬取次数
-  for (const user of users_info) {
+  for (let [index,user] of Object.entries(users_info) ) {
     user['oj_info']['total_solved'] = 0
     user['oj_info']['total_submissions'] = 0
     if (user['oj_info']['jisuanke']['solved'] !== -1) user['oj_info']['total_solved'] += user['oj_info']['jisuanke']['solved']
@@ -22,6 +22,7 @@ export default async function start_oj_crawlers(users_info) {
           solved = parseInt(result['solved'])
           submissions = parseInt(result['submissions'])
           user['oj_info'][oj_name]['solved'] = solved
+          vm.$set(users_info[index]['oj_info'][oj_name],'solved',solved)
           user['oj_info'][oj_name]['submissions'] = submissions
           if (solved > 0) {
             user['oj_info']['total_solved'] += solved
