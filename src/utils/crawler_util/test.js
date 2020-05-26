@@ -32,10 +32,10 @@ const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode'
   // }
 // })
 
-const  get_cf_info = require('./crawlers/get_codeforces_info')
-get_cf_info(users_info).then(result => {
-  console.log(result)
-})
+// const  get_cf_info = require('./crawlers/get_codeforces_info')
+// get_cf_info(users_info).then(result => {
+//   console.log(result)
+// })
 
 
 

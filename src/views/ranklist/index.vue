@@ -1,12 +1,10 @@
 <template>
   <div class="app-container" style="padding-bottom: 0px">
     <el-header>
-      <div class = "grid-content bg-purple">
         <el-row>
-          <el-checkbox v-model="checked_showclass">显示班级</el-checkbox>
-          <el-button align="right" type="primary" :loading="true">加载中</el-button>
+          <el-col  :span="12" style="height: 28px;vertical-align: middle;"><div class="grid-content bg-purple"><el-checkbox v-model="checked_showclass">显示班级</el-checkbox></div></el-col>
+          <el-col  :span="12"><div class="grid-content bg-purple"><el-button type="primary" :loading="button_start_crawlers_loading" @click="start_oj_crawlers_asyc(users_oj_info,this)">{{button_start_crawlers_text}}</el-button></div></el-col>
         </el-row>
-      </div>
     </el-header>
     <el-table
       ref="RankList"
@@ -16,25 +14,25 @@
       border
       fit
       highlight-current-row
-      style="width: 100%"
       :height="tableHeight"
+      width="100%"
     >
 
-      <el-table-column label="排名" type="index"/>
+      <el-table-column label="排名" type="index" width="38px"/>
 
-      <el-table-column v-if="checked_showclass" label="班级">
+      <el-table-column v-if="checked_showclass" label="班级" width="83px">
         <template slot-scope="{row}">
           <span>{{ row.class }}</span>
         </template>
       </el-table-column>
 
-      <el-table-column label="姓名">
+      <el-table-column label="姓名" width="68px">
         <template slot-scope="{row}">
           <span>{{ row.name }}</span>
         </template>
       </el-table-column>
 
-      <el-table-column label="Rating">
+      <el-table-column label="Rating" width="65px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['codeforces']['info']['rating'])"
@@ -45,7 +43,11 @@
           >
             {{ row['oj_info']['codeforces']['info']['rating'] }}
           </span>
-          <span>/</span>
+        </template>
+      </el-table-column>
+
+      <el-table-column label="Max" width="65px">
+        <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['codeforces']['info']['maxRating'])"
             :class="cell_icon_class(row['oj_info']['codeforces']['info']['maxRating'])"></i>
@@ -58,7 +60,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="Cf">
+      <el-table-column label="Cf" width="60px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['codeforces']['solved'])"
@@ -69,7 +71,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="洛谷">
+      <el-table-column label="洛谷" width="60px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['luogu']['solved'])"
@@ -80,7 +82,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="vJ">
+      <el-table-column label="vJ" width="60px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['vjudge']['solved'])"
@@ -91,7 +93,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="牛课">
+      <el-table-column label="牛课" width="60px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['nowcoder']['solved'])"
@@ -102,7 +104,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="HDU">
+      <el-table-column label="HDU" width="60px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['hdu']['solved'])"
@@ -113,7 +115,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="PutongOJ">
+      <el-table-column label="PutongOJ" width="70px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['putongoj']['solved'])"
@@ -124,7 +126,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="PTA">
+      <el-table-column label="PTA" width="49px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['pta']['solved'])"
@@ -135,7 +137,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="计蒜客">
+      <el-table-column label="计蒜客" width="65px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['jisuanke']['solved'])"
@@ -146,7 +148,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="其他">
+      <el-table-column label="其他" width="60px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['other_solved'])"
@@ -155,9 +157,9 @@
             {{ row['oj_info']['other_solved'] }}
           </span>
         </template>
-      </el-table-column>
+      </el-table-column >
 
-      <el-table-column label="提交">
+      <el-table-column label="提交" width="80px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['total_submissions'])"
@@ -168,7 +170,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="AC">
+      <el-table-column label="AC" width="80px">
         <template slot-scope="{row}">
           <i
             v-if="load_icon(row['oj_info']['total_solved'])"
@@ -191,13 +193,10 @@
   </div>
 </template>
 <script>/* eslint-disable */
-import testfunction from './test'
-import start_oj_crawlers from './start_oj_crawlers'
+import start_oj_crawlers_asyc from './start_all_crawlers_async'
 import get_cf_info from './get_codeforces_info'
 
 const users_oj_info = require('@/utils/crawler_util/users_oj_info')
-// users_oj_info[0]['oj_info']['codeforces']['info']['rating'] = 1600
-// users_oj_info[0]['oj_info']['codeforces']['info']['maxRating'] = 2400
 
 // console.log(users_oj_info)
 export default {
@@ -207,13 +206,16 @@ export default {
       checked_showclass: true, // 显示班级列
       listLoading: false,
       users_oj_info_data: users_oj_info,
-      tableHeight: '100%'
+      tableHeight: '100%',
+      button_start_crawlers_text:"加载中...",
+      button_start_crawlers_loading:true
     }
   },
   watch: {},
   mounted: function () {
     get_cf_info(users_oj_info, this)
-    start_oj_crawlers(users_oj_info, this)
+    start_oj_crawlers_asyc(users_oj_info,this)
+
     // el-table表格高度监听
     this.$nextTick(function () {
       this.tableHeight = window.innerHeight - this.$refs.RankList.$el.offsetTop - 55
@@ -240,6 +242,7 @@ export default {
     load_icon: function (num) {
       return !(num !== '' && num !== null && num !== undefined && num >= 0)
     },
+    //cf rating对应颜色计算
     rating_color: function (rating) { // rating对应颜色计算方法
       if (rating >= 2400) return '#f00'
       if (rating >= 2100) return '#ff8c00'
@@ -249,9 +252,8 @@ export default {
       if (rating >= 1200) return '#008000'
       return '#808080'
     },
-    start_oj_crawlers,
+    start_oj_crawlers_asyc,
     get_cf_info,
-    testfunction
   }
 }
 </script>

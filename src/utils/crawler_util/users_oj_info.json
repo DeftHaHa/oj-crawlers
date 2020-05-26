@@ -236,7 +236,7 @@
         }
       },
       "luogu": {
-        "username": "lrj666",
+        "username": "lrh666",
         "solved": -1,
         "submissions": -1
       },
@@ -271,18 +271,18 @@
         "submissions": -1
       },
       "putongoj": {
-        "username": "计算机192林仁豪",
+        "username": "lrh666",
         "solved": -1,
         "submissions": -1
       },
       "pta": {
-        "username": "",
-        "solved": -1,
+        "username": "Lqingyi",
+        "solved": 80,
         "submissions": -1
       },
       "jisuanke": {
         "username": "",
-        "solved": -1,
+        "solved": 80,
         "submissions": -1
       },
       "other_solved": 0,
@@ -495,7 +495,7 @@
         "submissions": -1
       },
       "pta": {
-        "username": "GaragezWzz",
+        "username": "",
         "solved": 84,
         "submissions": -1
       },
@@ -820,7 +820,7 @@
         }
       },
       "luogu": {
-        "username": "MJ7825",
+        "username": "MJ7845",
         "solved": -1,
         "submissions": -1
       },
@@ -1012,7 +1012,7 @@
       },
       "jisuanke": {
         "username": "",
-        "solved": -1,
+        "solved": 55,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1533,79 +1533,6 @@
     }
   },
   {
-    "name": "褚柏丞",
-    "class": "电信194",
-    "oj_info": {
-      "codeforces": {
-        "username": "cbczgjl",
-        "solved": -1,
-        "submissions": -1,
-        "info": {
-          "lastOnlineTimeSeconds": -1,
-          "city": "",
-          "rating": -1,
-          "rank": "",
-          "maxRating": -1,
-          "maxRank": ""
-        }
-      },
-      "luogu": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "vjudge": {
-        "username": "cbczgjl",
-        "solved": -1,
-        "submissions": -1
-      },
-      "nowcoder": {
-        "username": "809322394",
-        "solved": -1,
-        "submissions": -1
-      },
-      "hdu": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "leetcode": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "uva": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "poj": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "putongoj": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "pta": {
-        "username": "cbczgjl",
-        "solved": 85,
-        "submissions": -1
-      },
-      "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "other_solved": 0,
-      "other_submissions": 0,
-      "total_solved": 0,
-      "total_submissions": 0
-    }
-  },
-  {
     "name": "宁俊钦",
     "class": "计算机191",
     "oj_info": {
@@ -1737,12 +1664,12 @@
       },
       "pta": {
         "username": "",
-        "solved": -1,
+        "solved": 82,
         "submissions": -1
       },
       "jisuanke": {
         "username": "",
-        "solved": -1,
+        "solved": 118,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1847,7 +1774,7 @@
         "submissions": -1
       },
       "vjudge": {
-        "username": "JasonKong",
+        "username": "",
         "solved": -1,
         "submissions": -1
       },
