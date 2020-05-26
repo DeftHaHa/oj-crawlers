@@ -21,7 +21,6 @@ export default async function start_oj_crawlers(users_info, vm) {
       let solved = -2
       let submissions = -2
       try {
-        const time_allbegin = new Date().getTime()
         oj_crawler(user['oj_info'][oj_name]['username'], crawlers_map.get(oj_name)).then(result => {
           solved = parseInt(result['solved'])
           submissions = parseInt(result['submissions'])
@@ -60,15 +59,26 @@ export default async function start_oj_crawlers(users_info, vm) {
  * @returns {Promise<{submissions: number, solved: number}>}
  * return -2:爬取时出错  -3:无用户名
  */
+const proxy_url_array = ['https://bird.ioliu.cn/v1', 'https://bird.ioliu.cn/v2']
+const config = {  //代理设置
+  use_proxy: true,
+  proxy_url: '',
+  username: 'Deft_t',
+  password: 'a7dTxD_bTwB73KX'
+}
+
 async function oj_crawler(username, crawling) {
-  const res_error = { 'solved': -2, 'submissions': -2 }
-  const res_nouser = { 'solved': -3, 'submissions': -3 }
+  const res_error = {'solved': -2, 'submissions': -2}
+  const res_nouser = {'solved': -3, 'submissions': -3}
   if (username === '' || username === null || username === undefined) return res_nouser
   try {
-    const res = await crawling('', username)
-    // console.log(res)
-    return res
+    config.proxy_url = proxy_url_array[random(0, proxy_url_array.length - 1)] //随机选择代理网址
+    return await crawling(config, username)
   } catch (e) {
     return res_error
   }
+}
+
+function random(lower, upper) {
+  return parseInt(Math.floor(Math.random() * (upper - lower + 1)) + lower)
 }

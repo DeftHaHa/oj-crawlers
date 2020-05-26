@@ -24,7 +24,7 @@ async function query_user_info(usersname) {
       .get('http://codeforces.com/api/user.info')
       .query({ handles: usersname })
 
-    res_obj = JSON.parse(res.text)
+    let res_obj = JSON.parse(res.text)
     //console.log(res_obj.result)
     if(res_obj.status === 'OK') return JSON.parse(res.text).result
   } catch (e) {

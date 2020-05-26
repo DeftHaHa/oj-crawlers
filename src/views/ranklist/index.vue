@@ -1,8 +1,13 @@
 <template>
   <div class="app-container" style="padding-bottom: 0px">
-    <div ref="checked_showclass" class="filter-container">
-      <el-checkbox v-model="checked_showclass">显示班级</el-checkbox>
-    </div>
+    <el-header>
+      <div class = "grid-content bg-purple">
+        <el-row>
+          <el-checkbox v-model="checked_showclass">显示班级</el-checkbox>
+          <el-button align="right" type="primary" :loading="true">加载中</el-button>
+        </el-row>
+      </div>
+    </el-header>
     <el-table
       ref="RankList"
       v-loading="listLoading"
@@ -188,6 +193,7 @@
 <script>/* eslint-disable */
 import testfunction from './test'
 import start_oj_crawlers from './start_oj_crawlers'
+import get_cf_info from './get_codeforces_info'
 
 const users_oj_info = require('@/utils/crawler_util/users_oj_info')
 // users_oj_info[0]['oj_info']['codeforces']['info']['rating'] = 1600
@@ -205,35 +211,36 @@ export default {
     }
   },
   watch: {},
-  mounted: function() {
+  mounted: function () {
+    get_cf_info(users_oj_info, this)
     start_oj_crawlers(users_oj_info, this)
     // el-table表格高度监听
-    this.$nextTick(function() {
+    this.$nextTick(function () {
       this.tableHeight = window.innerHeight - this.$refs.RankList.$el.offsetTop - 55
       // 监听窗口大小变化
       const self = this
-      window.onresize = function() {
+      window.onresize = function () {
         self.tableHeight = window.innerHeight - self.$refs.RankList.$el.offsetTop - 55
       }
     })
   },
   methods: {
     // 根据单元格的值设定icon图标
-    cell_icon_class: function(num) {
+    cell_icon_class: function (num) {
       if (num === -3) { // 爬取时出错
         return 'el-icon-minus'
       } else if (num === -2) return 'el-icon-warning-outline' // 调用爬虫时参数出错
       return 'el-icon-loading'
     },
     // pta 计蒜客非爬虫加载 空为无账号
-    cell_icon_class_pta_jisuanke: function(num) {
+    cell_icon_class_pta_jisuanke: function (num) {
       if (num === '' || num <= 0) return 'el-icon-minus'
       return 'el-icon-loading'
     },
-    load_icon: function(num) {
+    load_icon: function (num) {
       return !(num !== '' && num !== null && num !== undefined && num >= 0)
     },
-    rating_color: function(rating) { // rating对应颜色计算方法
+    rating_color: function (rating) { // rating对应颜色计算方法
       if (rating >= 2400) return '#f00'
       if (rating >= 2100) return '#ff8c00'
       if (rating >= 1900) return '#a0a'
@@ -242,7 +249,9 @@ export default {
       if (rating >= 1200) return '#008000'
       return '#808080'
     },
-    start_oj_crawlers, testfunction
+    start_oj_crawlers,
+    get_cf_info,
+    testfunction
   }
 }
 </script>

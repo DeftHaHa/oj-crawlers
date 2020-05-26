@@ -1,7 +1,7 @@
 'use strict'
 const path = require('path')
 const defaultSettings = require('./src/settings.js')
-
+const proxy = require('http-proxy-middleware')
 function resolve(dir) {
   return path.join(__dirname, dir)
 }
@@ -36,25 +36,19 @@ module.exports = {
       warnings: false,
       errors: true
     },
-    before: require('./mock/mock-server.js')
+    proxy: {
+      '/api': {
+        target: 'https://bird.ioliu.cn/v1',//代理地址，这里设置的地址会代替axios中设置的baseURL
+        changeOrigin: true,// 如果接口跨域，需要进行这个参数配置
+        pathRewrite: {
+          '^/api': '/'
+          //pathRewrite: {'^/api': '/'} 重写之后url为 http://192.168.1.16:8085/xxxx
+          //pathRewrite: {'^/api': '/api'} 重写之后url为 http://192.168.1.16:8085/api/xxxx
+        }
+      }
+    },
+    before: require('./mock/mock-server.js'),
   },
-  // devServer: {
-  //   open: true, //是否自动弹出浏览器页面
-  //   host: "localhost",
-  //   port: '8081',
-  //   https: false,
-  //   hotOnly: false,
-  //   proxy: {
-  //     '/api': {
-  //       target: 'http://localhost:5000', //API服务器的地址
-  //       ws: true,  //代理websockets
-  //       changeOrigin: true, // 虚拟的站点需要更管origin
-  //       pathRewrite: {   //重写路径 比如'/api/aaa/ccc'重写为'/aaa/ccc'
-  //         '^/api': ''
-  //       }
-  //     }
-  //   },
-  // },
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
     // it can be accessed in index.html to inject the correct title.
