@@ -1,17 +1,15 @@
 import oj_names from './oj_names'
 import crawlers_map_init from './crawlers_map'
-const users_info_init = require('@/utils/crawler_util/users_info.json')
 export default async function (users_info, vm) {
   //loading_button 结束
-  vm.button_start_crawlers_text = "加载中..."
-  vm.button_start_crawlers_loading = true
-  vm.users_oj_info_data = users_info_init
   const other_oj_names = ['poj', 'uva', 'leetcode']
   const crawlers_map = crawlers_map_init()
   const total_cnt = parseInt(oj_names.length * users_info.length) // 总共需要爬取的次数
   const time_allbegin = new Date().getTime()
   let finish_cnt = 0 // 已经完成的爬取次数
   for (const [index, user] of Object.entries(users_info)) {
+    vm.users_oj_info_data[index]['name'] = users_info[index]['name']
+    vm.users_oj_info_data[index]['class'] = users_info[index]['class']
     vm.users_oj_info_data[index]['oj_info']['total_solved'] = 0
     vm.users_oj_info_data[index]['oj_info']['total_submissions'] = 0
     vm.users_oj_info_data[index]['oj_info']['other_solved'] = 0
@@ -51,7 +49,14 @@ export default async function (users_info, vm) {
           console.log(finish_cnt + '/' + total_cnt + '  ' + oj_name)
           if (finish_cnt === total_cnt) { // 计数判断所有爬虫完成
             vm.button_start_crawlers_text = "刷新"
-            vm.button_start_crawlers_loading = false
+            vm.is_loading = false
+            vm.custom = 'custom'
+            vm.users_oj_info_data.sort(vm.cmp('rating', false)) //升序
+            //加载tags
+            for(const [index, user] of Object.entries(users_info)){
+              vm.users_oj_info_data[index]['tags'] = user_tags(user)
+            }
+
             const time_allspend = new Date().getTime() - time_allbegin
             console.log('ALL oj_crawlers_finish_time: ' + time_allspend.toString())
             console.log(users_info)
@@ -84,7 +89,7 @@ async function oj_crawler(username, crawling) {
   const res_nouser = {'solved': -3, 'submissions': -3}
   if (username === '' || username === null || username === undefined) return res_nouser
   config.proxy_url = proxy_url_array[random(0, proxy_url_array.length - 1)] //随机选择代理网址
-  let MAX_time = 3
+  let MAX_time = 5  //请求失败的重复次数
   for(let i = 0;i < MAX_time;i++){
     try {
       return await crawling(config, username)
@@ -98,6 +103,73 @@ async function oj_crawler(username, crawling) {
   return res_error
 }
 
+/**
+ * 生成标签计算方法，返回tag的type数组
+ * @param user 一个用户对象
+ */
+function user_tags(user,vm){
+  //name
+  //color
+  //effect
+  //
+  let tags = []
+  tags.push(cf_rating_tag(user['oj_info']['codeforces']['info']['rating']))
+
+  return tags
+}
+
+/**
+ * cf rating对应tag计算方法
+ * @param rating
+ * @returns {string}
+ */
+function cf_rating_tag(rating) {
+  let tag = {}
+  tag.type = ''
+  tag.effect = 'dark'
+  if (rating >= 2400){
+    tag.color = '#f00'
+    if(rating >= 3000) tag.name = 'legendary grandmaster'
+    else if(rating >= 2600) tag.name = 'international grandmaster'
+    else tag.name = 'grandmaster'
+  }
+  else if (rating >= 2100) {
+    tag.color = '#ff8c00'
+    if(rating >= 2300) tag.name = 'International Master'
+    else tag.name = 'Master'
+  }
+  else if (rating >= 1900) {
+    tag.color = '#a0a'
+    tag.name = 'Candidate Master'
+  }
+  else if (rating >= 1600) {
+    tag.color ='#0000ff'
+    tag.name = 'Expert'
+  }
+  else if (rating >= 1400) {
+    tag.color = '#03a89e'
+    tag.name = 'Specialist'
+  }
+  else if (rating >= 1200) {
+    tag.color = '#008000'
+    tag.name = 'Pupil'
+  }
+  else {
+    tag.color = '#808080'
+    tag.name = 'Newbie'
+  }
+  return tag
+}
+
+
+/**
+ * 生成随机数闭区间
+ * @param lower
+ * @param upper
+ * @returns {number}
+ */
 function random(lower, upper) {
   return parseInt(Math.floor(Math.random() * (upper - lower + 1)) + lower)
 }
+
+
