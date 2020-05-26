@@ -1,7 +1,7 @@
 import oj_names from './oj_names'
 import crawlers_map_init from './crawlers_map'
-export default async function (users_info, vm) {
-  //loading_button 结束
+export default async function(users_info, vm) {
+  // loading_button 结束
   const other_oj_names = ['poj', 'uva', 'leetcode']
   const crawlers_map = crawlers_map_init()
   const total_cnt = parseInt(oj_names.length * users_info.length) // 总共需要爬取的次数
@@ -14,11 +14,11 @@ export default async function (users_info, vm) {
     vm.users_oj_info_data[index]['oj_info']['total_submissions'] = 0
     vm.users_oj_info_data[index]['oj_info']['other_solved'] = 0
 
-    if (user['oj_info']['jisuanke']['solved'] >= 0){
+    if (user['oj_info']['jisuanke']['solved'] >= 0) {
       vm.users_oj_info_data[index]['oj_info']['total_solved'] += user['oj_info']['jisuanke']['solved']
       vm.users_oj_info_data[index]['oj_info']['total_submissions'] += user['oj_info']['jisuanke']['solved']
     }
-    if (user['oj_info']['pta']['solved'] >= 0){
+    if (user['oj_info']['pta']['solved'] >= 0) {
       vm.users_oj_info_data[index]['oj_info']['total_solved'] += user['oj_info']['pta']['solved']
       vm.users_oj_info_data[index]['oj_info']['total_submissions'] += user['oj_info']['pta']['solved']
     }
@@ -45,15 +45,15 @@ export default async function (users_info, vm) {
             vm.users_oj_info_data[index]['oj_info']['total_submissions'] += submissions
           }
           finish_cnt++ // 单个完成爬取计数
-          //loading_button 结束
+          // loading_button 结束
           console.log(finish_cnt + '/' + total_cnt + '  ' + oj_name)
           if (finish_cnt === total_cnt) { // 计数判断所有爬虫完成
-            vm.button_start_crawlers_text = "刷新"
+            vm.button_start_crawlers_text = '刷新'
             vm.is_loading = false
             vm.custom = 'custom'
-            vm.users_oj_info_data.sort(vm.cmp('rating', false)) //升序
-            //加载tags
-            for(const [index, user] of Object.entries(users_info)){
+            vm.users_oj_info_data.sort(vm.cmp('rating', false)) // 升序
+            // 加载tags
+            for (const [index, user] of Object.entries(users_info)) {
               vm.users_oj_info_data[index]['tags'] = user_tags(user)
             }
 
@@ -77,7 +77,7 @@ export default async function (users_info, vm) {
  * return -2:爬取时出错  -3:无用户名
  */
 const proxy_url_array = ['https://bird.ioliu.cn/v1', 'https://bird.ioliu.cn/v2']
-const config = {  //代理设置
+const config = { // 代理设置
   use_proxy: true,
   proxy_url: '',
   username: 'Deft_t',
@@ -85,17 +85,17 @@ const config = {  //代理设置
 }
 
 async function oj_crawler(username, crawling) {
-  const res_error = {'solved': -2, 'submissions': -2}
-  const res_nouser = {'solved': -3, 'submissions': -3}
+  const res_error = { 'solved': -2, 'submissions': -2 }
+  const res_nouser = { 'solved': -3, 'submissions': -3 }
   if (username === '' || username === null || username === undefined) return res_nouser
-  config.proxy_url = proxy_url_array[random(0, proxy_url_array.length - 1)] //随机选择代理网址
-  let MAX_time = 5  //请求失败的重复次数
-  for(let i = 0;i < MAX_time;i++){
+  config.proxy_url = proxy_url_array[random(0, proxy_url_array.length - 1)] // 随机选择代理网址
+  const MAX_time = 10 // 请求失败的重复次数
+  for (let i = 0; i < MAX_time; i++) {
     try {
       return await crawling(config, username)
     } catch (e) {
-      if(i === MAX_time){
-        console.log(username + "oj_crawler Fail: " + e)
+      if (i === MAX_time) {
+        console.log(username + 'oj_crawler Fail: ' + e)
         return res_error
       }
     }
@@ -107,12 +107,12 @@ async function oj_crawler(username, crawling) {
  * 生成标签计算方法，返回tag的type数组
  * @param user 一个用户对象
  */
-function user_tags(user,vm){
-  //name
-  //color
-  //effect
+function user_tags(user, vm) {
+  // name
+  // color
+  // effect
   //
-  let tags = []
+  const tags = []
   tags.push(cf_rating_tag(user['oj_info']['codeforces']['info']['rating']))
 
   return tags
@@ -124,43 +124,36 @@ function user_tags(user,vm){
  * @returns {string}
  */
 function cf_rating_tag(rating) {
-  let tag = {}
+  const tag = {}
   tag.type = ''
   tag.effect = 'dark'
-  if (rating >= 2400){
+  if (rating >= 2400) {
     tag.color = '#f00'
-    if(rating >= 3000) tag.name = 'legendary grandmaster'
-    else if(rating >= 2600) tag.name = 'international grandmaster'
+    if (rating >= 3000) tag.name = 'legendary grandmaster'
+    else if (rating >= 2600) tag.name = 'international grandmaster'
     else tag.name = 'grandmaster'
-  }
-  else if (rating >= 2100) {
+  } else if (rating >= 2100) {
     tag.color = '#ff8c00'
-    if(rating >= 2300) tag.name = 'International Master'
+    if (rating >= 2300) tag.name = 'International Master'
     else tag.name = 'Master'
-  }
-  else if (rating >= 1900) {
+  } else if (rating >= 1900) {
     tag.color = '#a0a'
     tag.name = 'Candidate Master'
-  }
-  else if (rating >= 1600) {
-    tag.color ='#0000ff'
+  } else if (rating >= 1600) {
+    tag.color = '#0000ff'
     tag.name = 'Expert'
-  }
-  else if (rating >= 1400) {
+  } else if (rating >= 1400) {
     tag.color = '#03a89e'
     tag.name = 'Specialist'
-  }
-  else if (rating >= 1200) {
+  } else if (rating >= 1200) {
     tag.color = '#008000'
     tag.name = 'Pupil'
-  }
-  else {
+  } else {
     tag.color = '#808080'
     tag.name = 'Newbie'
   }
   return tag
 }
-
 
 /**
  * 生成随机数闭区间
@@ -171,5 +164,4 @@ function cf_rating_tag(rating) {
 function random(lower, upper) {
   return parseInt(Math.floor(Math.random() * (upper - lower + 1)) + lower)
 }
-
 
