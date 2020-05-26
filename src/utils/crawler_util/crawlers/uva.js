@@ -46,6 +46,8 @@ module.exports = async function(config, username) {
   for (const item of acSet) {
     solvedList.push(String(item))
   }
+  // console.log("@@@uva")
+  // console.log(acSet.size)
 
   return {
     solved: acSet.size,

@@ -5,21 +5,10 @@ const users_info = require('./users_info')
 const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode', 'uva', 'poj', 'putongoj']
 
 
-//
-// let users = [{'score':0},{'score':0},{'score':0}]
-// f(users)
-// function f(users) {
-//   for(let user of users){
-//     user['score']++
-//   }
-//
-// }
-// console.log(users)
-
 /**
  * 'oj_name' 映射 爬虫函数 map 初始化
  */
-// const crawlers_map = cralwers_map_init()
+const crawlers_map = cralwers_map_init()
 // console.time('x')
 // const crawl_all = require('./crawl_all')
 
@@ -38,75 +27,85 @@ const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode'
 // })
 
 
+const other_oj_names = ['poj', 'uva', 'leetcode']
+for(const oj_name of oj_names){
+  for (const other_oj_name of other_oj_names) {
+    if (oj_name === other_oj_name) {
+      console.log(oj_name)
+    }
+  }
+}
+
+
 
 /**
  * 查询示范,promise需要使用then
  * 异步方式，适用于每一单元格动态更新table
  */
-// const username = 'GaragezWzz0504'
-// const oj_name = 'codeforces'
+// const username = 'DeftHaHa'
+// const oj_name = 'uva'
 // let res = { 'solved': -1, 'submissions': -1 }
 // oj_crawler(username, crawlers_map.get(oj_name)).then(result => {
-//   console.log(result.info)
+//   console.log(result)
 // })
-// console.log("####");
+// console.log("####")
 /**
  * excel导出的json数据架构转换
  */
-let newinfo = []
-let index = 0
-let empty_cf_info = {
-  "lastOnlineTimeSeconds": -1,
-  "city": "",
-  "rating": -1,
-  "rank": "",
-  "maxRating": -1,
-  "maxRank": ""
-}
-for (let user of users_info) {
-  var tmp = {}
-  let tmp_info = {}
-  for (let key of Object.keys(user)) {
-    if (key === '姓名') {
-      tmp.name = user[key]
-      tmp.tags = []
-    } else if (key === '班级') {
-      tmp.class = user[key]
-    } else if (key === 'pta_sloved') {
-      if (user[key] !== '') {
-        tmp_info['pta']['solved'] = parseInt(user[key])
-      } else {
-        tmp_info['pta']['solved'] = -1
-      }
-      //console.log(parseInt(tmp_info['pta']['solved']))
-    } else {
-      let tmp_oj = {}
-      if (key === 'jisuanke_solved') {
-        tmp_oj['username'] = ''
-        if (user[key] !== '') {
-          tmp_oj['solved'] = parseInt(user[key])
-        } else {
-          tmp_oj['solved'] = -1
-        }
-        tmp_oj['submissions'] = -1
-        tmp_info['jisuanke'] = tmp_oj
-      } else {
-        //console.log(key)
-        tmp_oj['username'] = user[key]
-        tmp_oj['solved'] = -1
-        tmp_oj['submissions'] = -1
-        if (key === 'codeforces') tmp_oj['info'] = empty_cf_info
-        tmp_info[key] = tmp_oj
-        //console.log(user[key])
-      }
-    }
-  }
-  tmp_info.other_solved = 0  //leetcode + uva + poj
-  tmp_info.other_submissions = 0
-  tmp_info.total_solved = 0
-  tmp_info.total_submissions = 0
-  tmp.oj_info = tmp_info
-  newinfo[index] = tmp
-  index++
-}
-console.log(JSON.stringify(newinfo))
+// let newinfo = []
+// let index = 0
+// let empty_cf_info = {
+//   "lastOnlineTimeSeconds": -1,
+//   "city": "",
+//   "rating": -1,
+//   "rank": "",
+//   "maxRating": -1,
+//   "maxRank": ""
+// }
+// for (let user of users_info) {
+//   var tmp = {}
+//   let tmp_info = {}
+//   for (let key of Object.keys(user)) {
+//     if (key === '姓名') {
+//       tmp.name = user[key]
+//       tmp.tags = []
+//     } else if (key === '班级') {
+//       tmp.class = user[key]
+//     } else if (key === 'pta_sloved') {
+//       if (user[key] !== '') {
+//         tmp_info['pta']['solved'] = parseInt(user[key])
+//       } else {
+//         tmp_info['pta']['solved'] = -1
+//       }
+//       //console.log(parseInt(tmp_info['pta']['solved']))
+//     } else {
+//       let tmp_oj = {}
+//       if (key === 'jisuanke_solved') {
+//         tmp_oj['username'] = ''
+//         if (user[key] !== '') {
+//           tmp_oj['solved'] = parseInt(user[key])
+//         } else {
+//           tmp_oj['solved'] = -1
+//         }
+//         tmp_oj['submissions'] = -1
+//         tmp_info['jisuanke'] = tmp_oj
+//       } else {
+//         //console.log(key)
+//         tmp_oj['username'] = user[key]
+//         tmp_oj['solved'] = -1
+//         tmp_oj['submissions'] = -1
+//         if (key === 'codeforces') tmp_oj['info'] = empty_cf_info
+//         tmp_info[key] = tmp_oj
+//         //console.log(user[key])
+//       }
+//     }
+//   }
+//   tmp_info.other_solved = 0  //leetcode + uva + poj
+//   tmp_info.other_submissions = 0
+//   tmp_info.total_solved = 0
+//   tmp_info.total_submissions = 0
+//   tmp.oj_info = tmp_info
+//   newinfo[index] = tmp
+//   index++
+// }
+// console.log(JSON.stringify(newinfo))

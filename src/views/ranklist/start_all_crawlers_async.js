@@ -35,7 +35,7 @@ export default async function(users_info, vm) {
           vm.users_oj_info_data[index]['oj_info'][oj_name]['submissions'] = submissions
           if (solved > 0) {
             vm.users_oj_info_data[index]['oj_info']['total_solved'] += solved
-            for (const other_oj_name in other_oj_names) {
+            for (const other_oj_name of other_oj_names) {
               if (oj_name === other_oj_name) {
                 vm.users_oj_info_data[index]['oj_info']['other_solved'] += solved
               }
