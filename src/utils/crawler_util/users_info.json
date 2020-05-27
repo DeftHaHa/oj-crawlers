@@ -37,7 +37,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "Deft",
         "solved": -1,
         "submissions": -1
@@ -65,11 +65,6 @@
       "jisuanke": {
         "username": "",
         "solved": 468,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -116,7 +111,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -142,11 +137,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -195,7 +185,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -221,11 +211,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -274,7 +259,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -302,11 +287,6 @@
       "jisuanke": {
         "username": "",
         "solved": 80,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -353,7 +333,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -381,11 +361,6 @@
       "jisuanke": {
         "username": "",
         "solved": 123,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -432,7 +407,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -460,11 +435,6 @@
       "jisuanke": {
         "username": "",
         "solved": 98,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -511,7 +481,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -539,11 +509,6 @@
       "jisuanke": {
         "username": "",
         "solved": 70,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -590,7 +555,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "afish",
         "solved": -1,
         "submissions": -1
@@ -618,11 +583,6 @@
       "jisuanke": {
         "username": "",
         "solved": 160,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -669,8 +629,8 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
-        "username": "",
+      "leetcode_cn": {
+        "username": "BlueLine",
         "solved": -1,
         "submissions": -1
       },
@@ -695,11 +655,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -748,7 +703,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -774,11 +729,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -827,7 +777,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -853,11 +803,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -906,7 +851,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -932,11 +877,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -985,7 +925,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1013,11 +953,6 @@
       "jisuanke": {
         "username": "",
         "solved": 124,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1064,7 +999,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1092,11 +1027,6 @@
       "jisuanke": {
         "username": "",
         "solved": 55,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1143,7 +1073,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1171,11 +1101,6 @@
       "jisuanke": {
         "username": "",
         "solved": 98,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1222,7 +1147,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1250,11 +1175,6 @@
       "jisuanke": {
         "username": "",
         "solved": 1,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1301,7 +1221,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1329,11 +1249,6 @@
       "jisuanke": {
         "username": "",
         "solved": 104,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1380,7 +1295,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1408,11 +1323,6 @@
       "jisuanke": {
         "username": "",
         "solved": 41,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1459,7 +1369,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1487,11 +1397,6 @@
       "jisuanke": {
         "username": "",
         "solved": 35,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1538,7 +1443,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1566,11 +1471,6 @@
       "jisuanke": {
         "username": "",
         "solved": 80,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1617,7 +1517,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "Praesepe",
         "solved": -1,
         "submissions": -1
@@ -1645,11 +1545,6 @@
       "jisuanke": {
         "username": "",
         "solved": 125,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1696,7 +1591,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1722,11 +1617,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1775,7 +1665,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1803,11 +1693,6 @@
       "jisuanke": {
         "username": "",
         "solved": 118,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1854,7 +1739,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1882,11 +1767,6 @@
       "jisuanke": {
         "username": "",
         "solved": 302,
-        "submissions": -1
-      },
-      "": {
-        "username": "",
-        "solved": -1,
         "submissions": -1
       },
       "other_solved": 0,
@@ -1933,7 +1813,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -1959,11 +1839,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -2012,7 +1887,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -2038,11 +1913,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -2091,7 +1961,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -2117,11 +1987,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -2170,7 +2035,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -2196,11 +2061,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1
@@ -2249,7 +2109,7 @@
         "solved": -1,
         "submissions": -1
       },
-      "leetcode": {
+      "leetcode_cn": {
         "username": "xch33",
         "solved": -1,
         "submissions": -1
@@ -2275,11 +2135,6 @@
         "submissions": -1
       },
       "jisuanke": {
-        "username": "",
-        "solved": -1,
-        "submissions": -1
-      },
-      "": {
         "username": "",
         "solved": -1,
         "submissions": -1

@@ -1,8 +1,9 @@
 const cralwers_map_init = require('./crawlers_map_init')
 const oj_crawler = require('./oj_crawler')
 const users_info = require('./users_info')
+const request = require('superagent')
 // 为pta jisuanke静态数据
-const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode', 'uva', 'poj', 'putongoj']
+const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode_cn', 'uva', 'poj', 'putongoj']
 
 /**
  * 'oj_name' 映射 爬虫函数 map 初始化
@@ -28,12 +29,16 @@ const crawlers_map = cralwers_map_init()
  * 查询示范,promise需要使用then
  * 异步方式，适用于每一单元格动态更新table
  */
-const username = 'DeftHaHa'
-const oj_name = 'vjudge'
-oj_crawler(username, crawlers_map.get(oj_name)).then(result => {
+const username = 'DeftHaHa'  //  BlueLine     DeftHaHa
+const oj_name = 'vjudge'  //  leetcode_cn     vjudge
+oj_crawler(username, crawlers_map.get(oj_name),oj_name).then(result => {
   console.log(result)
 })
 console.log('####')
+
+
+
+
 /**
  * excel导出的json数据架构转换
  */

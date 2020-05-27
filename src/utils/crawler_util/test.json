@@ -1,41 +1,8 @@
-{
-  "status": "OK",
-  "result": [
-    {
-      "lastName": "Khodyrev",
-      "country": "Russia",
-      "lastOnlineTimeSeconds": 1588516510,
-      "city": "Moscow",
-      "rating": 1685,
-      "friendOfCount": 87,
-      "titlePhoto": "//userpic.codeforces.com/1592/title/27e43714e4bea090.jpg",
-      "handle": "DmitriyH",
-      "avatar": "//userpic.codeforces.com/1592/avatar/7cef566902732053.jpg",
-      "firstName": "Dmitriy",
-      "contribution": 8,
-      "organization": "Yandex",
-      "rank": "expert",
-      "maxRating": 2072,
-      "registrationTimeSeconds": 1268570311,
-      "maxRank": "candidate master"
-    },
-    {
-      "lastName": "Fefer",
-      "country": "Russia",
-      "lastOnlineTimeSeconds": 1589543449,
-      "city": "Saratov",
-      "rating": 2174,
-      "friendOfCount": 329,
-      "titlePhoto": "//userpic.codeforces.com/242/title/151ab49dee0779f8.jpg",
-      "handle": "Fefer_Ivan",
-      "avatar": "//userpic.codeforces.com/242/avatar/c4e6a102a9e66281.jpg",
-      "firstName": "Ivan",
-      "contribution": 1,
-      "organization": "aimtech",
-      "rank": "master",
-      "maxRating": 2476,
-      "registrationTimeSeconds": 1264960450,
-      "maxRank": "grandmaster"
-    }
-  ]
-}
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-Hans-CN, zh-Hans; q=0.8, en-US; q=0.5, en; q=0.3
+Cache-Control: no-cache
+Cookie: _ga=GA1.2.473181003.1565802426
+Host: vjudge.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362

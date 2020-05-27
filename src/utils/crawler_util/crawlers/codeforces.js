@@ -6,8 +6,7 @@ module.exports = async function(config, username) {
   }
 
   const acSet = new Set()
-  const submissions = await queryForNumber(username, 1, acSet)
-  //const info = await query_user_info(username)
+  const submissions = await queryForNumber(username, 1, acSet,config)
   return {
     solved: acSet.size,
     submissions: submissions,
@@ -15,27 +14,8 @@ module.exports = async function(config, username) {
     solvedList: [...acSet]
   }
 }
-
 const MAX_PAGE_SIZE = 10000
 
-/**
- * 查询 user.info
- * @param username
- * @returns {Promise<null>}
- */
-async function query_user_info(username) {
-  let res = null
-  try {
-    res = await request
-      .get('http://codeforces.com/api/user.info')
-      .query({ handles: username })
-    res_obj = JSON.parse(res.text)
-    if(res_obj.status === 'OK') return JSON.parse(res.text).result[0]
-  } catch (e) {
-    //console.log(e)
-    return res;
-  }
-}
 
 /**
  * 递归查询题数
@@ -44,7 +24,7 @@ async function query_user_info(username) {
  * @param acSet {Set<{String}>} - ac的题目列表，会修改此对象
  * @returns {Promise<Number>}
  */
-async function queryForNumber(username, pageCount, acSet) {
+async function queryForNumber(username, pageCount, acSet,config) {
   // 发起请求 /////////////////////////////////////////////////////////////
   const queryObject = {
     handle: username,
@@ -52,13 +32,22 @@ async function queryForNumber(username, pageCount, acSet) {
     count: MAX_PAGE_SIZE
   }
 
-  let res = null
+  let res = {}
   try {
-    res = await request
-      .get('http://codeforces.com/api/user.status')
-      .query(queryObject)
+    if(config.use_proxy){  //使用代理
+      const url = config.proxy_url +"?url="+ 'http://codeforces.com/api/user.status' + '?handle=' + queryObject.handle  + '&from=' + queryObject.from.toString()+'&count='+queryObject.count.toString()
+      res = await request.get(url)
+
+    }
+    else {
+      res = await request
+        .get('http://codeforces.com/api/user.status')
+        .query(queryObject)
+    }
+
+
   } catch (e) {
-    if (e.response && e.response.body.status) { // 有 response 一定有 body
+    if ( e.response && e.response.body.status) { // 有 response 一定有 body
       // 有 response 且以 json 的格式相应
       const comment = e.response.body.comment
       if (/handle: User with handle .* not found/.test(comment)) {
@@ -74,7 +63,9 @@ async function queryForNumber(username, pageCount, acSet) {
   }
 
   // 处理结果 /////////////////////////////////////////////////////////////
-  const problemArray = res.body.result
+  let problemArray = {}
+  if(config.use_proxy) problemArray = JSON.parse(res.text).result
+  else problemArray = res.body.result
 
   if (problemArray.length === 0) {
     return 0

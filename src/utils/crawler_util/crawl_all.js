@@ -1,7 +1,7 @@
 const cralwers_map_init = require('./crawlers_map_init')
 const oj_crawler = require('./oj_crawler')
 const users_info = require('./users_info')
-const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode', 'uva', 'poj', 'putongoj']
+const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode_cn', 'uva', 'poj', 'putongoj']
 /**
  * 'oj_name' 映射 爬虫函数 map 初始化
  */

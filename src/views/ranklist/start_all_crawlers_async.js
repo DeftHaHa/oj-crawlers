@@ -3,7 +3,7 @@ import crawlers_map_init from './crawlers_map'
 import user_tags from '@/views/ranklist/user_tags'
 export default async function(users_info, vm) {
   // loading_button 结束
-  const other_oj_names = ['poj', 'uva', 'leetcode']
+  const other_oj_names = ['poj', 'uva', 'leetcode_cn']
   const crawlers_map = crawlers_map_init()
   const total_cnt = parseInt(oj_names.length * users_info.length) // 总共需要爬取的次数
   const time_allbegin = new Date().getTime()
@@ -29,7 +29,7 @@ export default async function(users_info, vm) {
       try {
         vm.users_oj_info_data[index]['oj_info'][oj_name]['solved'] = -1
         vm.users_oj_info_data[index]['oj_info'][oj_name]['submissions'] = -1
-        oj_crawler(user['oj_info'][oj_name]['username'], crawlers_map.get(oj_name)).then(result => {
+        oj_crawler(user['oj_info'][oj_name]['username'], crawlers_map.get(oj_name), oj_name).then(result => {
           solved = parseInt(result['solved'])
           submissions = parseInt(result['submissions'])
           vm.users_oj_info_data[index]['oj_info'][oj_name]['solved'] = solved
@@ -71,7 +71,7 @@ export default async function(users_info, vm) {
 }
 
 /**
- * 调用爬虫
+ * 使用代理调用爬虫
  * @param username
  * @param crawling     爬虫函数
  * @returns {Promise<{submissions: number, solved: number}>}
@@ -85,15 +85,33 @@ const config = { // 代理设置
   password: 'a7dTxD_bTwB73KX'
 }
 
-async function oj_crawler(username, crawling) {
+/**
+ *
+ * @param username
+ * @param crawling  爬虫函数
+ * @param oj_name
+ * @returns {Promise<{submissions: number, solved: number}|*>}
+ */
+const oj_names_use_api = ['leetcode_cn',''] //哪些OJ使用api
+async function oj_crawler(username, crawler_function,oj_name) {
   const res_error = { 'solved': -2, 'submissions': -2 }
   const res_nouser = { 'solved': -3, 'submissions': -3 }
   if (username === '' || username === null || username === undefined) return res_nouser
   config.proxy_url = proxy_url_array[random(0, proxy_url_array.length - 1)] // 随机选择代理网址
   const MAX_time = 10 // 请求失败的重复次数
+  let use_api = false
+  for (let oj_name_use_api of oj_names_use_api){
+    if(oj_name_use_api === oj_name) use_api = true
+  }
   for (let i = 0; i < MAX_time; i++) {
     try {
-      return await crawling(config, username)
+      if(!use_api)   {
+        return await crawler_function(config, username)
+      }  //不使用后端api
+      else {
+        let res = await crawlers_api(username,oj_name)    //使用后端api
+        if(!res.error) return res.data
+      }
     } catch (e) {
       if (i === MAX_time) {
         console.log(username + 'oj_crawler Fail: ' + e)

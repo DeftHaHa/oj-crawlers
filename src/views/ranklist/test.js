@@ -3,7 +3,7 @@ import crawlers_map_init from './crawlers_map'
 const users_info_init = require('@/utils/crawler_util/users_info.json')
 export default async function start_oj_crawlers(users_info, vm) {
   vm.users_oj_info_data = users_info_init
-  const other_oj_names = ['poj', 'uva', 'leetcode']
+  const other_oj_names = ['poj', 'uva', 'leetcode_cn']
   const crawlers_map = crawlers_map_init()
   const total_cnt = parseInt(oj_names.length * users_info.length) // 总共需要爬取的次数
   const time_allbegin = new Date().getTime()

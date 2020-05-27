@@ -121,7 +121,6 @@ async function queryForNumber(agent, username, maxId, acSet, submissionsByCrawle
   if (maxId) {
     queryObject.maxId = maxId
   }
-
   // console.log ('queryObject', queryObject)
 
   const res = await agent
