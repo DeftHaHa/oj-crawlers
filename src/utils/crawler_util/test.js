@@ -29,7 +29,7 @@ const crawlers_map = cralwers_map_init()
  * 查询示范,promise需要使用then
  * 异步方式，适用于每一单元格动态更新table
  */
-const username = 'DeftHaHa'  //  BlueLine     DeftHaHa
+const username = 'LilPhoenix'  //  BlueLine     DeftHaHa  LilPhoenix
 const oj_name = 'vjudge'  //  leetcode_cn     vjudge
 oj_crawler(username, crawlers_map.get(oj_name),oj_name).then(result => {
   console.log(result)

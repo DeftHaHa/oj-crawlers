@@ -20,33 +20,28 @@ module.exports = async function(config, username) {
   if (!username) {
     throw new Error('Please enter username')
   }
-  let solved = -2
-  let submissions = -2
-
+  let res = {}
   try {
-    let res = {}
-    if(config.use_proxy){  //使用代理
-      const url = config.proxy_url +"?url="+ 'https://new.npuacm.info/api/crawlers/vjudge/' + username
+    if (config.use_proxy) {  //使用代理
+      const url = config.proxy_url + '?url=' + 'https://new.npuacm.info/api/crawlers/vjudge/' + username
       //console.log(url)
       res = await request
         .get(url)
-    }
-    else {
+    } else {
       res = await request
         .get('https://new.npuacm.info/api/crawlers/vjudge/DeftHaHa')
     }
-    const resObj = JSON.parse(res.text)
-    solved = resObj.data.solved
-    submissions = resObj.data.submissions
-
   } catch (err) {
-    console.log('vjudge  failed')
-    const error = new Error('vjudge  failed')
-    error.innerError = err
-    throw error
+    console.log(e)
   }
 
-
+  let solved = -2
+  let submissions = -2
+  const resObj = JSON.parse(res.text)
+  if (!resObj.error) {
+    solved = resObj.data.solved
+    submissions = resObj.data.submissions
+  }
 
   return {
     solved: solved,
