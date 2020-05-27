@@ -1,6 +1,4 @@
 
-
-
 const request = require('superagent')
 
 module.exports = async function(config, username) {
@@ -14,9 +12,10 @@ module.exports = async function(config, username) {
   }
 
   let res = {}
-  if (config.use_proxy) {  //使用代理
+  if (config.use_proxy) { // 使用代理
+    const url = config.proxy_url + '?=' + 'https://leetcode-cn.com/graphql'
     res = await request
-      .post('https://leetcode-cn.com/graphql')
+      .post(url)
       .send(input)
   } else {
     res = await request
@@ -37,8 +36,8 @@ module.exports = async function(config, username) {
 }
 
 function serialize(obj) {
-  let str = []
-  for (let p in obj) {
+  const str = []
+  for (const p in obj) {
     if (obj.hasOwnProperty(p)) {
       str.push(encodeURIComponent(p) + '=' + encodeURIComponent(obj[p]))
     }

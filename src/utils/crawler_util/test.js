@@ -1,9 +1,8 @@
 const cralwers_map_init = require('./crawlers_map_init')
 const oj_crawler = require('./oj_crawler')
 const users_info = require('./users_info')
-//为pta jisuanke静态数据
+// 为pta jisuanke静态数据
 const oj_names = ['codeforces', 'luogu', 'vjudge', 'nowcoder', 'hdu', 'leetcode', 'uva', 'poj', 'putongoj']
-
 
 /**
  * 'oj_name' 映射 爬虫函数 map 初始化
@@ -12,13 +11,12 @@ const crawlers_map = cralwers_map_init()
 // console.time('x')
 // const crawl_all = require('./crawl_all')
 
-
 // crawl_all().then(result => {
 //   console.log("#####"+JSON.stringify(result))
 //   console.timeEnd('x')
-  // for (const user of result) {
-  //   console.log(user['name'], '      Solved:' + user['total_sloved'] + '     Submissions:' + user['total_submissions'])
-  // }
+// for (const user of result) {
+//   console.log(user['name'], '      Solved:' + user['total_sloved'] + '     Submissions:' + user['total_submissions'])
+// }
 // })
 
 // const  get_cf_info = require('./crawlers/get_codeforces_info')
@@ -26,29 +24,16 @@ const crawlers_map = cralwers_map_init()
 //   console.log(result)
 // })
 
-
-const other_oj_names = ['poj', 'uva', 'leetcode']
-for(const oj_name of oj_names){
-  for (const other_oj_name of other_oj_names) {
-    if (oj_name === other_oj_name) {
-      console.log(oj_name)
-    }
-  }
-}
-
-
-
 /**
  * 查询示范,promise需要使用then
  * 异步方式，适用于每一单元格动态更新table
  */
-// const username = 'DeftHaHa'
-// const oj_name = 'uva'
-// let res = { 'solved': -1, 'submissions': -1 }
-// oj_crawler(username, crawlers_map.get(oj_name)).then(result => {
-//   console.log(result)
-// })
-// console.log("####")
+const username = 'DeftHaHa'
+const oj_name = 'vjudge'
+oj_crawler(username, crawlers_map.get(oj_name)).then(result => {
+  console.log(result)
+})
+console.log('####')
 /**
  * excel导出的json数据架构转换
  */
