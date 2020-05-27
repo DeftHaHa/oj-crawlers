@@ -13,9 +13,10 @@ module.exports = async function(config, username) {
 
   let res = {}
   if (config.use_proxy) { // 使用代理
-    const url = config.proxy_url + '?=' + 'https://leetcode-cn.com/graphql'
+    //const url = config.proxy_url + '?=' + 'https://leetcode-cn.com/graphql'
+    input.url = 'https://leetcode-cn.com/graphql'
     res = await request
-      .post(url)
+      .post(config.proxy_url)
       .send(input)
   } else {
     res = await request

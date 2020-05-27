@@ -208,8 +208,8 @@
 <script>
   import start_oj_crawlers_asyc from './start_all_crawlers_async'
   import get_cf_info from './get_codeforces_info'
-
-  const users_oj_info = require('@/utils/crawler_util/users_oj_info')
+  import users_oj_info from '@/utils/crawler_util/users_oj_info'
+ // const users_oj_info = require('@/utils/crawler_util/users_oj_info')
 
   // console.log(users_oj_info)
   export default {

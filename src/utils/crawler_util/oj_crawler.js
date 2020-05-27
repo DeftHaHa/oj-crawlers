@@ -18,7 +18,7 @@ module.exports = async function(username, crawling) {
   if (username === '' || username === null || username === undefined) return res_nouser
   config.proxy_url = proxy_url_array[random(0, proxy_url_array.length - 1)] // 随机选择代理网址
   try {
-    const res = await crawling('', username)
+    const res = await crawling(config, username)
     // console.log(res)
     return res
   } catch (e) {
