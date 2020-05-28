@@ -13,25 +13,25 @@ const config = { // 代理设置
   password: 'a7dTxD_bTwB73KX'
 }
 
-const oj_names_use_api = ['leetcode_cn',''] //哪些OJ使用api
-module.exports = async function (username, crawler_function,oj_name) {
+const oj_names_use_api = ['leetcode_cn', ''] // 哪些OJ使用后端api
+module.exports = async function(username, crawler_function, oj_name) {
   const res_error = { 'solved': -2, 'submissions': -2 }
   const res_nouser = { 'solved': -3, 'submissions': -3 }
   if (username === '' || username === null || username === undefined) return res_nouser
   config.proxy_url = proxy_url_array[random(0, proxy_url_array.length - 1)] // 随机选择代理网址
   const MAX_time = 10 // 请求失败的重复次数
   let use_api = false
-  for (let oj_name_use_api of oj_names_use_api){
-    if(oj_name_use_api === oj_name) use_api = true
+  for (const oj_name_use_api of oj_names_use_api) {
+    if (oj_name_use_api === oj_name) use_api = true
   }
   for (let i = 0; i < MAX_time; i++) {
     try {
-      if(!use_api)   {
+      if (!use_api) {
         return await crawler_function(config, username)
-      }  //不使用后端api
+      } // 不使用后端api
       else {
-        let res = await crawlers_api(username,oj_name)    //使用后端api
-        if(!res.error) return res.data
+        const res = await crawlers_api(username, oj_name) // 使用后端api
+        if (!res.error) return res.data
       }
     } catch (e) {
       if (i === MAX_time) {
@@ -50,12 +50,15 @@ module.exports = async function (username, crawler_function,oj_name) {
  * @returns {Promise<void>}
  */
 const request = require('superagent')
-async function crawlers_api(username,oj_name) {
-  let url = 'http://localhost:12001/api/crawlers/' + oj_name + "/" +username
-  let res = await request.get(url)
-  return res.body
+async function crawlers_api(username, oj_name) {
+  // let url = 'http://localhost:12001/api/crawlers/' + oj_name + "/" +username
+  const url = 'http://localhost:12001/api/crawlers/' + oj_name + '/' + username
+  const res = await request.get(url)
+  const resObj = JSON.parse(res.text)
+  // console.log(resObj.data)
+  // console.log("@@@@")
+  return resObj
 }
-
 
 /**
  * 生成随机数闭区间

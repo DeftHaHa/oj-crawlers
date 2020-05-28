@@ -14,7 +14,6 @@ const hostName = 'vjudge.net'
  * vjudge 的爬虫函数
  * @param {vjudgeCrawlerConfig} config
  * @param username 要爬取的用户名
- * @returns {Promise<crawlerReturns>} - 见 configReader
  */
 module.exports = async function(config, username) {
   if (!username) {
@@ -22,9 +21,9 @@ module.exports = async function(config, username) {
   }
   let res = {}
   try {
-    if (config.use_proxy) {  //使用代理
+    if (config.use_proxy) { // 使用代理
       const url = config.proxy_url + '?url=' + 'https://new.npuacm.info/api/crawlers/vjudge/' + username
-      //console.log(url)
+      // console.log(url)
       res = await request
         .get(url)
     } else {

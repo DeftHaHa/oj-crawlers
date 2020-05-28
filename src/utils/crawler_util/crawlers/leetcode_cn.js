@@ -13,17 +13,17 @@ module.exports = async function(config, username) {
 
   let res = {}
   if (config.use_proxy) { // 使用代理
-    //const url = config.proxy_url + '?=' + 'https://leetcode-cn.com/graphql'
-    //input.url = 'https://leetcode-cn.com/graphql'
+    // const url = config.proxy_url + '?=' + 'https://leetcode-cn.com/graphql'
+    // input.url = 'https://leetcode-cn.com/graphql'
     res = await request
-      .post(config.proxy_url)
+      .post('https://leetcode-cn.com/graphql')
       .send(input)
   } else {
     res = await request
       .post('https://leetcode-cn.com/graphql')
       .send(input)
   }
-
+  console.log(res)
   const data = res.body.data.userProfilePublicProfile
 
   if (!data) {

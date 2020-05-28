@@ -2,8 +2,8 @@
   <div class="login-container" :style="backGroundStyle">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" autocomplete="on" label-position="left">
       <div class="title-container">
-        <h3 class="title">现科算法与程序设计协会<br>竞赛训练辅助系统</h3>
-        <h2 class="title" style="font-size: 20px">CJLUXK &nbsp;&nbsp; AAP<br> Assistant Training System</h2>
+        <h3 class="title">现科算法与程序设计协会<br>算法竞赛训练辅助系统</h3>
+        <h2 class="title" style="font-size: 16px">CJLUXK &nbsp;&nbsp; Association for algorithms and programming<br>Algorithm Competition Assistant Training System</h2>
       </div>
 
       <el-form-item prop="username">
@@ -47,7 +47,7 @@
 
       <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">Login</el-button>
 
-      <div style="position:relative">
+      <div style="padding-bottom: 20px; position:relative">
         <div class="tips">
           <span>Username : admin</span>
           <span>Password : any</span>
@@ -76,7 +76,7 @@
 <script>
 import { validUsername } from '@/utils/validate'
 import SocialSign from './components/SocialSignin'
-import getbackGroundUrl from '@/utils/getBackGroundURL'
+import getbackGroundUrl from '@/utils/setBackGround'
 
 export default {
   name: 'Login',
@@ -264,10 +264,12 @@ $light_gray:#eee;
   .login-form {
     position: relative;
     width: 500px;
+    height: 100%;
     max-width: 100%;
     padding: 160px 35px 0;
     margin: 0 auto;
     overflow: hidden;
+    background-color: rgba(45,58,75,0.8);
   }
 
   .tips {
@@ -314,7 +316,7 @@ $light_gray:#eee;
   .thirdparty-button {
     position: absolute;
     right: 0;
-    bottom: 6px;
+    bottom: 30px;
   }
 
   @media only screen and (max-width: 470px) {
