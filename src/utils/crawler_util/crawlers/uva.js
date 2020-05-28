@@ -10,12 +10,11 @@ module.exports = async function(config, username) {
   }
 
   let uidRes = {}
-  if (config.use_proxy) {  //使用代理
+  if (config.use_proxy) { // 使用代理
     const url = config.proxy_url + '?url=' + `https://uhunt.onlinejudge.org/api/uname2uid/` + username
-    //console.log(url)
+    // console.log(url)
     uidRes = await request.get(url)
-  }
-  else {
+  } else {
     uidRes = await request.get('https://uhunt.onlinejudge.org/api/uname2uid/' + username)
   }
 
@@ -24,15 +23,13 @@ module.exports = async function(config, username) {
   }
 
   let res = {}
-  if (config.use_proxy) {  //使用代理
+  if (config.use_proxy) { // 使用代理
     const url = config.proxy_url + '?url=' + `https://uhunt.onlinejudge.org/api/subs-user/` + uidRes.body
-    //console.log("@@  "+url)
+    // console.log("@@  "+url)
     res = await request.get(url)
-  }
-  else {
+  } else {
     res = await request.get('https://uhunt.onlinejudge.org/api/subs-user/' + uidRes.body)
   }
-
 
   const acSet = new Set()
   const problemArray = res.body.subs

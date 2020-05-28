@@ -1,9 +1,9 @@
 <template>
-  <div class="login-container">
+  <div class="login-container" :style="backGroundStyle">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" autocomplete="on" label-position="left">
-
       <div class="title-container">
-        <h3 class="title">Login Form</h3>
+        <h3 class="title">现科算法与程序设计协会<br>竞赛训练辅助系统</h3>
+        <h2 class="title" style="font-size: 20px">CJLUXK &nbsp;&nbsp; AAP<br> Assistant Training System</h2>
       </div>
 
       <el-form-item prop="username">
@@ -76,6 +76,7 @@
 <script>
 import { validUsername } from '@/utils/validate'
 import SocialSign from './components/SocialSignin'
+import getbackGroundUrl from '@/utils/getBackGroundURL'
 
 export default {
   name: 'Login',
@@ -109,7 +110,8 @@ export default {
       loading: false,
       showDialog: false,
       redirect: undefined,
-      otherQuery: {}
+      otherQuery: {},
+      backGroundStyle: ''
     }
   },
   watch: {
@@ -133,6 +135,7 @@ export default {
     } else if (this.loginForm.password === '') {
       this.$refs.password.focus()
     }
+    getbackGroundUrl(this)
   },
   destroyed() {
     // window.removeEventListener('storage', this.afterQRScan)
@@ -177,7 +180,7 @@ export default {
         }
         return acc
       }, {})
-    }
+    }, getbackGroundUrl
     // afterQRScan() {
     //   if (e.key === 'x-admin-oauth-code') {
     //     const code = getQueryObject(e.newValue)
@@ -260,7 +263,7 @@ $light_gray:#eee;
 
   .login-form {
     position: relative;
-    width: 520px;
+    width: 500px;
     max-width: 100%;
     padding: 160px 35px 0;
     margin: 0 auto;
@@ -291,9 +294,8 @@ $light_gray:#eee;
     position: relative;
 
     .title {
-      font-size: 26px;
+      font-size: 30px;
       color: $light_gray;
-      margin: 0px auto 40px auto;
       text-align: center;
       font-weight: bold;
     }

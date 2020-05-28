@@ -14,6 +14,8 @@
 </template>
 
 <script>
+const logo_image = require('@/assets/images/logo_icpc.png')
+
 export default {
   name: 'SidebarLogo',
   props: {
@@ -24,8 +26,8 @@ export default {
   },
   data() {
     return {
-      title: 'Vue Element Admin',
-      logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png'
+      title: 'CJLUXK ATS',
+      logo: logo_image
     }
   }
 }
@@ -55,10 +57,10 @@ export default {
     width: 100%;
 
     & .sidebar-logo {
-      width: 32px;
-      height: 32px;
+      width: 60px;
+      height: 40px;
       vertical-align: middle;
-      margin-right: 12px;
+      margin-right: 5px;
     }
 
     & .sidebar-title {
@@ -67,7 +69,7 @@ export default {
       color: #fff;
       font-weight: 600;
       line-height: 50px;
-      font-size: 14px;
+      font-size: 21px;
       font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
       vertical-align: middle;
     }
