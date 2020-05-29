@@ -7,7 +7,7 @@ export default async function(vm) {
     const resObj = JSON.parse(result.text)
     const imageURL = 'http://cn.bing.com' + resObj.images[0].url
     const stlyString = "background-image:url('" + imageURL + "'); background-repeat:no-repeat ;background-size:cover;"
-    console.log(stlyString)
+    //console.log(stlyString)
     vm.backGroundStyle = stlyString
     // vm.getbackGroundUrl =  'http://cn.bing.com'+resObj.images[0].url
   } catch (e) {
