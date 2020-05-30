@@ -9,7 +9,7 @@ export default async function(vm) {
     const stlyString = "background-image:url('" + imageURL + "'); background-repeat:no-repeat ;background-size:cover;"
     //console.log(stlyString)
     vm.backGroundStyle = stlyString
-    // vm.getbackGroundUrl =  'http://cn.bing.com'+resObj.images[0].url
+    // vm.setbackGround =  'http://cn.bing.com'+resObj.images[0].url
   } catch (e) {
     console.log(e)
   }

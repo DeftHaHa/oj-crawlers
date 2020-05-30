@@ -207,18 +207,19 @@
 </template>
 <script>
   import start_oj_crawlers_asyc from './start_all_crawlers_async'
-  import get_cf_info from './get_codeforces_info'
-  import users_oj_info from '@/utils/crawler_util/users_oj_info'
- // const users_oj_info = require('@/utils/crawler_util/users_oj_info')
+  import get_cf_info from './set_cf_users_info'
+  import users_info from '@/utils/crawler_util/users_info'
+  import rating_color from '@/utils/cf_rating_color'
+ // const users_info = require('@/utils/crawler_util/users_info')
 
-  // console.log(users_oj_info)
+  // console.log(users_info)
   export default {
     name: 'RankList',
     data() {
       return {
         checked_showclass: true, // 显示班级列
         listLoading: false,
-        users_oj_info_data: users_oj_info,
+        users_oj_info_data: users_info,
         tableHeight: '100%',
         button_start_crawlers_text: '加载中...',
         is_loading: true,
@@ -227,8 +228,8 @@
     },
     watch: {},
     mounted: function() {
-      get_cf_info(users_oj_info, this)
-      start_oj_crawlers_asyc(users_oj_info, this)
+      get_cf_info(users_info, this)
+      start_oj_crawlers_asyc(users_info, this)
 
       // el-table表格高度监听
       this.$nextTick(function() {
@@ -256,23 +257,14 @@
       load_icon: function(num) {
         return !(num !== '' && num !== null && num !== undefined && num >= 0)
       },
-      rating_color: function(rating) { // rating对应颜色计算方法
-        if (rating >= 2400) return '#f00'
-        if (rating >= 2100) return '#ff8c00'
-        if (rating >= 1900) return '#a0a'
-        if (rating >= 1600) return '#0000ff'
-        if (rating >= 1400) return '#03a89e'
-        if (rating >= 1200) return '#008000'
-        return '#808080'
-      },
       //loading button点击事件
       reloading: function() {
         this.button_start_crawlers_text = "加载中..."
         this.is_loading = true
-        //this.users_oj_info_data = users_oj_info
+        //this.users_oj_info_data = users_info
         this.custom = false
-        get_cf_info(users_oj_info, this)
-        start_oj_crawlers_asyc(users_oj_info, this)
+        get_cf_info(users_info, this)
+        start_oj_crawlers_asyc(users_info, this)
       },
       sortChange: function(data) {  //排序监听
         const { prop, order } = data
@@ -310,7 +302,8 @@
         }
       },
       start_oj_crawlers_asyc,
-      get_cf_info
+      get_cf_info,
+      rating_color
     }
   }
 </script>

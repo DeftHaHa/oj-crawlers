@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Vue Element Admin',
+  title: '现科算协竞赛训练辅助系统',
 
   /**
    * @type {boolean} true | false

@@ -76,7 +76,7 @@
 <script>
 import { validUsername } from '@/utils/validate'
 import SocialSign from './components/SocialSignin'
-import getbackGroundUrl from '@/utils/setBackGround'
+import setbackGround from '@/utils/crawler_util/setBackGround'
 
 export default {
   name: 'Login',
@@ -135,7 +135,7 @@ export default {
     } else if (this.loginForm.password === '') {
       this.$refs.password.focus()
     }
-    getbackGroundUrl(this)
+    setbackGround(this)
   },
   destroyed() {
     // window.removeEventListener('storage', this.afterQRScan)
@@ -180,7 +180,7 @@ export default {
         }
         return acc
       }, {})
-    }, getbackGroundUrl
+    }
     // afterQRScan() {
     //   if (e.key === 'x-admin-oauth-code') {
     //     const code = getQueryObject(e.newValue)
@@ -226,9 +226,9 @@ $cursor: #fff;
 
     input {
       background: transparent;
-      border: 0px;
+      border: 0;
       -webkit-appearance: none;
-      border-radius: 0px;
+      border-radius: 0;
       padding: 12px 5px 12px 15px;
       color: $light_gray;
       height: 47px;

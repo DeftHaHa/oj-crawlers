@@ -57,8 +57,8 @@ export default {
     width: 100%;
 
     & .sidebar-logo {
-      width: 60px;
-      height: 40px;
+      width: 55px;
+      height: 36.6px;
       vertical-align: middle;
       margin-right: 5px;
     }

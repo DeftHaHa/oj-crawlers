@@ -1,7 +1,7 @@
 import oj_names from './oj_names'
 import crawlers_map_init from './crawlers_map'
 import user_tags from '@/views/ranklist/user_tags'
-export default async function(users_info, vm) {
+export default async function(users_info,vm) {
   // loading_button 结束
   const other_oj_names = ['poj', 'uva', 'leetcode_cn']
   const crawlers_map = crawlers_map_init()

@@ -1,0 +1,6189 @@
+{
+  "type": "cf_rating",
+  "contest_data": [
+    [
+      {
+        "contestId": 844,
+        "contestName": "AIM Tech Round 4 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 2920,
+        "ratingUpdateTimeSeconds": 1503601500,
+        "oldRating": 0,
+        "newRating": 1374
+      },
+      {
+        "contestId": 1076,
+        "contestName": "Educational Codeforces Round 54 (Rated for Div. 2)",
+        "handle": "Deft_t",
+        "rank": 2229,
+        "ratingUpdateTimeSeconds": 1542040500,
+        "oldRating": 1374,
+        "newRating": 1361
+      },
+      {
+        "contestId": 1077,
+        "contestName": "Codeforces Round #521 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 879,
+        "ratingUpdateTimeSeconds": 1542386100,
+        "oldRating": 1361,
+        "newRating": 1417
+      },
+      {
+        "contestId": 1061,
+        "contestName": "Codeforces Round #523 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 1882,
+        "ratingUpdateTimeSeconds": 1542908700,
+        "oldRating": 1417,
+        "newRating": 1427
+      },
+      {
+        "contestId": 1088,
+        "contestName": "Codeforces Round #525 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 1647,
+        "ratingUpdateTimeSeconds": 1543941300,
+        "oldRating": 1427,
+        "newRating": 1452
+      },
+      {
+        "contestId": 1084,
+        "contestName": "Codeforces Round #526 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 1677,
+        "ratingUpdateTimeSeconds": 1544466900,
+        "oldRating": 1452,
+        "newRating": 1426
+      },
+      {
+        "contestId": 1093,
+        "contestName": "Educational Codeforces Round 56 (Rated for Div. 2)",
+        "handle": "Deft_t",
+        "rank": 3748,
+        "ratingUpdateTimeSeconds": 1544891700,
+        "oldRating": 1426,
+        "newRating": 1338
+      },
+      {
+        "contestId": 1092,
+        "contestName": "Codeforces Round #527 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 2599,
+        "ratingUpdateTimeSeconds": 1545150900,
+        "oldRating": 1338,
+        "newRating": 1312
+      },
+      {
+        "contestId": 1087,
+        "contestName": "Codeforces Round #528 (Div. 2, based on Technocup 2019 Elimination Round 4)",
+        "handle": "Deft_t",
+        "rank": 2753,
+        "ratingUpdateTimeSeconds": 1545579300,
+        "oldRating": 1312,
+        "newRating": 1274
+      },
+      {
+        "contestId": 1097,
+        "contestName": "Hello 2019",
+        "handle": "Deft_t",
+        "rank": 5994,
+        "ratingUpdateTimeSeconds": 1546623900,
+        "oldRating": 1274,
+        "newRating": 1228
+      },
+      {
+        "contestId": 1099,
+        "contestName": "Codeforces Round #530 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 2991,
+        "ratingUpdateTimeSeconds": 1546715100,
+        "oldRating": 1228,
+        "newRating": 1238
+      },
+      {
+        "contestId": 1104,
+        "contestName": "Codeforces Round #534 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 3264,
+        "ratingUpdateTimeSeconds": 1548174900,
+        "oldRating": 1238,
+        "newRating": 1256
+      },
+      {
+        "contestId": 1108,
+        "contestName": "Codeforces Round #535 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 1023,
+        "ratingUpdateTimeSeconds": 1548261300,
+        "oldRating": 1256,
+        "newRating": 1354
+      },
+      {
+        "contestId": 1107,
+        "contestName": "Educational Codeforces Round 59 (Rated for Div. 2)",
+        "handle": "Deft_t",
+        "rank": 2957,
+        "ratingUpdateTimeSeconds": 1548524100,
+        "oldRating": 1354,
+        "newRating": 1324
+      },
+      {
+        "contestId": 1110,
+        "contestName": "Codeforces Global Round 1",
+        "handle": "Deft_t",
+        "rank": 4072,
+        "ratingUpdateTimeSeconds": 1549553700,
+        "oldRating": 1324,
+        "newRating": 1323
+      },
+      {
+        "contestId": 1114,
+        "contestName": "Codeforces Round #538 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 1298,
+        "ratingUpdateTimeSeconds": 1549814700,
+        "oldRating": 1323,
+        "newRating": 1436
+      },
+      {
+        "contestId": 1117,
+        "contestName": "Educational Codeforces Round 60 (Rated for Div. 2)",
+        "handle": "Deft_t",
+        "rank": 2412,
+        "ratingUpdateTimeSeconds": 1550511600,
+        "oldRating": 1436,
+        "newRating": 1430
+      },
+      {
+        "contestId": 1118,
+        "contestName": "Codeforces Round #540 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 863,
+        "ratingUpdateTimeSeconds": 1550595000,
+        "oldRating": 1430,
+        "newRating": 1474
+      },
+      {
+        "contestId": 1133,
+        "contestName": "Codeforces Round #544 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 309,
+        "ratingUpdateTimeSeconds": 1551978300,
+        "oldRating": 1474,
+        "newRating": 1561
+      },
+      {
+        "contestId": 1141,
+        "contestName": "Codeforces Round #547 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 2207,
+        "ratingUpdateTimeSeconds": 1553013300,
+        "oldRating": 1561,
+        "newRating": 1514
+      },
+      {
+        "contestId": 1139,
+        "contestName": "Codeforces Round #548 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 4401,
+        "ratingUpdateTimeSeconds": 1553189700,
+        "oldRating": 1514,
+        "newRating": 1413
+      },
+      {
+        "contestId": 1140,
+        "contestName": "Educational Codeforces Round 62 (Rated for Div. 2)",
+        "handle": "Deft_t",
+        "rank": 1569,
+        "ratingUpdateTimeSeconds": 1553274300,
+        "oldRating": 1413,
+        "newRating": 1451
+      },
+      {
+        "contestId": 1144,
+        "contestName": "Codeforces Round #550 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 335,
+        "ratingUpdateTimeSeconds": 1554048300,
+        "oldRating": 1451,
+        "newRating": 1538
+      },
+      {
+        "contestId": 1119,
+        "contestName": "Codeforces Global Round 2",
+        "handle": "Deft_t",
+        "rank": 2995,
+        "ratingUpdateTimeSeconds": 1554557700,
+        "oldRating": 1538,
+        "newRating": 1494
+      },
+      {
+        "contestId": 1153,
+        "contestName": "Codeforces Round #551 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 2079,
+        "ratingUpdateTimeSeconds": 1555171500,
+        "oldRating": 1494,
+        "newRating": 1491
+      },
+      {
+        "contestId": 1154,
+        "contestName": "Codeforces Round #552 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 1368,
+        "ratingUpdateTimeSeconds": 1555432500,
+        "oldRating": 1491,
+        "newRating": 1493
+      },
+      {
+        "contestId": 1151,
+        "contestName": "Codeforces Round #553 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 2429,
+        "ratingUpdateTimeSeconds": 1555608900,
+        "oldRating": 1493,
+        "newRating": 1461
+      },
+      {
+        "contestId": 1155,
+        "contestName": "Educational Codeforces Round 63 (Rated for Div. 2)",
+        "handle": "Deft_t",
+        "rank": 1322,
+        "ratingUpdateTimeSeconds": 1555950900,
+        "oldRating": 1461,
+        "newRating": 1501
+      },
+      {
+        "contestId": 1163,
+        "contestName": "Codeforces Round #558 (Div. 2)",
+        "handle": "Deft_t",
+        "rank": 1152,
+        "ratingUpdateTimeSeconds": 1557421500,
+        "oldRating": 1501,
+        "newRating": 1528
+      },
+      {
+        "contestId": 1165,
+        "contestName": "Codeforces Round #560 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 1521,
+        "ratingUpdateTimeSeconds": 1557851700,
+        "oldRating": 1528,
+        "newRating": 1494
+      },
+      {
+        "contestId": 1148,
+        "contestName": "Codeforces Global Round 3",
+        "handle": "Deft_t",
+        "rank": 851,
+        "ratingUpdateTimeSeconds": 1559407800,
+        "oldRating": 1494,
+        "newRating": 1606
+      },
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "Deft_t",
+        "rank": 3478,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 1606,
+        "newRating": 1563
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "Deft_t",
+        "rank": 118,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1563,
+        "newRating": 1690
+      },
+      {
+        "contestId": 1277,
+        "contestName": "Codeforces Round #606 (Div. 2, based on Technocup 2020 Elimination Round 4)",
+        "handle": "Deft_t",
+        "rank": 949,
+        "ratingUpdateTimeSeconds": 1576328700,
+        "oldRating": 1690,
+        "newRating": 1676
+      }
+    ],
+    [
+      {
+        "contestId": 592,
+        "contestName": "Codeforces Round #328 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 1520,
+        "ratingUpdateTimeSeconds": 1446316200,
+        "oldRating": 0,
+        "newRating": 1487
+      },
+      {
+        "contestId": 593,
+        "contestName": "Codeforces Round #329 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 1701,
+        "ratingUpdateTimeSeconds": 1446662700,
+        "oldRating": 1487,
+        "newRating": 1459
+      },
+      {
+        "contestId": 604,
+        "contestName": "Codeforces Round #334 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 1106,
+        "ratingUpdateTimeSeconds": 1448991300,
+        "oldRating": 1459,
+        "newRating": 1469
+      },
+      {
+        "contestId": 608,
+        "contestName": "Codeforces Round #336 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 1059,
+        "ratingUpdateTimeSeconds": 1450895700,
+        "oldRating": 1469,
+        "newRating": 1488
+      },
+      {
+        "contestId": 611,
+        "contestName": "Good Bye 2015",
+        "handle": "wood3s",
+        "rank": 2065,
+        "ratingUpdateTimeSeconds": 1451498700,
+        "oldRating": 1488,
+        "newRating": 1504
+      },
+      {
+        "contestId": 615,
+        "contestName": "Codeforces Round #338 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 1973,
+        "ratingUpdateTimeSeconds": 1452269100,
+        "oldRating": 1504,
+        "newRating": 1455
+      },
+      {
+        "contestId": 617,
+        "contestName": "Codeforces Round #340 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 2143,
+        "ratingUpdateTimeSeconds": 1453570500,
+        "oldRating": 1455,
+        "newRating": 1409
+      },
+      {
+        "contestId": 625,
+        "contestName": "Codeforces Round #342 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 1437,
+        "ratingUpdateTimeSeconds": 1454843100,
+        "oldRating": 1409,
+        "newRating": 1400
+      },
+      {
+        "contestId": 672,
+        "contestName": "Codeforces Round #352 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 1204,
+        "ratingUpdateTimeSeconds": 1462991700,
+        "oldRating": 1400,
+        "newRating": 1416
+      },
+      {
+        "contestId": 719,
+        "contestName": "Codeforces Round #373 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 4098,
+        "ratingUpdateTimeSeconds": 1474643100,
+        "oldRating": 1416,
+        "newRating": 1303
+      },
+      {
+        "contestId": 738,
+        "contestName": "Codeforces Round #380 (Div. 2, Rated, Based on Technocup 2017 - Elimination Round 2)",
+        "handle": "wood3s",
+        "rank": 1280,
+        "ratingUpdateTimeSeconds": 1479639900,
+        "oldRating": 1303,
+        "newRating": 1311
+      },
+      {
+        "contestId": 911,
+        "contestName": "Educational Codeforces Round 35 (Rated for Div. 2)",
+        "handle": "wood3s",
+        "rank": 2489,
+        "ratingUpdateTimeSeconds": 1514477100,
+        "oldRating": 1311,
+        "newRating": 1285
+      },
+      {
+        "contestId": 950,
+        "contestName": "Codeforces Round #469 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 1363,
+        "ratingUpdateTimeSeconds": 1520592000,
+        "oldRating": 1285,
+        "newRating": 1325
+      },
+      {
+        "contestId": 980,
+        "contestName": "Codeforces Round #480 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 1174,
+        "ratingUpdateTimeSeconds": 1525799100,
+        "oldRating": 1325,
+        "newRating": 1408
+      },
+      {
+        "contestId": 1061,
+        "contestName": "Codeforces Round #523 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 862,
+        "ratingUpdateTimeSeconds": 1542908700,
+        "oldRating": 1408,
+        "newRating": 1498
+      },
+      {
+        "contestId": 1082,
+        "contestName": "Educational Codeforces Round 55 (Rated for Div. 2)",
+        "handle": "wood3s",
+        "rank": 771,
+        "ratingUpdateTimeSeconds": 1543422900,
+        "oldRating": 1498,
+        "newRating": 1569
+      },
+      {
+        "contestId": 1096,
+        "contestName": "Educational Codeforces Round 57 (Rated for Div. 2)",
+        "handle": "wood3s",
+        "rank": 618,
+        "ratingUpdateTimeSeconds": 1546014900,
+        "oldRating": 1569,
+        "newRating": 1643
+      },
+      {
+        "contestId": 1152,
+        "contestName": "Codeforces Round #554 (Div. 2)",
+        "handle": "wood3s",
+        "rank": 305,
+        "ratingUpdateTimeSeconds": 1556123700,
+        "oldRating": 1643,
+        "newRating": 1748
+      },
+      {
+        "contestId": 1260,
+        "contestName": "Educational Codeforces Round 77 (Rated for Div. 2)",
+        "handle": "wood3s",
+        "rank": 384,
+        "ratingUpdateTimeSeconds": 1574869800,
+        "oldRating": 1748,
+        "newRating": 1815
+      },
+      {
+        "contestId": 1277,
+        "contestName": "Codeforces Round #606 (Div. 2, based on Technocup 2020 Elimination Round 4)",
+        "handle": "wood3s",
+        "rank": 1039,
+        "ratingUpdateTimeSeconds": 1576328700,
+        "oldRating": 1815,
+        "newRating": 1765
+      }
+    ],
+    [
+      {
+        "contestId": 1353,
+        "contestName": "Codeforces Round #642 (Div. 3)",
+        "handle": "wood3xuxu",
+        "rank": 595,
+        "ratingUpdateTimeSeconds": 1589474100,
+        "oldRating": 0,
+        "newRating": 1592
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "wood3xuxu",
+        "rank": 647,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1592,
+        "newRating": 1701
+      },
+      {
+        "contestId": 1358,
+        "contestName": "Codeforces Round #645 (Div. 2)",
+        "handle": "wood3xuxu",
+        "rank": 1115,
+        "ratingUpdateTimeSeconds": 1590510900,
+        "oldRating": 1701,
+        "newRating": 1755
+      }
+    ],
+    [
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "Lqingyi",
+        "rank": 6007,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 0,
+        "newRating": 1371
+      },
+      {
+        "contestId": 1251,
+        "contestName": "Educational Codeforces Round 75 (Rated for Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 5261,
+        "ratingUpdateTimeSeconds": 1571936700,
+        "oldRating": 1371,
+        "newRating": 1251
+      },
+      {
+        "contestId": 1257,
+        "contestName": "Educational Codeforces Round 76 (Rated for Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 5398,
+        "ratingUpdateTimeSeconds": 1573662900,
+        "oldRating": 1251,
+        "newRating": 1205
+      },
+      {
+        "contestId": 1260,
+        "contestName": "Educational Codeforces Round 77 (Rated for Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 3107,
+        "ratingUpdateTimeSeconds": 1574869800,
+        "oldRating": 1205,
+        "newRating": 1239
+      },
+      {
+        "contestId": 1284,
+        "contestName": "Hello 2020",
+        "handle": "Lqingyi",
+        "rank": 6371,
+        "ratingUpdateTimeSeconds": 1578148500,
+        "oldRating": 1239,
+        "newRating": 1209
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 5516,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1209,
+        "newRating": 1179
+      },
+      {
+        "contestId": 1291,
+        "contestName": "Codeforces Round #616 (Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 5149,
+        "ratingUpdateTimeSeconds": 1580661300,
+        "oldRating": 1179,
+        "newRating": 1183
+      },
+      {
+        "contestId": 1303,
+        "contestName": "Educational Codeforces Round 82 (Rated for Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 7098,
+        "ratingUpdateTimeSeconds": 1581525300,
+        "oldRating": 1183,
+        "newRating": 1154
+      },
+      {
+        "contestId": 1321,
+        "contestName": "Codeforces Round #625 (Div. 2, based on Technocup 2020 Final Round)",
+        "handle": "Lqingyi",
+        "rank": 3379,
+        "ratingUpdateTimeSeconds": 1583075700,
+        "oldRating": 1154,
+        "newRating": 1180
+      },
+      {
+        "contestId": 1305,
+        "contestName": "Ozon Tech Challenge 2020 (Div.1 + Div.2, Rated, T-shirts + prizes!)",
+        "handle": "Lqingyi",
+        "rank": 6695,
+        "ratingUpdateTimeSeconds": 1583254200,
+        "oldRating": 1180,
+        "newRating": 1112
+      },
+      {
+        "contestId": 1316,
+        "contestName": "CodeCraft-20 (Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 4374,
+        "ratingUpdateTimeSeconds": 1583339700,
+        "oldRating": 1112,
+        "newRating": 1139
+      },
+      {
+        "contestId": 1324,
+        "contestName": "Codeforces Round #627 (Div. 3)",
+        "handle": "Lqingyi",
+        "rank": 3555,
+        "ratingUpdateTimeSeconds": 1584025500,
+        "oldRating": 1139,
+        "newRating": 1189
+      },
+      {
+        "contestId": 1326,
+        "contestName": "Codeforces Global Round 7",
+        "handle": "Lqingyi",
+        "rank": 6932,
+        "ratingUpdateTimeSeconds": 1584637500,
+        "oldRating": 1189,
+        "newRating": 1202
+      },
+      {
+        "contestId": 1327,
+        "contestName": "Educational Codeforces Round 84 (Rated for Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 7191,
+        "ratingUpdateTimeSeconds": 1584981300,
+        "oldRating": 1202,
+        "newRating": 1228
+      },
+      {
+        "contestId": 1328,
+        "contestName": "Codeforces Round #629 (Div. 3)",
+        "handle": "Lqingyi",
+        "rank": 4946,
+        "ratingUpdateTimeSeconds": 1585240500,
+        "oldRating": 1228,
+        "newRating": 1275
+      },
+      {
+        "contestId": 1332,
+        "contestName": "Codeforces Round #630 (Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 6914,
+        "ratingUpdateTimeSeconds": 1585670700,
+        "oldRating": 1275,
+        "newRating": 1285
+      },
+      {
+        "contestId": 1334,
+        "contestName": "Educational Codeforces Round 85 (Rated for Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 11257,
+        "ratingUpdateTimeSeconds": 1586536500,
+        "oldRating": 1285,
+        "newRating": 1228
+      },
+      {
+        "contestId": 1339,
+        "contestName": "Codeforces Round #633 (Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 4255,
+        "ratingUpdateTimeSeconds": 1586707500,
+        "oldRating": 1228,
+        "newRating": 1295
+      },
+      {
+        "contestId": 1335,
+        "contestName": "Codeforces Round #634 (Div. 3)",
+        "handle": "Lqingyi",
+        "rank": 5355,
+        "ratingUpdateTimeSeconds": 1586795700,
+        "oldRating": 1295,
+        "newRating": 1316
+      },
+      {
+        "contestId": 1341,
+        "contestName": "Codeforces Round #637 (Div. 2) - Thanks, Ivan Belonogov!",
+        "handle": "Lqingyi",
+        "rank": 7648,
+        "ratingUpdateTimeSeconds": 1587662100,
+        "oldRating": 1316,
+        "newRating": 1316
+      },
+      {
+        "contestId": 1348,
+        "contestName": "Codeforces Round #638 (Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 6265,
+        "ratingUpdateTimeSeconds": 1588352700,
+        "oldRating": 1316,
+        "newRating": 1343
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "Lqingyi",
+        "rank": 1723,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1343,
+        "newRating": 1402
+      },
+      {
+        "contestId": 1355,
+        "contestName": "Codeforces Round #643 (Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 4838,
+        "ratingUpdateTimeSeconds": 1589636100,
+        "oldRating": 1402,
+        "newRating": 1418
+      },
+      {
+        "contestId": 1359,
+        "contestName": "Educational Codeforces Round 88 (Rated for Div. 2)",
+        "handle": "Lqingyi",
+        "rank": 4682,
+        "ratingUpdateTimeSeconds": 1590683700,
+        "oldRating": 1418,
+        "newRating": 1429
+      }
+    ],
+    [
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "Joycer",
+        "rank": 6007,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 0,
+        "newRating": 1371
+      },
+      {
+        "contestId": 1247,
+        "contestName": "Codeforces Round #596 (Div. 2, based on Technocup 2020 Elimination Round 2)",
+        "handle": "Joycer",
+        "rank": 4175,
+        "ratingUpdateTimeSeconds": 1572095100,
+        "oldRating": 1371,
+        "newRating": 1281
+      },
+      {
+        "contestId": 1272,
+        "contestName": "Codeforces Round #605 (Div. 3)",
+        "handle": "Joycer",
+        "rank": 4295,
+        "ratingUpdateTimeSeconds": 1576164900,
+        "oldRating": 1281,
+        "newRating": 1227
+      },
+      {
+        "contestId": 1294,
+        "contestName": "Codeforces Round #615 (Div. 3)",
+        "handle": "Joycer",
+        "rank": 7206,
+        "ratingUpdateTimeSeconds": 1579711500,
+        "oldRating": 1227,
+        "newRating": 1183
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "Joycer",
+        "rank": 9037,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 1183,
+        "newRating": 1072
+      },
+      {
+        "contestId": 1328,
+        "contestName": "Codeforces Round #629 (Div. 3)",
+        "handle": "Joycer",
+        "rank": 5499,
+        "ratingUpdateTimeSeconds": 1585240500,
+        "oldRating": 1072,
+        "newRating": 1164
+      },
+      {
+        "contestId": 1330,
+        "contestName": "Codeforces Round #631 (Div. 2) - Thanks, Denis aramis Shitov!",
+        "handle": "Joycer",
+        "rank": 6654,
+        "ratingUpdateTimeSeconds": 1585931700,
+        "oldRating": 1164,
+        "newRating": 1187
+      },
+      {
+        "contestId": 1335,
+        "contestName": "Codeforces Round #634 (Div. 3)",
+        "handle": "Joycer",
+        "rank": 8231,
+        "ratingUpdateTimeSeconds": 1586795700,
+        "oldRating": 1187,
+        "newRating": 1196
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "Joycer",
+        "rank": 6506,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1196,
+        "newRating": 1192
+      },
+      {
+        "contestId": 1353,
+        "contestName": "Codeforces Round #642 (Div. 3)",
+        "handle": "Joycer",
+        "rank": 2013,
+        "ratingUpdateTimeSeconds": 1589474100,
+        "oldRating": 1192,
+        "newRating": 1319
+      },
+      {
+        "contestId": 1355,
+        "contestName": "Codeforces Round #643 (Div. 2)",
+        "handle": "Joycer",
+        "rank": 6299,
+        "ratingUpdateTimeSeconds": 1589636100,
+        "oldRating": 1319,
+        "newRating": 1324
+      }
+    ],
+    [
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "shroud777",
+        "rank": 5723,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 0,
+        "newRating": 1372
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 6484,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1372,
+        "newRating": 1253
+      },
+      {
+        "contestId": 1295,
+        "contestName": "Educational Codeforces Round 81 (Rated for Div. 2)",
+        "handle": "shroud777",
+        "rank": 8090,
+        "ratingUpdateTimeSeconds": 1580315700,
+        "oldRating": 1253,
+        "newRating": 1142
+      },
+      {
+        "contestId": 1291,
+        "contestName": "Codeforces Round #616 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 6686,
+        "ratingUpdateTimeSeconds": 1580661300,
+        "oldRating": 1142,
+        "newRating": 1042
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "shroud777",
+        "rank": 6776,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 1042,
+        "newRating": 1054
+      },
+      {
+        "contestId": 1300,
+        "contestName": "Codeforces Round #618 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 6801,
+        "ratingUpdateTimeSeconds": 1581264300,
+        "oldRating": 1054,
+        "newRating": 1045
+      },
+      {
+        "contestId": 1303,
+        "contestName": "Educational Codeforces Round 82 (Rated for Div. 2)",
+        "handle": "shroud777",
+        "rank": 7157,
+        "ratingUpdateTimeSeconds": 1581525300,
+        "oldRating": 1045,
+        "newRating": 1050
+      },
+      {
+        "contestId": 1307,
+        "contestName": "Codeforces Round #621 (Div. 1 + Div. 2)",
+        "handle": "shroud777",
+        "rank": 6621,
+        "ratingUpdateTimeSeconds": 1581961800,
+        "oldRating": 1050,
+        "newRating": 952
+      },
+      {
+        "contestId": 1313,
+        "contestName": "Codeforces Round #622 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 2901,
+        "ratingUpdateTimeSeconds": 1582455900,
+        "oldRating": 952,
+        "newRating": 1106
+      },
+      {
+        "contestId": 1311,
+        "contestName": "Codeforces Round #624 (Div. 3)",
+        "handle": "shroud777",
+        "rank": 4370,
+        "ratingUpdateTimeSeconds": 1582562100,
+        "oldRating": 1106,
+        "newRating": 1122
+      },
+      {
+        "contestId": 1305,
+        "contestName": "Ozon Tech Challenge 2020 (Div.1 + Div.2, Rated, T-shirts + prizes!)",
+        "handle": "shroud777",
+        "rank": 6347,
+        "ratingUpdateTimeSeconds": 1583254200,
+        "oldRating": 1122,
+        "newRating": 1083
+      },
+      {
+        "contestId": 1316,
+        "contestName": "CodeCraft-20 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 4562,
+        "ratingUpdateTimeSeconds": 1583339700,
+        "oldRating": 1083,
+        "newRating": 1112
+      },
+      {
+        "contestId": 1312,
+        "contestName": "Educational Codeforces Round 83 (Rated for Div. 2)",
+        "handle": "shroud777",
+        "rank": 5834,
+        "ratingUpdateTimeSeconds": 1583771700,
+        "oldRating": 1112,
+        "newRating": 1115
+      },
+      {
+        "contestId": 1324,
+        "contestName": "Codeforces Round #627 (Div. 3)",
+        "handle": "shroud777",
+        "rank": 3949,
+        "ratingUpdateTimeSeconds": 1584025500,
+        "oldRating": 1115,
+        "newRating": 1160
+      },
+      {
+        "contestId": 1325,
+        "contestName": "Codeforces Round #628 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 7739,
+        "ratingUpdateTimeSeconds": 1584203700,
+        "oldRating": 1160,
+        "newRating": 1116
+      },
+      {
+        "contestId": 1332,
+        "contestName": "Codeforces Round #630 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 7696,
+        "ratingUpdateTimeSeconds": 1585670700,
+        "oldRating": 1116,
+        "newRating": 1155
+      },
+      {
+        "contestId": 1330,
+        "contestName": "Codeforces Round #631 (Div. 2) - Thanks, Denis aramis Shitov!",
+        "handle": "shroud777",
+        "rank": 8979,
+        "ratingUpdateTimeSeconds": 1585931700,
+        "oldRating": 1155,
+        "newRating": 1055
+      },
+      {
+        "contestId": 1333,
+        "contestName": "Codeforces Round #632 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 4048,
+        "ratingUpdateTimeSeconds": 1586363700,
+        "oldRating": 1055,
+        "newRating": 1216
+      },
+      {
+        "contestId": 1334,
+        "contestName": "Educational Codeforces Round 85 (Rated for Div. 2)",
+        "handle": "shroud777",
+        "rank": 10378,
+        "ratingUpdateTimeSeconds": 1586536500,
+        "oldRating": 1216,
+        "newRating": 1189
+      },
+      {
+        "contestId": 1339,
+        "contestName": "Codeforces Round #633 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 4233,
+        "ratingUpdateTimeSeconds": 1586707500,
+        "oldRating": 1189,
+        "newRating": 1270
+      },
+      {
+        "contestId": 1335,
+        "contestName": "Codeforces Round #634 (Div. 3)",
+        "handle": "shroud777",
+        "rank": 6159,
+        "ratingUpdateTimeSeconds": 1586795700,
+        "oldRating": 1270,
+        "newRating": 1286
+      },
+      {
+        "contestId": 1337,
+        "contestName": "Codeforces Round #635 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 4122,
+        "ratingUpdateTimeSeconds": 1586970300,
+        "oldRating": 1286,
+        "newRating": 1355
+      },
+      {
+        "contestId": 1343,
+        "contestName": "Codeforces Round #636 (Div. 3)",
+        "handle": "shroud777",
+        "rank": 7870,
+        "ratingUpdateTimeSeconds": 1587486900,
+        "oldRating": 1355,
+        "newRating": 1324
+      },
+      {
+        "contestId": 1341,
+        "contestName": "Codeforces Round #637 (Div. 2) - Thanks, Ivan Belonogov!",
+        "handle": "shroud777",
+        "rank": 7568,
+        "ratingUpdateTimeSeconds": 1587662100,
+        "oldRating": 1324,
+        "newRating": 1323
+      },
+      {
+        "contestId": 1342,
+        "contestName": "Educational Codeforces Round 86 (Rated for Div. 2)",
+        "handle": "shroud777",
+        "rank": 5722,
+        "ratingUpdateTimeSeconds": 1587918900,
+        "oldRating": 1323,
+        "newRating": 1358
+      },
+      {
+        "contestId": 1348,
+        "contestName": "Codeforces Round #638 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 5875,
+        "ratingUpdateTimeSeconds": 1588352700,
+        "oldRating": 1358,
+        "newRating": 1380
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "shroud777",
+        "rank": 1924,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1380,
+        "newRating": 1421
+      },
+      {
+        "contestId": 1350,
+        "contestName": "Codeforces Round #641 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 3795,
+        "ratingUpdateTimeSeconds": 1589295900,
+        "oldRating": 1421,
+        "newRating": 1443
+      },
+      {
+        "contestId": 1355,
+        "contestName": "Codeforces Round #643 (Div. 2)",
+        "handle": "shroud777",
+        "rank": 4180,
+        "ratingUpdateTimeSeconds": 1589636100,
+        "oldRating": 1443,
+        "newRating": 1463
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "shroud777",
+        "rank": 3265,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1463,
+        "newRating": 1485
+      },
+      {
+        "contestId": 1359,
+        "contestName": "Educational Codeforces Round 88 (Rated for Div. 2)",
+        "handle": "shroud777",
+        "rank": 2666,
+        "ratingUpdateTimeSeconds": 1590683700,
+        "oldRating": 1485,
+        "newRating": 1533
+      }
+    ],
+    [
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "GaragezWzz0504",
+        "rank": 6644,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 0,
+        "newRating": 1382
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "GaragezWzz0504",
+        "rank": 5566,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1382,
+        "newRating": 1302
+      },
+      {
+        "contestId": 1272,
+        "contestName": "Codeforces Round #605 (Div. 3)",
+        "handle": "GaragezWzz0504",
+        "rank": 4580,
+        "ratingUpdateTimeSeconds": 1576164900,
+        "oldRating": 1302,
+        "newRating": 1234
+      },
+      {
+        "contestId": 1295,
+        "contestName": "Educational Codeforces Round 81 (Rated for Div. 2)",
+        "handle": "GaragezWzz0504",
+        "rank": 8053,
+        "ratingUpdateTimeSeconds": 1580315700,
+        "oldRating": 1234,
+        "newRating": 1159
+      },
+      {
+        "contestId": 1291,
+        "contestName": "Codeforces Round #616 (Div. 2)",
+        "handle": "GaragezWzz0504",
+        "rank": 6686,
+        "ratingUpdateTimeSeconds": 1580661300,
+        "oldRating": 1159,
+        "newRating": 1058
+      },
+      {
+        "contestId": 1343,
+        "contestName": "Codeforces Round #636 (Div. 3)",
+        "handle": "GaragezWzz0504",
+        "rank": 14674,
+        "ratingUpdateTimeSeconds": 1587486900,
+        "oldRating": 1058,
+        "newRating": 992
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "GaragezWzz0504",
+        "rank": 11595,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 992,
+        "newRating": 948
+      }
+    ],
+    [
+      {
+        "contestId": 1133,
+        "contestName": "Codeforces Round #544 (Div. 3)",
+        "handle": "afish33",
+        "rank": 4040,
+        "ratingUpdateTimeSeconds": 1551978300,
+        "oldRating": 0,
+        "newRating": 1373
+      },
+      {
+        "contestId": 1141,
+        "contestName": "Codeforces Round #547 (Div. 3)",
+        "handle": "afish33",
+        "rank": 5300,
+        "ratingUpdateTimeSeconds": 1553013300,
+        "oldRating": 1373,
+        "newRating": 1253
+      },
+      {
+        "contestId": 1144,
+        "contestName": "Codeforces Round #550 (Div. 3)",
+        "handle": "afish33",
+        "rank": 4372,
+        "ratingUpdateTimeSeconds": 1554048300,
+        "oldRating": 1253,
+        "newRating": 1172
+      },
+      {
+        "contestId": 1165,
+        "contestName": "Codeforces Round #560 (Div. 3)",
+        "handle": "afish33",
+        "rank": 3505,
+        "ratingUpdateTimeSeconds": 1557851700,
+        "oldRating": 1172,
+        "newRating": 1126
+      },
+      {
+        "contestId": 1195,
+        "contestName": "Codeforces Round #574 (Div. 2)",
+        "handle": "afish33",
+        "rank": 4983,
+        "ratingUpdateTimeSeconds": 1563381300,
+        "oldRating": 1126,
+        "newRating": 1099
+      },
+      {
+        "contestId": 1197,
+        "contestName": "Educational Codeforces Round 69 (Rated for Div. 2)",
+        "handle": "afish33",
+        "rank": 5655,
+        "ratingUpdateTimeSeconds": 1563813300,
+        "oldRating": 1099,
+        "newRating": 1041
+      },
+      {
+        "contestId": 1199,
+        "contestName": "Codeforces Round #576 (Div. 2)",
+        "handle": "afish33",
+        "rank": 5777,
+        "ratingUpdateTimeSeconds": 1564504500,
+        "oldRating": 1041,
+        "newRating": 943
+      },
+      {
+        "contestId": 1200,
+        "contestName": "Codeforces Round #578 (Div. 2)",
+        "handle": "afish33",
+        "rank": 5650,
+        "ratingUpdateTimeSeconds": 1565534100,
+        "oldRating": 943,
+        "newRating": 971
+      },
+      {
+        "contestId": 1203,
+        "contestName": "Codeforces Round #579 (Div. 3)",
+        "handle": "afish33",
+        "rank": 5170,
+        "ratingUpdateTimeSeconds": 1565715300,
+        "oldRating": 971,
+        "newRating": 984
+      },
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "afish33",
+        "rank": 3904,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 984,
+        "newRating": 1109
+      },
+      {
+        "contestId": 1248,
+        "contestName": "Codeforces Round #594 (Div. 2)",
+        "handle": "afish33",
+        "rank": 4146,
+        "ratingUpdateTimeSeconds": 1571569500,
+        "oldRating": 1109,
+        "newRating": 1094
+      },
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "afish33",
+        "rank": 6242,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 1094,
+        "newRating": 1045
+      },
+      {
+        "contestId": 1260,
+        "contestName": "Educational Codeforces Round 77 (Rated for Div. 2)",
+        "handle": "afish33",
+        "rank": 4739,
+        "ratingUpdateTimeSeconds": 1574869800,
+        "oldRating": 1045,
+        "newRating": 1023
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "afish33",
+        "rank": 5248,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1023,
+        "newRating": 1055
+      },
+      {
+        "contestId": 1294,
+        "contestName": "Codeforces Round #615 (Div. 3)",
+        "handle": "afish33",
+        "rank": 5221,
+        "ratingUpdateTimeSeconds": 1579711500,
+        "oldRating": 1055,
+        "newRating": 1109
+      },
+      {
+        "contestId": 1295,
+        "contestName": "Educational Codeforces Round 81 (Rated for Div. 2)",
+        "handle": "afish33",
+        "rank": 5646,
+        "ratingUpdateTimeSeconds": 1580315700,
+        "oldRating": 1109,
+        "newRating": 1139
+      },
+      {
+        "contestId": 1326,
+        "contestName": "Codeforces Global Round 7",
+        "handle": "afish33",
+        "rank": 8425,
+        "ratingUpdateTimeSeconds": 1584637500,
+        "oldRating": 1139,
+        "newRating": 1120
+      },
+      {
+        "contestId": 1343,
+        "contestName": "Codeforces Round #636 (Div. 3)",
+        "handle": "afish33",
+        "rank": 9929,
+        "ratingUpdateTimeSeconds": 1587486900,
+        "oldRating": 1120,
+        "newRating": 1122
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "afish33",
+        "rank": 2786,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1122,
+        "newRating": 1223
+      },
+      {
+        "contestId": 1355,
+        "contestName": "Codeforces Round #643 (Div. 2)",
+        "handle": "afish33",
+        "rank": 7986,
+        "ratingUpdateTimeSeconds": 1589636100,
+        "oldRating": 1223,
+        "newRating": 1214
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "afish33",
+        "rank": 4443,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1214,
+        "newRating": 1278
+      }
+    ],
+    [
+      {
+        "contestId": 1136,
+        "contestName": "Codeforces Round #546 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 2926,
+        "ratingUpdateTimeSeconds": 1552329300,
+        "oldRating": 0,
+        "newRating": 1434
+      },
+      {
+        "contestId": 1141,
+        "contestName": "Codeforces Round #547 (Div. 3)",
+        "handle": "OBlueLine",
+        "rank": 3145,
+        "ratingUpdateTimeSeconds": 1553013300,
+        "oldRating": 1434,
+        "newRating": 1387
+      },
+      {
+        "contestId": 1153,
+        "contestName": "Codeforces Round #551 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 3540,
+        "ratingUpdateTimeSeconds": 1555171500,
+        "oldRating": 1387,
+        "newRating": 1344
+      },
+      {
+        "contestId": 1151,
+        "contestName": "Codeforces Round #553 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 4176,
+        "ratingUpdateTimeSeconds": 1555608900,
+        "oldRating": 1344,
+        "newRating": 1230
+      },
+      {
+        "contestId": 1155,
+        "contestName": "Educational Codeforces Round 63 (Rated for Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 3799,
+        "ratingUpdateTimeSeconds": 1555950900,
+        "oldRating": 1230,
+        "newRating": 1187
+      },
+      {
+        "contestId": 1152,
+        "contestName": "Codeforces Round #554 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 3070,
+        "ratingUpdateTimeSeconds": 1556123700,
+        "oldRating": 1187,
+        "newRating": 1219
+      },
+      {
+        "contestId": 1150,
+        "contestName": "Codeforces Round #556 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 4267,
+        "ratingUpdateTimeSeconds": 1556555700,
+        "oldRating": 1219,
+        "newRating": 1140
+      },
+      {
+        "contestId": 1159,
+        "contestName": "Codeforces Round #559 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 2909,
+        "ratingUpdateTimeSeconds": 1557678900,
+        "oldRating": 1140,
+        "newRating": 1086
+      },
+      {
+        "contestId": 1165,
+        "contestName": "Codeforces Round #560 (Div. 3)",
+        "handle": "OBlueLine",
+        "rank": 2296,
+        "ratingUpdateTimeSeconds": 1557851700,
+        "oldRating": 1086,
+        "newRating": 1135
+      },
+      {
+        "contestId": 1167,
+        "contestName": "Educational Codeforces Round 65 (Rated for Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 2798,
+        "ratingUpdateTimeSeconds": 1557938100,
+        "oldRating": 1135,
+        "newRating": 1182
+      },
+      {
+        "contestId": 1173,
+        "contestName": "Codeforces Round #564 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 2970,
+        "ratingUpdateTimeSeconds": 1559916300,
+        "oldRating": 1182,
+        "newRating": 1207
+      },
+      {
+        "contestId": 1195,
+        "contestName": "Codeforces Round #574 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 4466,
+        "ratingUpdateTimeSeconds": 1563381300,
+        "oldRating": 1207,
+        "newRating": 1188
+      },
+      {
+        "contestId": 1197,
+        "contestName": "Educational Codeforces Round 69 (Rated for Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 3198,
+        "ratingUpdateTimeSeconds": 1563813300,
+        "oldRating": 1188,
+        "newRating": 1236
+      },
+      {
+        "contestId": 1199,
+        "contestName": "Codeforces Round #576 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 3250,
+        "ratingUpdateTimeSeconds": 1564504500,
+        "oldRating": 1236,
+        "newRating": 1262
+      },
+      {
+        "contestId": 1200,
+        "contestName": "Codeforces Round #578 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 4645,
+        "ratingUpdateTimeSeconds": 1565534100,
+        "oldRating": 1262,
+        "newRating": 1249
+      },
+      {
+        "contestId": 1203,
+        "contestName": "Codeforces Round #579 (Div. 3)",
+        "handle": "OBlueLine",
+        "rank": 3330,
+        "ratingUpdateTimeSeconds": 1565715300,
+        "oldRating": 1249,
+        "newRating": 1255
+      },
+      {
+        "contestId": 1204,
+        "contestName": "Codeforces Round #581 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 5850,
+        "ratingUpdateTimeSeconds": 1566318900,
+        "oldRating": 1255,
+        "newRating": 1223
+      },
+      {
+        "contestId": 1214,
+        "contestName": "Codeforces Round #583 (Div. 1 + Div. 2, based on Olympiad of Metropolises)",
+        "handle": "OBlueLine",
+        "rank": 2531,
+        "ratingUpdateTimeSeconds": 1567596900,
+        "oldRating": 1223,
+        "newRating": 1254
+      },
+      {
+        "contestId": 1217,
+        "contestName": "Educational Codeforces Round 72 (Rated for Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 2672,
+        "ratingUpdateTimeSeconds": 1567701300,
+        "oldRating": 1254,
+        "newRating": 1330
+      },
+      {
+        "contestId": 1221,
+        "contestName": "Educational Codeforces Round 73 (Rated for Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 2348,
+        "ratingUpdateTimeSeconds": 1568910900,
+        "oldRating": 1330,
+        "newRating": 1347
+      },
+      {
+        "contestId": 1216,
+        "contestName": "Codeforces Round #587 (Div. 3)",
+        "handle": "OBlueLine",
+        "rank": 1842,
+        "ratingUpdateTimeSeconds": 1569056700,
+        "oldRating": 1347,
+        "newRating": 1349
+      },
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "OBlueLine",
+        "rank": 3699,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 1349,
+        "newRating": 1362
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "OBlueLine",
+        "rank": 1119,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1362,
+        "newRating": 1431
+      },
+      {
+        "contestId": 1263,
+        "contestName": "Codeforces Round #603 (Div. 2)",
+        "handle": "OBlueLine",
+        "rank": 2878,
+        "ratingUpdateTimeSeconds": 1575045300,
+        "oldRating": 1431,
+        "newRating": 1411
+      },
+      {
+        "contestId": 1277,
+        "contestName": "Codeforces Round #606 (Div. 2, based on Technocup 2020 Elimination Round 4)",
+        "handle": "OBlueLine",
+        "rank": 1223,
+        "ratingUpdateTimeSeconds": 1576328700,
+        "oldRating": 1411,
+        "newRating": 1453
+      }
+    ],
+    [
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "youisme",
+        "rank": 6007,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 0,
+        "newRating": 1371
+      },
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "youisme",
+        "rank": 6258,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 1371,
+        "newRating": 1276
+      },
+      {
+        "contestId": 1291,
+        "contestName": "Codeforces Round #616 (Div. 2)",
+        "handle": "youisme",
+        "rank": 6686,
+        "ratingUpdateTimeSeconds": 1580661300,
+        "oldRating": 1276,
+        "newRating": 1168
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "youisme",
+        "rank": 8126,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 1168,
+        "newRating": 1113
+      },
+      {
+        "contestId": 1343,
+        "contestName": "Codeforces Round #636 (Div. 3)",
+        "handle": "youisme",
+        "rank": 10699,
+        "ratingUpdateTimeSeconds": 1587486900,
+        "oldRating": 1113,
+        "newRating": 1105
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "youisme",
+        "rank": 5558,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1105,
+        "newRating": 1147
+      },
+      {
+        "contestId": 1360,
+        "contestName": "Codeforces Round #644 (Div. 3)",
+        "handle": "youisme",
+        "rank": 10970,
+        "ratingUpdateTimeSeconds": 1590334500,
+        "oldRating": 1147,
+        "newRating": 1067
+      }
+    ],
+    [
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "kk991",
+        "rank": 6863,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 0,
+        "newRating": 1367
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "kk991",
+        "rank": 5723,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1367,
+        "newRating": 1248
+      },
+      {
+        "contestId": 1288,
+        "contestName": "Educational Codeforces Round 80 (Rated for Div. 2)",
+        "handle": "kk991",
+        "rank": 6320,
+        "ratingUpdateTimeSeconds": 1579019700,
+        "oldRating": 1248,
+        "newRating": 1138
+      },
+      {
+        "contestId": 1294,
+        "contestName": "Codeforces Round #615 (Div. 3)",
+        "handle": "kk991",
+        "rank": 6796,
+        "ratingUpdateTimeSeconds": 1579711500,
+        "oldRating": 1138,
+        "newRating": 1125
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "kk991",
+        "rank": 8173,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1125,
+        "newRating": 1113
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "kk991",
+        "rank": 10340,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1113,
+        "newRating": 1041
+      }
+    ],
+    [
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "MengJing33",
+        "rank": 6863,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 0,
+        "newRating": 1367
+      },
+      {
+        "contestId": 1245,
+        "contestName": "Codeforces Round #597 (Div. 2)",
+        "handle": "MengJing33",
+        "rank": 5647,
+        "ratingUpdateTimeSeconds": 1572626100,
+        "oldRating": 1367,
+        "newRating": 1250
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "MengJing33",
+        "rank": 5723,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1250,
+        "newRating": 1138
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "MengJing33",
+        "rank": 6484,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1138,
+        "newRating": 1035
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "MengJing33",
+        "rank": 7015,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1035,
+        "newRating": 1072
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "MengJing33",
+        "rank": 10350,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1072,
+        "newRating": 1006
+      }
+    ],
+    [
+      {
+        "contestId": 1144,
+        "contestName": "Codeforces Round #550 (Div. 3)",
+        "handle": "CJLCJL",
+        "rank": 3862,
+        "ratingUpdateTimeSeconds": 1554048300,
+        "oldRating": 0,
+        "newRating": 1400
+      },
+      {
+        "contestId": 1154,
+        "contestName": "Codeforces Round #552 (Div. 3)",
+        "handle": "CJLCJL",
+        "rank": 4631,
+        "ratingUpdateTimeSeconds": 1555432500,
+        "oldRating": 1400,
+        "newRating": 1316
+      },
+      {
+        "contestId": 1163,
+        "contestName": "Codeforces Round #558 (Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 2321,
+        "ratingUpdateTimeSeconds": 1557421500,
+        "oldRating": 1316,
+        "newRating": 1307
+      },
+      {
+        "contestId": 1159,
+        "contestName": "Codeforces Round #559 (Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 3129,
+        "ratingUpdateTimeSeconds": 1557678900,
+        "oldRating": 1307,
+        "newRating": 1189
+      },
+      {
+        "contestId": 1165,
+        "contestName": "Codeforces Round #560 (Div. 3)",
+        "handle": "CJLCJL",
+        "rank": 3540,
+        "ratingUpdateTimeSeconds": 1557851700,
+        "oldRating": 1189,
+        "newRating": 1138
+      },
+      {
+        "contestId": 1196,
+        "contestName": "Codeforces Round #575 (Div. 3)",
+        "handle": "CJLCJL",
+        "rank": 6879,
+        "ratingUpdateTimeSeconds": 1563986100,
+        "oldRating": 1138,
+        "newRating": 1044
+      },
+      {
+        "contestId": 1200,
+        "contestName": "Codeforces Round #578 (Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 6117,
+        "ratingUpdateTimeSeconds": 1565534100,
+        "oldRating": 1044,
+        "newRating": 1013
+      },
+      {
+        "contestId": 1203,
+        "contestName": "Codeforces Round #579 (Div. 3)",
+        "handle": "CJLCJL",
+        "rank": 5084,
+        "ratingUpdateTimeSeconds": 1565715300,
+        "oldRating": 1013,
+        "newRating": 1018
+      },
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "CJLCJL",
+        "rank": 4980,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 1018,
+        "newRating": 1072
+      },
+      {
+        "contestId": 1236,
+        "contestName": "Codeforces Round #593 (Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 5114,
+        "ratingUpdateTimeSeconds": 1571326500,
+        "oldRating": 1072,
+        "newRating": 1072
+      },
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "CJLCJL",
+        "rank": 4827,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 1072,
+        "newRating": 1083
+      },
+      {
+        "contestId": 1251,
+        "contestName": "Educational Codeforces Round 75 (Rated for Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 3801,
+        "ratingUpdateTimeSeconds": 1571936700,
+        "oldRating": 1083,
+        "newRating": 1128
+      },
+      {
+        "contestId": 1245,
+        "contestName": "Codeforces Round #597 (Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 5300,
+        "ratingUpdateTimeSeconds": 1572626100,
+        "oldRating": 1128,
+        "newRating": 1104
+      },
+      {
+        "contestId": 1257,
+        "contestName": "Educational Codeforces Round 76 (Rated for Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 4986,
+        "ratingUpdateTimeSeconds": 1573662900,
+        "oldRating": 1104,
+        "newRating": 1112
+      },
+      {
+        "contestId": 1260,
+        "contestName": "Educational Codeforces Round 77 (Rated for Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 4496,
+        "ratingUpdateTimeSeconds": 1574869800,
+        "oldRating": 1112,
+        "newRating": 1091
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 5517,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1091,
+        "newRating": 1090
+      },
+      {
+        "contestId": 1294,
+        "contestName": "Codeforces Round #615 (Div. 3)",
+        "handle": "CJLCJL",
+        "rank": 4385,
+        "ratingUpdateTimeSeconds": 1579711500,
+        "oldRating": 1090,
+        "newRating": 1155
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "CJLCJL",
+        "rank": 7775,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 1155,
+        "newRating": 1111
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "CJLCJL",
+        "rank": 3326,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1111,
+        "newRating": 1201
+      },
+      {
+        "contestId": 1355,
+        "contestName": "Codeforces Round #643 (Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 7947,
+        "ratingUpdateTimeSeconds": 1589636100,
+        "oldRating": 1201,
+        "newRating": 1198
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "CJLCJL",
+        "rank": 4506,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1198,
+        "newRating": 1266
+      }
+    ],
+    [
+      {
+        "contestId": 1251,
+        "contestName": "Educational Codeforces Round 75 (Rated for Div. 2)",
+        "handle": "thehun",
+        "rank": 5261,
+        "ratingUpdateTimeSeconds": 1571936700,
+        "oldRating": 0,
+        "newRating": 1369
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "thehun",
+        "rank": 5551,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1369,
+        "newRating": 1292
+      },
+      {
+        "contestId": 1260,
+        "contestName": "Educational Codeforces Round 77 (Rated for Div. 2)",
+        "handle": "thehun",
+        "rank": 4787,
+        "ratingUpdateTimeSeconds": 1574869800,
+        "oldRating": 1292,
+        "newRating": 1180
+      },
+      {
+        "contestId": 1263,
+        "contestName": "Codeforces Round #603 (Div. 2)",
+        "handle": "thehun",
+        "rank": 3537,
+        "ratingUpdateTimeSeconds": 1575045300,
+        "oldRating": 1180,
+        "newRating": 1190
+      },
+      {
+        "contestId": 1269,
+        "contestName": "Codeforces Round #609 (Div. 2)",
+        "handle": "thehun",
+        "rank": 3495,
+        "ratingUpdateTimeSeconds": 1576933500,
+        "oldRating": 1190,
+        "newRating": 1193
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "thehun",
+        "rank": 10011,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1193,
+        "newRating": 1134
+      },
+      {
+        "contestId": 1350,
+        "contestName": "Codeforces Round #641 (Div. 2)",
+        "handle": "thehun",
+        "rank": 10240,
+        "ratingUpdateTimeSeconds": 1589295900,
+        "oldRating": 1134,
+        "newRating": 1031
+      },
+      {
+        "contestId": 1360,
+        "contestName": "Codeforces Round #644 (Div. 3)",
+        "handle": "thehun",
+        "rank": 9668,
+        "ratingUpdateTimeSeconds": 1590334500,
+        "oldRating": 1031,
+        "newRating": 998
+      }
+    ],
+    [
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "Feadil",
+        "rank": 5005,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 0,
+        "newRating": 1430
+      },
+      {
+        "contestId": 1251,
+        "contestName": "Educational Codeforces Round 75 (Rated for Div. 2)",
+        "handle": "Feadil",
+        "rank": 5187,
+        "ratingUpdateTimeSeconds": 1571936700,
+        "oldRating": 1430,
+        "newRating": 1338
+      },
+      {
+        "contestId": 1255,
+        "contestName": "Codeforces Round #601 (Div. 2)",
+        "handle": "Feadil",
+        "rank": 4366,
+        "ratingUpdateTimeSeconds": 1574181300,
+        "oldRating": 1338,
+        "newRating": 1274
+      },
+      {
+        "contestId": 1263,
+        "contestName": "Codeforces Round #603 (Div. 2)",
+        "handle": "Feadil",
+        "rank": 4096,
+        "ratingUpdateTimeSeconds": 1575045300,
+        "oldRating": 1274,
+        "newRating": 1232
+      },
+      {
+        "contestId": 1271,
+        "contestName": "Codeforces Round #608 (Div. 2)",
+        "handle": "Feadil",
+        "rank": 3546,
+        "ratingUpdateTimeSeconds": 1576408500,
+        "oldRating": 1232,
+        "newRating": 1220
+      },
+      {
+        "contestId": 1284,
+        "contestName": "Hello 2020",
+        "handle": "Feadil",
+        "rank": 6196,
+        "ratingUpdateTimeSeconds": 1578148500,
+        "oldRating": 1220,
+        "newRating": 1200
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "Feadil",
+        "rank": 4649,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1200,
+        "newRating": 1203
+      },
+      {
+        "contestId": 1305,
+        "contestName": "Ozon Tech Challenge 2020 (Div.1 + Div.2, Rated, T-shirts + prizes!)",
+        "handle": "Feadil",
+        "rank": 6252,
+        "ratingUpdateTimeSeconds": 1583254200,
+        "oldRating": 1203,
+        "newRating": 1152
+      },
+      {
+        "contestId": 1324,
+        "contestName": "Codeforces Round #627 (Div. 3)",
+        "handle": "Feadil",
+        "rank": 3025,
+        "ratingUpdateTimeSeconds": 1584025500,
+        "oldRating": 1152,
+        "newRating": 1215
+      },
+      {
+        "contestId": 1332,
+        "contestName": "Codeforces Round #630 (Div. 2)",
+        "handle": "Feadil",
+        "rank": 7658,
+        "ratingUpdateTimeSeconds": 1585670700,
+        "oldRating": 1215,
+        "newRating": 1225
+      },
+      {
+        "contestId": 1333,
+        "contestName": "Codeforces Round #632 (Div. 2)",
+        "handle": "Feadil",
+        "rank": 4506,
+        "ratingUpdateTimeSeconds": 1586363700,
+        "oldRating": 1225,
+        "newRating": 1310
+      },
+      {
+        "contestId": 1335,
+        "contestName": "Codeforces Round #634 (Div. 3)",
+        "handle": "Feadil",
+        "rank": 5431,
+        "ratingUpdateTimeSeconds": 1586795700,
+        "oldRating": 1310,
+        "newRating": 1325
+      },
+      {
+        "contestId": 1341,
+        "contestName": "Codeforces Round #637 (Div. 2) - Thanks, Ivan Belonogov!",
+        "handle": "Feadil",
+        "rank": 7533,
+        "ratingUpdateTimeSeconds": 1587662100,
+        "oldRating": 1325,
+        "newRating": 1325
+      },
+      {
+        "contestId": 1348,
+        "contestName": "Codeforces Round #638 (Div. 2)",
+        "handle": "Feadil",
+        "rank": 5949,
+        "ratingUpdateTimeSeconds": 1588352700,
+        "oldRating": 1325,
+        "newRating": 1356
+      },
+      {
+        "contestId": 1355,
+        "contestName": "Codeforces Round #643 (Div. 2)",
+        "handle": "Feadil",
+        "rank": 4324,
+        "ratingUpdateTimeSeconds": 1589636100,
+        "oldRating": 1356,
+        "newRating": 1398
+      },
+      {
+        "contestId": 1359,
+        "contestName": "Educational Codeforces Round 88 (Rated for Div. 2)",
+        "handle": "Feadil",
+        "rank": 7085,
+        "ratingUpdateTimeSeconds": 1590683700,
+        "oldRating": 1398,
+        "newRating": 1369
+      }
+    ],
+    [
+      {
+        "contestId": 1154,
+        "contestName": "Codeforces Round #552 (Div. 3)",
+        "handle": "ant_boy",
+        "rank": 6058,
+        "ratingUpdateTimeSeconds": 1555432500,
+        "oldRating": 0,
+        "newRating": 1367
+      },
+      {
+        "contestId": 1157,
+        "contestName": "Codeforces Round #555 (Div. 3)",
+        "handle": "ant_boy",
+        "rank": 3727,
+        "ratingUpdateTimeSeconds": 1556296500,
+        "oldRating": 1367,
+        "newRating": 1253
+      },
+      {
+        "contestId": 1165,
+        "contestName": "Codeforces Round #560 (Div. 3)",
+        "handle": "ant_boy",
+        "rank": 3482,
+        "ratingUpdateTimeSeconds": 1557851700,
+        "oldRating": 1253,
+        "newRating": 1192
+      },
+      {
+        "contestId": 1197,
+        "contestName": "Educational Codeforces Round 69 (Rated for Div. 2)",
+        "handle": "ant_boy",
+        "rank": 4683,
+        "ratingUpdateTimeSeconds": 1563813300,
+        "oldRating": 1192,
+        "newRating": 1168
+      },
+      {
+        "contestId": 1196,
+        "contestName": "Codeforces Round #575 (Div. 3)",
+        "handle": "ant_boy",
+        "rank": 5546,
+        "ratingUpdateTimeSeconds": 1563986100,
+        "oldRating": 1168,
+        "newRating": 1117
+      },
+      {
+        "contestId": 1200,
+        "contestName": "Codeforces Round #578 (Div. 2)",
+        "handle": "ant_boy",
+        "rank": 5381,
+        "ratingUpdateTimeSeconds": 1565534100,
+        "oldRating": 1117,
+        "newRating": 1109
+      },
+      {
+        "contestId": 1203,
+        "contestName": "Codeforces Round #579 (Div. 3)",
+        "handle": "ant_boy",
+        "rank": 4476,
+        "ratingUpdateTimeSeconds": 1565715300,
+        "oldRating": 1109,
+        "newRating": 1112
+      },
+      {
+        "contestId": 1217,
+        "contestName": "Educational Codeforces Round 72 (Rated for Div. 2)",
+        "handle": "ant_boy",
+        "rank": 4264,
+        "ratingUpdateTimeSeconds": 1567701300,
+        "oldRating": 1112,
+        "newRating": 1027
+      },
+      {
+        "contestId": 1236,
+        "contestName": "Codeforces Round #593 (Div. 2)",
+        "handle": "ant_boy",
+        "rank": 5631,
+        "ratingUpdateTimeSeconds": 1571326500,
+        "oldRating": 1027,
+        "newRating": 1010
+      },
+      {
+        "contestId": 1251,
+        "contestName": "Educational Codeforces Round 75 (Rated for Div. 2)",
+        "handle": "ant_boy",
+        "rank": 5261,
+        "ratingUpdateTimeSeconds": 1571936700,
+        "oldRating": 1010,
+        "newRating": 912
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "ant_boy",
+        "rank": 5634,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 912,
+        "newRating": 935
+      },
+      {
+        "contestId": 1263,
+        "contestName": "Codeforces Round #603 (Div. 2)",
+        "handle": "ant_boy",
+        "rank": 4168,
+        "ratingUpdateTimeSeconds": 1575045300,
+        "oldRating": 935,
+        "newRating": 844
+      },
+      {
+        "contestId": 1342,
+        "contestName": "Educational Codeforces Round 86 (Rated for Div. 2)",
+        "handle": "ant_boy",
+        "rank": 12511,
+        "ratingUpdateTimeSeconds": 1587918900,
+        "oldRating": 844,
+        "newRating": 754
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "ant_boy",
+        "rank": 2407,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 754,
+        "newRating": 1023
+      },
+      {
+        "contestId": 1355,
+        "contestName": "Codeforces Round #643 (Div. 2)",
+        "handle": "ant_boy",
+        "rank": 8551,
+        "ratingUpdateTimeSeconds": 1589636100,
+        "oldRating": 1023,
+        "newRating": 1055
+      },
+      {
+        "contestId": 1358,
+        "contestName": "Codeforces Round #645 (Div. 2)",
+        "handle": "ant_boy",
+        "rank": 10375,
+        "ratingUpdateTimeSeconds": 1590510900,
+        "oldRating": 1055,
+        "newRating": 1056
+      }
+    ],
+    [
+      {
+        "contestId": 1236,
+        "contestName": "Codeforces Round #593 (Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 5260,
+        "ratingUpdateTimeSeconds": 1571326500,
+        "oldRating": 0,
+        "newRating": 1405
+      },
+      {
+        "contestId": 1251,
+        "contestName": "Educational Codeforces Round 75 (Rated for Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 5261,
+        "ratingUpdateTimeSeconds": 1571936700,
+        "oldRating": 1405,
+        "newRating": 1283
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "DongGuaTang",
+        "rank": 4788,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1283,
+        "newRating": 1242
+      },
+      {
+        "contestId": 1277,
+        "contestName": "Codeforces Round #606 (Div. 2, based on Technocup 2020 Elimination Round 4)",
+        "handle": "DongGuaTang",
+        "rank": 3541,
+        "ratingUpdateTimeSeconds": 1576328700,
+        "oldRating": 1242,
+        "newRating": 1176
+      },
+      {
+        "contestId": 1281,
+        "contestName": "Codeforces Round #607 (Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 2510,
+        "ratingUpdateTimeSeconds": 1576393500,
+        "oldRating": 1176,
+        "newRating": 1172
+      },
+      {
+        "contestId": 1270,
+        "contestName": "Good Bye 2019",
+        "handle": "DongGuaTang",
+        "rank": 6472,
+        "ratingUpdateTimeSeconds": 1577639100,
+        "oldRating": 1172,
+        "newRating": 1138
+      },
+      {
+        "contestId": 1291,
+        "contestName": "Codeforces Round #616 (Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 6686,
+        "ratingUpdateTimeSeconds": 1580661300,
+        "oldRating": 1138,
+        "newRating": 1038
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "DongGuaTang",
+        "rank": 7922,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 1038,
+        "newRating": 1017
+      },
+      {
+        "contestId": 1316,
+        "contestName": "CodeCraft-20 (Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 2860,
+        "ratingUpdateTimeSeconds": 1583339700,
+        "oldRating": 1017,
+        "newRating": 1156
+      },
+      {
+        "contestId": 1325,
+        "contestName": "Codeforces Round #628 (Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 4880,
+        "ratingUpdateTimeSeconds": 1584203700,
+        "oldRating": 1156,
+        "newRating": 1204
+      },
+      {
+        "contestId": 1332,
+        "contestName": "Codeforces Round #630 (Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 8677,
+        "ratingUpdateTimeSeconds": 1585670700,
+        "oldRating": 1204,
+        "newRating": 1193
+      },
+      {
+        "contestId": 1330,
+        "contestName": "Codeforces Round #631 (Div. 2) - Thanks, Denis aramis Shitov!",
+        "handle": "DongGuaTang",
+        "rank": 6191,
+        "ratingUpdateTimeSeconds": 1585931700,
+        "oldRating": 1193,
+        "newRating": 1220
+      },
+      {
+        "contestId": 1348,
+        "contestName": "Codeforces Round #638 (Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 6633,
+        "ratingUpdateTimeSeconds": 1588352700,
+        "oldRating": 1220,
+        "newRating": 1269
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "DongGuaTang",
+        "rank": 2529,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1269,
+        "newRating": 1326
+      },
+      {
+        "contestId": 1350,
+        "contestName": "Codeforces Round #641 (Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 4479,
+        "ratingUpdateTimeSeconds": 1589295900,
+        "oldRating": 1326,
+        "newRating": 1359
+      },
+      {
+        "contestId": 1353,
+        "contestName": "Codeforces Round #642 (Div. 3)",
+        "handle": "DongGuaTang",
+        "rank": 1544,
+        "ratingUpdateTimeSeconds": 1589474100,
+        "oldRating": 1359,
+        "newRating": 1443
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 6987,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1443,
+        "newRating": 1386
+      },
+      {
+        "contestId": 1358,
+        "contestName": "Codeforces Round #645 (Div. 2)",
+        "handle": "DongGuaTang",
+        "rank": 3433,
+        "ratingUpdateTimeSeconds": 1590510900,
+        "oldRating": 1386,
+        "newRating": 1443
+      }
+    ],
+    [
+      {
+        "contestId": 1245,
+        "contestName": "Codeforces Round #597 (Div. 2)",
+        "handle": "py_l",
+        "rank": 5493,
+        "ratingUpdateTimeSeconds": 1572626100,
+        "oldRating": 0,
+        "newRating": 1401
+      },
+      {
+        "contestId": 1295,
+        "contestName": "Educational Codeforces Round 81 (Rated for Div. 2)",
+        "handle": "py_l",
+        "rank": 6924,
+        "ratingUpdateTimeSeconds": 1580315700,
+        "oldRating": 1401,
+        "newRating": 1326
+      },
+      {
+        "contestId": 1291,
+        "contestName": "Codeforces Round #616 (Div. 2)",
+        "handle": "py_l",
+        "rank": 5808,
+        "ratingUpdateTimeSeconds": 1580661300,
+        "oldRating": 1326,
+        "newRating": 1274
+      },
+      {
+        "contestId": 1303,
+        "contestName": "Educational Codeforces Round 82 (Rated for Div. 2)",
+        "handle": "py_l",
+        "rank": 7973,
+        "ratingUpdateTimeSeconds": 1581525300,
+        "oldRating": 1274,
+        "newRating": 1202
+      },
+      {
+        "contestId": 1307,
+        "contestName": "Codeforces Round #621 (Div. 1 + Div. 2)",
+        "handle": "py_l",
+        "rank": 6143,
+        "ratingUpdateTimeSeconds": 1581961800,
+        "oldRating": 1202,
+        "newRating": 1146
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "py_l",
+        "rank": 7445,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1146,
+        "newRating": 1140
+      },
+      {
+        "contestId": 1358,
+        "contestName": "Codeforces Round #645 (Div. 2)",
+        "handle": "py_l",
+        "rank": 12550,
+        "ratingUpdateTimeSeconds": 1590510900,
+        "oldRating": 1140,
+        "newRating": 1074
+      }
+    ],
+    [
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "linzhijie",
+        "rank": 6352,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 0,
+        "newRating": 1387
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "linzhijie",
+        "rank": 5315,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1387,
+        "newRating": 1312
+      },
+      {
+        "contestId": 1257,
+        "contestName": "Educational Codeforces Round 76 (Rated for Div. 2)",
+        "handle": "linzhijie",
+        "rank": 4635,
+        "ratingUpdateTimeSeconds": 1573662900,
+        "oldRating": 1312,
+        "newRating": 1280
+      },
+      {
+        "contestId": 1260,
+        "contestName": "Educational Codeforces Round 77 (Rated for Div. 2)",
+        "handle": "linzhijie",
+        "rank": 4213,
+        "ratingUpdateTimeSeconds": 1574869800,
+        "oldRating": 1280,
+        "newRating": 1237
+      },
+      {
+        "contestId": 1277,
+        "contestName": "Codeforces Round #606 (Div. 2, based on Technocup 2020 Elimination Round 4)",
+        "handle": "linzhijie",
+        "rank": 3375,
+        "ratingUpdateTimeSeconds": 1576328700,
+        "oldRating": 1237,
+        "newRating": 1184
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "linzhijie",
+        "rank": 6484,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1184,
+        "newRating": 1078
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "linzhijie",
+        "rank": 5582,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 1078,
+        "newRating": 1111
+      },
+      {
+        "contestId": 1342,
+        "contestName": "Educational Codeforces Round 86 (Rated for Div. 2)",
+        "handle": "linzhijie",
+        "rank": 10844,
+        "ratingUpdateTimeSeconds": 1587918900,
+        "oldRating": 1111,
+        "newRating": 1107
+      },
+      {
+        "contestId": 1348,
+        "contestName": "Codeforces Round #638 (Div. 2)",
+        "handle": "linzhijie",
+        "rank": 11011,
+        "ratingUpdateTimeSeconds": 1588352700,
+        "oldRating": 1107,
+        "newRating": 1101
+      },
+      {
+        "contestId": 1353,
+        "contestName": "Codeforces Round #642 (Div. 3)",
+        "handle": "linzhijie",
+        "rank": 8039,
+        "ratingUpdateTimeSeconds": 1589474100,
+        "oldRating": 1101,
+        "newRating": 1127
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "linzhijie",
+        "rank": 6914,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1127,
+        "newRating": 1151
+      },
+      {
+        "contestId": 1360,
+        "contestName": "Codeforces Round #644 (Div. 3)",
+        "handle": "linzhijie",
+        "rank": 9088,
+        "ratingUpdateTimeSeconds": 1590334500,
+        "oldRating": 1151,
+        "newRating": 1104
+      },
+      {
+        "contestId": 1359,
+        "contestName": "Educational Codeforces Round 88 (Rated for Div. 2)",
+        "handle": "linzhijie",
+        "rank": 8482,
+        "ratingUpdateTimeSeconds": 1590683700,
+        "oldRating": 1104,
+        "newRating": 1124
+      }
+    ],
+    [
+      {
+        "contestId": 1154,
+        "contestName": "Codeforces Round #552 (Div. 3)",
+        "handle": "yumin25180",
+        "rank": 4686,
+        "ratingUpdateTimeSeconds": 1555432500,
+        "oldRating": 0,
+        "newRating": 1399
+      },
+      {
+        "contestId": 1163,
+        "contestName": "Codeforces Round #558 (Div. 2)",
+        "handle": "yumin25180",
+        "rank": 2695,
+        "ratingUpdateTimeSeconds": 1557421500,
+        "oldRating": 1399,
+        "newRating": 1348
+      },
+      {
+        "contestId": 1165,
+        "contestName": "Codeforces Round #560 (Div. 3)",
+        "handle": "yumin25180",
+        "rank": 3832,
+        "ratingUpdateTimeSeconds": 1557851700,
+        "oldRating": 1348,
+        "newRating": 1231
+      },
+      {
+        "contestId": 1236,
+        "contestName": "Codeforces Round #593 (Div. 2)",
+        "handle": "yumin25180",
+        "rank": 6219,
+        "ratingUpdateTimeSeconds": 1571326500,
+        "oldRating": 1231,
+        "newRating": 1120
+      },
+      {
+        "contestId": 1248,
+        "contestName": "Codeforces Round #594 (Div. 2)",
+        "handle": "yumin25180",
+        "rank": 4779,
+        "ratingUpdateTimeSeconds": 1571569500,
+        "oldRating": 1120,
+        "newRating": 1018
+      },
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "yumin25180",
+        "rank": 4222,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 1018,
+        "newRating": 1070
+      },
+      {
+        "contestId": 1272,
+        "contestName": "Codeforces Round #605 (Div. 3)",
+        "handle": "yumin25180",
+        "rank": 2393,
+        "ratingUpdateTimeSeconds": 1576164900,
+        "oldRating": 1070,
+        "newRating": 1159
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "yumin25180",
+        "rank": 2689,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1159,
+        "newRating": 1249
+      }
+    ],
+    [
+      {
+        "contestId": 1144,
+        "contestName": "Codeforces Round #550 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 3202,
+        "ratingUpdateTimeSeconds": 1554048300,
+        "oldRating": 0,
+        "newRating": 1418
+      },
+      {
+        "contestId": 1154,
+        "contestName": "Codeforces Round #552 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 2916,
+        "ratingUpdateTimeSeconds": 1555432500,
+        "oldRating": 1418,
+        "newRating": 1380
+      },
+      {
+        "contestId": 1152,
+        "contestName": "Codeforces Round #554 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 4425,
+        "ratingUpdateTimeSeconds": 1556123700,
+        "oldRating": 1380,
+        "newRating": 1300
+      },
+      {
+        "contestId": 1150,
+        "contestName": "Codeforces Round #556 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2324,
+        "ratingUpdateTimeSeconds": 1556555700,
+        "oldRating": 1300,
+        "newRating": 1316
+      },
+      {
+        "contestId": 1159,
+        "contestName": "Codeforces Round #559 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2066,
+        "ratingUpdateTimeSeconds": 1557678900,
+        "oldRating": 1316,
+        "newRating": 1292
+      },
+      {
+        "contestId": 1165,
+        "contestName": "Codeforces Round #560 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 3258,
+        "ratingUpdateTimeSeconds": 1557851700,
+        "oldRating": 1292,
+        "newRating": 1235
+      },
+      {
+        "contestId": 1169,
+        "contestName": "Codeforces Round #562 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2981,
+        "ratingUpdateTimeSeconds": 1558892100,
+        "oldRating": 1235,
+        "newRating": 1225
+      },
+      {
+        "contestId": 1176,
+        "contestName": "Codeforces Round #565 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 4497,
+        "ratingUpdateTimeSeconds": 1560098100,
+        "oldRating": 1225,
+        "newRating": 1148
+      },
+      {
+        "contestId": 1181,
+        "contestName": "Codeforces Round #567 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 3770,
+        "ratingUpdateTimeSeconds": 1560684900,
+        "oldRating": 1148,
+        "newRating": 1048
+      },
+      {
+        "contestId": 1185,
+        "contestName": "Codeforces Round #568 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 4025,
+        "ratingUpdateTimeSeconds": 1560963600,
+        "oldRating": 1048,
+        "newRating": 1086
+      },
+      {
+        "contestId": 1195,
+        "contestName": "Codeforces Round #574 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 5005,
+        "ratingUpdateTimeSeconds": 1563381300,
+        "oldRating": 1086,
+        "newRating": 1067
+      },
+      {
+        "contestId": 1197,
+        "contestName": "Educational Codeforces Round 69 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2706,
+        "ratingUpdateTimeSeconds": 1563813300,
+        "oldRating": 1067,
+        "newRating": 1183
+      },
+      {
+        "contestId": 1199,
+        "contestName": "Codeforces Round #576 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 3438,
+        "ratingUpdateTimeSeconds": 1564504500,
+        "oldRating": 1183,
+        "newRating": 1217
+      },
+      {
+        "contestId": 1202,
+        "contestName": "Educational Codeforces Round 70 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2838,
+        "ratingUpdateTimeSeconds": 1565195700,
+        "oldRating": 1217,
+        "newRating": 1225
+      },
+      {
+        "contestId": 1200,
+        "contestName": "Codeforces Round #578 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 3286,
+        "ratingUpdateTimeSeconds": 1565534100,
+        "oldRating": 1225,
+        "newRating": 1279
+      },
+      {
+        "contestId": 1203,
+        "contestName": "Codeforces Round #579 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 4730,
+        "ratingUpdateTimeSeconds": 1565715300,
+        "oldRating": 1279,
+        "newRating": 1232
+      },
+      {
+        "contestId": 1204,
+        "contestName": "Codeforces Round #581 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 3359,
+        "ratingUpdateTimeSeconds": 1566318900,
+        "oldRating": 1232,
+        "newRating": 1293
+      },
+      {
+        "contestId": 1217,
+        "contestName": "Educational Codeforces Round 72 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 4264,
+        "ratingUpdateTimeSeconds": 1567701300,
+        "oldRating": 1293,
+        "newRating": 1197
+      },
+      {
+        "contestId": 1209,
+        "contestName": "Codeforces Round #584 - Dasha Code Championship - Elimination Round (rated, open for everyone, Div. 1 + Div. 2)",
+        "handle": "Praesepe",
+        "rank": 3836,
+        "ratingUpdateTimeSeconds": 1568475300,
+        "oldRating": 1197,
+        "newRating": 1226
+      },
+      {
+        "contestId": 1221,
+        "contestName": "Educational Codeforces Round 73 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2522,
+        "ratingUpdateTimeSeconds": 1568910900,
+        "oldRating": 1226,
+        "newRating": 1264
+      },
+      {
+        "contestId": 1216,
+        "contestName": "Codeforces Round #587 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 1599,
+        "ratingUpdateTimeSeconds": 1569056700,
+        "oldRating": 1264,
+        "newRating": 1304
+      },
+      {
+        "contestId": 1230,
+        "contestName": "Codeforces Round #588 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 1772,
+        "ratingUpdateTimeSeconds": 1569256500,
+        "oldRating": 1304,
+        "newRating": 1375
+      },
+      {
+        "contestId": 1228,
+        "contestName": "Codeforces Round #589 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2840,
+        "ratingUpdateTimeSeconds": 1569769500,
+        "oldRating": 1375,
+        "newRating": 1411
+      },
+      {
+        "contestId": 1238,
+        "contestName": "Educational Codeforces Round 74 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 3496,
+        "ratingUpdateTimeSeconds": 1570553700,
+        "oldRating": 1411,
+        "newRating": 1390
+      },
+      {
+        "contestId": 1244,
+        "contestName": "Codeforces Round #592 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2051,
+        "ratingUpdateTimeSeconds": 1570964700,
+        "oldRating": 1390,
+        "newRating": 1426
+      },
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "Praesepe",
+        "rank": 6007,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 1426,
+        "newRating": 1304
+      },
+      {
+        "contestId": 1248,
+        "contestName": "Codeforces Round #594 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 3325,
+        "ratingUpdateTimeSeconds": 1571569500,
+        "oldRating": 1304,
+        "newRating": 1283
+      },
+      {
+        "contestId": 1251,
+        "contestName": "Educational Codeforces Round 75 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2750,
+        "ratingUpdateTimeSeconds": 1571936700,
+        "oldRating": 1283,
+        "newRating": 1316
+      },
+      {
+        "contestId": 1247,
+        "contestName": "Codeforces Round #596 (Div. 2, based on Technocup 2020 Elimination Round 2)",
+        "handle": "Praesepe",
+        "rank": 3275,
+        "ratingUpdateTimeSeconds": 1572095100,
+        "oldRating": 1316,
+        "newRating": 1279
+      },
+      {
+        "contestId": 1245,
+        "contestName": "Codeforces Round #597 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 4028,
+        "ratingUpdateTimeSeconds": 1572626100,
+        "oldRating": 1279,
+        "newRating": 1275
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 3854,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1275,
+        "newRating": 1262
+      },
+      {
+        "contestId": 1243,
+        "contestName": "Codeforces Round #599 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 1861,
+        "ratingUpdateTimeSeconds": 1573059900,
+        "oldRating": 1262,
+        "newRating": 1340
+      },
+      {
+        "contestId": 1257,
+        "contestName": "Educational Codeforces Round 76 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2318,
+        "ratingUpdateTimeSeconds": 1573662900,
+        "oldRating": 1340,
+        "newRating": 1390
+      },
+      {
+        "contestId": 1253,
+        "contestName": "Codeforces Round #600 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 5125,
+        "ratingUpdateTimeSeconds": 1573922100,
+        "oldRating": 1390,
+        "newRating": 1272
+      },
+      {
+        "contestId": 1255,
+        "contestName": "Codeforces Round #601 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2981,
+        "ratingUpdateTimeSeconds": 1574181300,
+        "oldRating": 1272,
+        "newRating": 1282
+      },
+      {
+        "contestId": 1262,
+        "contestName": "Codeforces Round #602 (Div. 2, based on Technocup 2020 Elimination Round 3)",
+        "handle": "Praesepe",
+        "rank": 2089,
+        "ratingUpdateTimeSeconds": 1574589900,
+        "oldRating": 1282,
+        "newRating": 1257
+      },
+      {
+        "contestId": 1260,
+        "contestName": "Educational Codeforces Round 77 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2560,
+        "ratingUpdateTimeSeconds": 1574869800,
+        "oldRating": 1257,
+        "newRating": 1304
+      },
+      {
+        "contestId": 1277,
+        "contestName": "Codeforces Round #606 (Div. 2, based on Technocup 2020 Elimination Round 4)",
+        "handle": "Praesepe",
+        "rank": 3705,
+        "ratingUpdateTimeSeconds": 1576328700,
+        "oldRating": 1304,
+        "newRating": 1192
+      },
+      {
+        "contestId": 1270,
+        "contestName": "Good Bye 2019",
+        "handle": "Praesepe",
+        "rank": 6628,
+        "ratingUpdateTimeSeconds": 1577639100,
+        "oldRating": 1192,
+        "newRating": 1148
+      },
+      {
+        "contestId": 1284,
+        "contestName": "Hello 2020",
+        "handle": "Praesepe",
+        "rank": 5025,
+        "ratingUpdateTimeSeconds": 1578148500,
+        "oldRating": 1148,
+        "newRating": 1193
+      },
+      {
+        "contestId": 1287,
+        "contestName": "Codeforces Round #612 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 4624,
+        "ratingUpdateTimeSeconds": 1578240300,
+        "oldRating": 1193,
+        "newRating": 1169
+      },
+      {
+        "contestId": 1285,
+        "contestName": "Codeforces Round #613 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 5136,
+        "ratingUpdateTimeSeconds": 1578673200,
+        "oldRating": 1169,
+        "newRating": 1163
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 5026,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1163,
+        "newRating": 1162
+      },
+      {
+        "contestId": 1295,
+        "contestName": "Educational Codeforces Round 81 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 3669,
+        "ratingUpdateTimeSeconds": 1580315700,
+        "oldRating": 1162,
+        "newRating": 1240
+      },
+      {
+        "contestId": 1291,
+        "contestName": "Codeforces Round #616 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 2581,
+        "ratingUpdateTimeSeconds": 1580661300,
+        "oldRating": 1240,
+        "newRating": 1321
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 2854,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 1321,
+        "newRating": 1350
+      },
+      {
+        "contestId": 1311,
+        "contestName": "Codeforces Round #624 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 1266,
+        "ratingUpdateTimeSeconds": 1582562100,
+        "oldRating": 1350,
+        "newRating": 1407
+      },
+      {
+        "contestId": 1327,
+        "contestName": "Educational Codeforces Round 84 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 5275,
+        "ratingUpdateTimeSeconds": 1584981300,
+        "oldRating": 1407,
+        "newRating": 1415
+      },
+      {
+        "contestId": 1355,
+        "contestName": "Codeforces Round #643 (Div. 2)",
+        "handle": "Praesepe",
+        "rank": 6796,
+        "ratingUpdateTimeSeconds": 1589636100,
+        "oldRating": 1415,
+        "newRating": 1386
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "Praesepe",
+        "rank": 3019,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1386,
+        "newRating": 1438
+      },
+      {
+        "contestId": 1360,
+        "contestName": "Codeforces Round #644 (Div. 3)",
+        "handle": "Praesepe",
+        "rank": 4772,
+        "ratingUpdateTimeSeconds": 1590334500,
+        "oldRating": 1438,
+        "newRating": 1401
+      }
+    ],
+    [
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "njqchong",
+        "rank": 5816,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 0,
+        "newRating": 1406
+      },
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "njqchong",
+        "rank": 6610,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 1406,
+        "newRating": 1299
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "njqchong",
+        "rank": 5018,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1299,
+        "newRating": 1264
+      },
+      {
+        "contestId": 1294,
+        "contestName": "Codeforces Round #615 (Div. 3)",
+        "handle": "njqchong",
+        "rank": 5248,
+        "ratingUpdateTimeSeconds": 1579711500,
+        "oldRating": 1264,
+        "newRating": 1253
+      },
+      {
+        "contestId": 1295,
+        "contestName": "Educational Codeforces Round 81 (Rated for Div. 2)",
+        "handle": "njqchong",
+        "rank": 4670,
+        "ratingUpdateTimeSeconds": 1580315700,
+        "oldRating": 1253,
+        "newRating": 1269
+      },
+      {
+        "contestId": 1342,
+        "contestName": "Educational Codeforces Round 86 (Rated for Div. 2)",
+        "handle": "njqchong",
+        "rank": 12202,
+        "ratingUpdateTimeSeconds": 1587918900,
+        "oldRating": 1269,
+        "newRating": 1204
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "njqchong",
+        "rank": 5090,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1204,
+        "newRating": 1224
+      },
+      {
+        "contestId": 1350,
+        "contestName": "Codeforces Round #641 (Div. 2)",
+        "handle": "njqchong",
+        "rank": 8086,
+        "ratingUpdateTimeSeconds": 1589295900,
+        "oldRating": 1224,
+        "newRating": 1205
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "njqchong",
+        "rank": 7743,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1205,
+        "newRating": 1186
+      },
+      {
+        "contestId": 1358,
+        "contestName": "Codeforces Round #645 (Div. 2)",
+        "handle": "njqchong",
+        "rank": 10245,
+        "ratingUpdateTimeSeconds": 1590510900,
+        "oldRating": 1186,
+        "newRating": 1157
+      }
+    ],
+    [
+      {
+        "contestId": 1248,
+        "contestName": "Codeforces Round #594 (Div. 2)",
+        "handle": "anchen",
+        "rank": 4779,
+        "ratingUpdateTimeSeconds": 1571569500,
+        "oldRating": 0,
+        "newRating": 1372
+      },
+      {
+        "contestId": 1247,
+        "contestName": "Codeforces Round #596 (Div. 2, based on Technocup 2020 Elimination Round 2)",
+        "handle": "anchen",
+        "rank": 4335,
+        "ratingUpdateTimeSeconds": 1572095100,
+        "oldRating": 1372,
+        "newRating": 1275
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "anchen",
+        "rank": 5723,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1275,
+        "newRating": 1162
+      },
+      {
+        "contestId": 1269,
+        "contestName": "Codeforces Round #609 (Div. 2)",
+        "handle": "anchen",
+        "rank": 4630,
+        "ratingUpdateTimeSeconds": 1576933500,
+        "oldRating": 1162,
+        "newRating": 1119
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "anchen",
+        "rank": 6484,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1119,
+        "newRating": 1017
+      },
+      {
+        "contestId": 1295,
+        "contestName": "Educational Codeforces Round 81 (Rated for Div. 2)",
+        "handle": "anchen",
+        "rank": 6816,
+        "ratingUpdateTimeSeconds": 1580315700,
+        "oldRating": 1017,
+        "newRating": 1035
+      },
+      {
+        "contestId": 1304,
+        "contestName": "Codeforces Round #620 (Div. 2)",
+        "handle": "anchen",
+        "rank": 6590,
+        "ratingUpdateTimeSeconds": 1581779100,
+        "oldRating": 1035,
+        "newRating": 1034
+      },
+      {
+        "contestId": 1307,
+        "contestName": "Codeforces Round #621 (Div. 1 + Div. 2)",
+        "handle": "anchen",
+        "rank": 5994,
+        "ratingUpdateTimeSeconds": 1581961800,
+        "oldRating": 1034,
+        "newRating": 1022
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "anchen",
+        "rank": 5637,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1022,
+        "newRating": 1092
+      },
+      {
+        "contestId": 1350,
+        "contestName": "Codeforces Round #641 (Div. 2)",
+        "handle": "anchen",
+        "rank": 10240,
+        "ratingUpdateTimeSeconds": 1589295900,
+        "oldRating": 1092,
+        "newRating": 991
+      }
+    ],
+    [
+      {
+        "contestId": 1144,
+        "contestName": "Codeforces Round #550 (Div. 3)",
+        "handle": "Rappt",
+        "rank": 4738,
+        "ratingUpdateTimeSeconds": 1554048300,
+        "oldRating": 0,
+        "newRating": 1369
+      },
+      {
+        "contestId": 1154,
+        "contestName": "Codeforces Round #552 (Div. 3)",
+        "handle": "Rappt",
+        "rank": 2070,
+        "ratingUpdateTimeSeconds": 1555432500,
+        "oldRating": 1369,
+        "newRating": 1374
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "Rappt",
+        "rank": 3737,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1374,
+        "newRating": 1361
+      },
+      {
+        "contestId": 1294,
+        "contestName": "Codeforces Round #615 (Div. 3)",
+        "handle": "Rappt",
+        "rank": 4489,
+        "ratingUpdateTimeSeconds": 1579711500,
+        "oldRating": 1361,
+        "newRating": 1341
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "Rappt",
+        "rank": 1987,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 1341,
+        "newRating": 1392
+      },
+      {
+        "contestId": 1324,
+        "contestName": "Codeforces Round #627 (Div. 3)",
+        "handle": "Rappt",
+        "rank": 6588,
+        "ratingUpdateTimeSeconds": 1584025500,
+        "oldRating": 1392,
+        "newRating": 1302
+      },
+      {
+        "contestId": 1335,
+        "contestName": "Codeforces Round #634 (Div. 3)",
+        "handle": "Rappt",
+        "rank": 5219,
+        "ratingUpdateTimeSeconds": 1586795700,
+        "oldRating": 1302,
+        "newRating": 1323
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "Rappt",
+        "rank": 4213,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1323,
+        "newRating": 1324
+      },
+      {
+        "contestId": 1353,
+        "contestName": "Codeforces Round #642 (Div. 3)",
+        "handle": "Rappt",
+        "rank": 3116,
+        "ratingUpdateTimeSeconds": 1589474100,
+        "oldRating": 1324,
+        "newRating": 1372
+      },
+      {
+        "contestId": 1360,
+        "contestName": "Codeforces Round #644 (Div. 3)",
+        "handle": "Rappt",
+        "rank": 2691,
+        "ratingUpdateTimeSeconds": 1590334500,
+        "oldRating": 1372,
+        "newRating": 1396
+      }
+    ],
+    [
+      {
+        "contestId": 1144,
+        "contestName": "Codeforces Round #550 (Div. 3)",
+        "handle": "Jasonk",
+        "rank": 3549,
+        "ratingUpdateTimeSeconds": 1554048300,
+        "oldRating": 0,
+        "newRating": 1408
+      },
+      {
+        "contestId": 1159,
+        "contestName": "Codeforces Round #559 (Div. 2)",
+        "handle": "Jasonk",
+        "rank": 1776,
+        "ratingUpdateTimeSeconds": 1557678900,
+        "oldRating": 1408,
+        "newRating": 1383
+      },
+      {
+        "contestId": 1165,
+        "contestName": "Codeforces Round #560 (Div. 3)",
+        "handle": "Jasonk",
+        "rank": 2329,
+        "ratingUpdateTimeSeconds": 1557851700,
+        "oldRating": 1383,
+        "newRating": 1347
+      },
+      {
+        "contestId": 1197,
+        "contestName": "Educational Codeforces Round 69 (Rated for Div. 2)",
+        "handle": "Jasonk",
+        "rank": 5056,
+        "ratingUpdateTimeSeconds": 1563813300,
+        "oldRating": 1347,
+        "newRating": 1275
+      },
+      {
+        "contestId": 1200,
+        "contestName": "Codeforces Round #578 (Div. 2)",
+        "handle": "Jasonk",
+        "rank": 4661,
+        "ratingUpdateTimeSeconds": 1565534100,
+        "oldRating": 1275,
+        "newRating": 1258
+      },
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "Jasonk",
+        "rank": 3704,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 1258,
+        "newRating": 1297
+      },
+      {
+        "contestId": 1248,
+        "contestName": "Codeforces Round #594 (Div. 2)",
+        "handle": "Jasonk",
+        "rank": 3133,
+        "ratingUpdateTimeSeconds": 1571569500,
+        "oldRating": 1297,
+        "newRating": 1286
+      },
+      {
+        "contestId": 1245,
+        "contestName": "Codeforces Round #597 (Div. 2)",
+        "handle": "Jasonk",
+        "rank": 3873,
+        "ratingUpdateTimeSeconds": 1572626100,
+        "oldRating": 1286,
+        "newRating": 1286
+      },
+      {
+        "contestId": 1293,
+        "contestName": "Codeforces Round #614 (Div. 2)",
+        "handle": "Jasonk",
+        "rank": 3856,
+        "ratingUpdateTimeSeconds": 1579448100,
+        "oldRating": 1286,
+        "newRating": 1292
+      },
+      {
+        "contestId": 1294,
+        "contestName": "Codeforces Round #615 (Div. 3)",
+        "handle": "Jasonk",
+        "rank": 2779,
+        "ratingUpdateTimeSeconds": 1579711500,
+        "oldRating": 1292,
+        "newRating": 1335
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "Jasonk",
+        "rank": 5406,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 1335,
+        "newRating": 1300
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "Jasonk",
+        "rank": 4370,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1300,
+        "newRating": 1339
+      }
+    ],
+    [
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "cytabc",
+        "rank": 6480,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 0,
+        "newRating": 1385
+      },
+      {
+        "contestId": 1245,
+        "contestName": "Codeforces Round #597 (Div. 2)",
+        "handle": "cytabc",
+        "rank": 5647,
+        "ratingUpdateTimeSeconds": 1572626100,
+        "oldRating": 1385,
+        "newRating": 1266
+      },
+      {
+        "contestId": 1256,
+        "contestName": "Codeforces Round #598 (Div. 3)",
+        "handle": "cytabc",
+        "rank": 5723,
+        "ratingUpdateTimeSeconds": 1572880500,
+        "oldRating": 1266,
+        "newRating": 1153
+      },
+      {
+        "contestId": 1257,
+        "contestName": "Educational Codeforces Round 76 (Rated for Div. 2)",
+        "handle": "cytabc",
+        "rank": 6213,
+        "ratingUpdateTimeSeconds": 1573662900,
+        "oldRating": 1153,
+        "newRating": 1092
+      },
+      {
+        "contestId": 1260,
+        "contestName": "Educational Codeforces Round 77 (Rated for Div. 2)",
+        "handle": "cytabc",
+        "rank": 4787,
+        "ratingUpdateTimeSeconds": 1574869800,
+        "oldRating": 1092,
+        "newRating": 991
+      },
+      {
+        "contestId": 1265,
+        "contestName": "Codeforces Round #604 (Div. 2)",
+        "handle": "cytabc",
+        "rank": 4759,
+        "ratingUpdateTimeSeconds": 1575563700,
+        "oldRating": 991,
+        "newRating": 892
+      },
+      {
+        "contestId": 1295,
+        "contestName": "Educational Codeforces Round 81 (Rated for Div. 2)",
+        "handle": "cytabc",
+        "rank": 6141,
+        "ratingUpdateTimeSeconds": 1580315700,
+        "oldRating": 892,
+        "newRating": 981
+      },
+      {
+        "contestId": 1296,
+        "contestName": "Codeforces Round #617 (Div. 3)",
+        "handle": "cytabc",
+        "rank": 9037,
+        "ratingUpdateTimeSeconds": 1580834100,
+        "oldRating": 981,
+        "newRating": 879
+      },
+      {
+        "contestId": 1300,
+        "contestName": "Codeforces Round #618 (Div. 2)",
+        "handle": "cytabc",
+        "rank": 6603,
+        "ratingUpdateTimeSeconds": 1581264300,
+        "oldRating": 879,
+        "newRating": 934
+      },
+      {
+        "contestId": 1303,
+        "contestName": "Educational Codeforces Round 82 (Rated for Div. 2)",
+        "handle": "cytabc",
+        "rank": 8421,
+        "ratingUpdateTimeSeconds": 1581525300,
+        "oldRating": 934,
+        "newRating": 913
+      },
+      {
+        "contestId": 1301,
+        "contestName": "Codeforces Round #619 (Div. 2)",
+        "handle": "cytabc",
+        "rank": 5985,
+        "ratingUpdateTimeSeconds": 1581611700,
+        "oldRating": 913,
+        "newRating": 978
+      },
+      {
+        "contestId": 1304,
+        "contestName": "Codeforces Round #620 (Div. 2)",
+        "handle": "cytabc",
+        "rank": 6687,
+        "ratingUpdateTimeSeconds": 1581779100,
+        "oldRating": 978,
+        "newRating": 988
+      },
+      {
+        "contestId": 1307,
+        "contestName": "Codeforces Round #621 (Div. 1 + Div. 2)",
+        "handle": "cytabc",
+        "rank": 4408,
+        "ratingUpdateTimeSeconds": 1581961800,
+        "oldRating": 988,
+        "newRating": 1080
+      },
+      {
+        "contestId": 1311,
+        "contestName": "Codeforces Round #624 (Div. 3)",
+        "handle": "cytabc",
+        "rank": 5902,
+        "ratingUpdateTimeSeconds": 1582562100,
+        "oldRating": 1080,
+        "newRating": 1047
+      },
+      {
+        "contestId": 1342,
+        "contestName": "Educational Codeforces Round 86 (Rated for Div. 2)",
+        "handle": "cytabc",
+        "rank": 11771,
+        "ratingUpdateTimeSeconds": 1587918900,
+        "oldRating": 1047,
+        "newRating": 1039
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "cytabc",
+        "rank": 8202,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1039,
+        "newRating": 1052
+      },
+      {
+        "contestId": 1354,
+        "contestName": "Educational Codeforces Round 87 (Rated for Div. 2)",
+        "handle": "cytabc",
+        "rank": 8151,
+        "ratingUpdateTimeSeconds": 1589714400,
+        "oldRating": 1052,
+        "newRating": 1064
+      },
+      {
+        "contestId": 1358,
+        "contestName": "Codeforces Round #645 (Div. 2)",
+        "handle": "cytabc",
+        "rank": 10749,
+        "ratingUpdateTimeSeconds": 1590510900,
+        "oldRating": 1064,
+        "newRating": 1054
+      },
+      {
+        "contestId": 1359,
+        "contestName": "Educational Codeforces Round 88 (Rated for Div. 2)",
+        "handle": "cytabc",
+        "rank": 9736,
+        "ratingUpdateTimeSeconds": 1590683700,
+        "oldRating": 1054,
+        "newRating": 1060
+      }
+    ],
+    [
+      {
+        "contestId": 1249,
+        "contestName": "Codeforces Round #595 (Div. 3)",
+        "handle": "phoenix-666",
+        "rank": 6863,
+        "ratingUpdateTimeSeconds": 1571763000,
+        "oldRating": 0,
+        "newRating": 1367
+      },
+      {
+        "contestId": 1253,
+        "contestName": "Codeforces Round #600 (Div. 2)",
+        "handle": "phoenix-666",
+        "rank": 5125,
+        "ratingUpdateTimeSeconds": 1573922100,
+        "oldRating": 1367,
+        "newRating": 1250
+      },
+      {
+        "contestId": 1269,
+        "contestName": "Codeforces Round #609 (Div. 2)",
+        "handle": "phoenix-666",
+        "rank": 4677,
+        "ratingUpdateTimeSeconds": 1576933500,
+        "oldRating": 1250,
+        "newRating": 1187
+      },
+      {
+        "contestId": 1282,
+        "contestName": "Codeforces Round #610 (Div. 2)",
+        "handle": "phoenix-666",
+        "rank": 3847,
+        "ratingUpdateTimeSeconds": 1577205300,
+        "oldRating": 1187,
+        "newRating": 1186
+      },
+      {
+        "contestId": 1283,
+        "contestName": "Codeforces Round #611 (Div. 3)",
+        "handle": "phoenix-666",
+        "rank": 4084,
+        "ratingUpdateTimeSeconds": 1577559900,
+        "oldRating": 1186,
+        "newRating": 1162
+      },
+      {
+        "contestId": 1270,
+        "contestName": "Good Bye 2019",
+        "handle": "phoenix-666",
+        "rank": 6196,
+        "ratingUpdateTimeSeconds": 1577639100,
+        "oldRating": 1162,
+        "newRating": 1142
+      },
+      {
+        "contestId": 1294,
+        "contestName": "Codeforces Round #615 (Div. 3)",
+        "handle": "phoenix-666",
+        "rank": 8099,
+        "ratingUpdateTimeSeconds": 1579711500,
+        "oldRating": 1142,
+        "newRating": 1096
+      },
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "phoenix-666",
+        "rank": 12829,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 1096,
+        "newRating": 984
+      },
+      {
+        "contestId": 1360,
+        "contestName": "Codeforces Round #644 (Div. 3)",
+        "handle": "phoenix-666",
+        "rank": 11140,
+        "ratingUpdateTimeSeconds": 1590334500,
+        "oldRating": 984,
+        "newRating": 925
+      },
+      {
+        "contestId": 1358,
+        "contestName": "Codeforces Round #645 (Div. 2)",
+        "handle": "phoenix-666",
+        "rank": 8019,
+        "ratingUpdateTimeSeconds": 1590510900,
+        "oldRating": 925,
+        "newRating": 1025
+      },
+      {
+        "contestId": 1359,
+        "contestName": "Educational Codeforces Round 88 (Rated for Div. 2)",
+        "handle": "phoenix-666",
+        "rank": 9670,
+        "ratingUpdateTimeSeconds": 1590683700,
+        "oldRating": 1025,
+        "newRating": 1041
+      }
+    ],
+    [
+      {
+        "contestId": 1352,
+        "contestName": "Codeforces Round #640 (Div. 4)",
+        "handle": "Lilphoenix",
+        "rank": 8052,
+        "ratingUpdateTimeSeconds": 1589042100,
+        "oldRating": 0,
+        "newRating": 1408
+      }
+    ],
+    [
+      {
+        "contestId": 1150,
+        "contestName": "Codeforces Round #556 (Div. 2)",
+        "handle": "xch112",
+        "rank": 4267,
+        "ratingUpdateTimeSeconds": 1556555700,
+        "oldRating": 0,
+        "newRating": 1387
+      },
+      {
+        "contestId": 1165,
+        "contestName": "Codeforces Round #560 (Div. 3)",
+        "handle": "xch112",
+        "rank": 3440,
+        "ratingUpdateTimeSeconds": 1557851700,
+        "oldRating": 1387,
+        "newRating": 1306
+      },
+      {
+        "contestId": 1173,
+        "contestName": "Codeforces Round #564 (Div. 2)",
+        "handle": "xch112",
+        "rank": 4560,
+        "ratingUpdateTimeSeconds": 1559916300,
+        "oldRating": 1306,
+        "newRating": 1223
+      },
+      {
+        "contestId": 1197,
+        "contestName": "Educational Codeforces Round 69 (Rated for Div. 2)",
+        "handle": "xch112",
+        "rank": 5389,
+        "ratingUpdateTimeSeconds": 1563813300,
+        "oldRating": 1223,
+        "newRating": 1159
+      },
+      {
+        "contestId": 1199,
+        "contestName": "Codeforces Round #576 (Div. 2)",
+        "handle": "xch112",
+        "rank": 3842,
+        "ratingUpdateTimeSeconds": 1564504500,
+        "oldRating": 1159,
+        "newRating": 1182
+      },
+      {
+        "contestId": 1237,
+        "contestName": "Codeforces Global Round 5",
+        "handle": "xch112",
+        "rank": 4132,
+        "ratingUpdateTimeSeconds": 1571245500,
+        "oldRating": 1182,
+        "newRating": 1226
+      },
+      {
+        "contestId": 1248,
+        "contestName": "Codeforces Round #594 (Div. 2)",
+        "handle": "xch112",
+        "rank": 3825,
+        "ratingUpdateTimeSeconds": 1571569500,
+        "oldRating": 1226,
+        "newRating": 1200
+      }
+    ]
+  ],
+  "chart_series": [
+    {
+      "name": "罗巍豪",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "color": "#e9dfe5",
+          "lineStyle": {
+            "color": "#e9dfe5",
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1503601500000,
+          1374
+        ],
+        [
+          1542040500000,
+          1361
+        ],
+        [
+          1542386100000,
+          1417
+        ],
+        [
+          1542908700000,
+          1427
+        ],
+        [
+          1543941300000,
+          1452
+        ],
+        [
+          1544466900000,
+          1426
+        ],
+        [
+          1544891700000,
+          1338
+        ],
+        [
+          1545150900000,
+          1312
+        ],
+        [
+          1545579300000,
+          1274
+        ],
+        [
+          1546623900000,
+          1228
+        ],
+        [
+          1546715100000,
+          1238
+        ],
+        [
+          1548174900000,
+          1256
+        ],
+        [
+          1548261300000,
+          1354
+        ],
+        [
+          1548524100000,
+          1324
+        ],
+        [
+          1549553700000,
+          1323
+        ],
+        [
+          1549814700000,
+          1436
+        ],
+        [
+          1550511600000,
+          1430
+        ],
+        [
+          1550595000000,
+          1474
+        ],
+        [
+          1551978300000,
+          1561
+        ],
+        [
+          1553013300000,
+          1514
+        ],
+        [
+          1553189700000,
+          1413
+        ],
+        [
+          1553274300000,
+          1451
+        ],
+        [
+          1554048300000,
+          1538
+        ],
+        [
+          1554557700000,
+          1494
+        ],
+        [
+          1555171500000,
+          1491
+        ],
+        [
+          1555432500000,
+          1493
+        ],
+        [
+          1555608900000,
+          1461
+        ],
+        [
+          1555950900000,
+          1501
+        ],
+        [
+          1557421500000,
+          1528
+        ],
+        [
+          1557851700000,
+          1494
+        ],
+        [
+          1559407800000,
+          1606
+        ],
+        [
+          1571245500000,
+          1563
+        ],
+        [
+          1572880500000,
+          1690
+        ],
+        [
+          1576328700000,
+          1676
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "代建杉",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1446316200000,
+          1487
+        ],
+        [
+          1446662700000,
+          1459
+        ],
+        [
+          1448991300000,
+          1469
+        ],
+        [
+          1450895700000,
+          1488
+        ],
+        [
+          1451498700000,
+          1504
+        ],
+        [
+          1452269100000,
+          1455
+        ],
+        [
+          1453570500000,
+          1409
+        ],
+        [
+          1454843100000,
+          1400
+        ],
+        [
+          1462991700000,
+          1416
+        ],
+        [
+          1474643100000,
+          1303
+        ],
+        [
+          1479639900000,
+          1311
+        ],
+        [
+          1514477100000,
+          1285
+        ],
+        [
+          1520592000000,
+          1325
+        ],
+        [
+          1525799100000,
+          1408
+        ],
+        [
+          1542908700000,
+          1498
+        ],
+        [
+          1543422900000,
+          1569
+        ],
+        [
+          1546014900000,
+          1643
+        ],
+        [
+          1556123700000,
+          1748
+        ],
+        [
+          1574869800000,
+          1815
+        ],
+        [
+          1576328700000,
+          1765
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "代建杉2",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1589474100000,
+          1592
+        ],
+        [
+          1589714400000,
+          1701
+        ],
+        [
+          1590510900000,
+          1755
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "林仁豪",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571245500000,
+          1371
+        ],
+        [
+          1571936700000,
+          1251
+        ],
+        [
+          1573662900000,
+          1205
+        ],
+        [
+          1574869800000,
+          1239
+        ],
+        [
+          1578148500000,
+          1209
+        ],
+        [
+          1579448100000,
+          1179
+        ],
+        [
+          1580661300000,
+          1183
+        ],
+        [
+          1581525300000,
+          1154
+        ],
+        [
+          1583075700000,
+          1180
+        ],
+        [
+          1583254200000,
+          1112
+        ],
+        [
+          1583339700000,
+          1139
+        ],
+        [
+          1584025500000,
+          1189
+        ],
+        [
+          1584637500000,
+          1202
+        ],
+        [
+          1584981300000,
+          1228
+        ],
+        [
+          1585240500000,
+          1275
+        ],
+        [
+          1585670700000,
+          1285
+        ],
+        [
+          1586536500000,
+          1228
+        ],
+        [
+          1586707500000,
+          1295
+        ],
+        [
+          1586795700000,
+          1316
+        ],
+        [
+          1587662100000,
+          1316
+        ],
+        [
+          1588352700000,
+          1343
+        ],
+        [
+          1589042100000,
+          1402
+        ],
+        [
+          1589636100000,
+          1418
+        ],
+        [
+          1590683700000,
+          1429
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "郑彬熙",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571245500000,
+          1371
+        ],
+        [
+          1572095100000,
+          1281
+        ],
+        [
+          1576164900000,
+          1227
+        ],
+        [
+          1579711500000,
+          1183
+        ],
+        [
+          1580834100000,
+          1072
+        ],
+        [
+          1585240500000,
+          1164
+        ],
+        [
+          1585931700000,
+          1187
+        ],
+        [
+          1586795700000,
+          1196
+        ],
+        [
+          1589042100000,
+          1192
+        ],
+        [
+          1589474100000,
+          1319
+        ],
+        [
+          1589636100000,
+          1324
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "周正谊",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1572880500000,
+          1372
+        ],
+        [
+          1579448100000,
+          1253
+        ],
+        [
+          1580315700000,
+          1142
+        ],
+        [
+          1580661300000,
+          1042
+        ],
+        [
+          1580834100000,
+          1054
+        ],
+        [
+          1581264300000,
+          1045
+        ],
+        [
+          1581525300000,
+          1050
+        ],
+        [
+          1581961800000,
+          952
+        ],
+        [
+          1582455900000,
+          1106
+        ],
+        [
+          1582562100000,
+          1122
+        ],
+        [
+          1583254200000,
+          1083
+        ],
+        [
+          1583339700000,
+          1112
+        ],
+        [
+          1583771700000,
+          1115
+        ],
+        [
+          1584025500000,
+          1160
+        ],
+        [
+          1584203700000,
+          1116
+        ],
+        [
+          1585670700000,
+          1155
+        ],
+        [
+          1585931700000,
+          1055
+        ],
+        [
+          1586363700000,
+          1216
+        ],
+        [
+          1586536500000,
+          1189
+        ],
+        [
+          1586707500000,
+          1270
+        ],
+        [
+          1586795700000,
+          1286
+        ],
+        [
+          1586970300000,
+          1355
+        ],
+        [
+          1587486900000,
+          1324
+        ],
+        [
+          1587662100000,
+          1323
+        ],
+        [
+          1587918900000,
+          1358
+        ],
+        [
+          1588352700000,
+          1380
+        ],
+        [
+          1589042100000,
+          1421
+        ],
+        [
+          1589295900000,
+          1443
+        ],
+        [
+          1589636100000,
+          1463
+        ],
+        [
+          1589714400000,
+          1485
+        ],
+        [
+          1590683700000,
+          1533
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "曾玮玮",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571763000000,
+          1382
+        ],
+        [
+          1572880500000,
+          1302
+        ],
+        [
+          1576164900000,
+          1234
+        ],
+        [
+          1580315700000,
+          1159
+        ],
+        [
+          1580661300000,
+          1058
+        ],
+        [
+          1587486900000,
+          992
+        ],
+        [
+          1589042100000,
+          948
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "阮嘉豪",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1551978300000,
+          1373
+        ],
+        [
+          1553013300000,
+          1253
+        ],
+        [
+          1554048300000,
+          1172
+        ],
+        [
+          1557851700000,
+          1126
+        ],
+        [
+          1563381300000,
+          1099
+        ],
+        [
+          1563813300000,
+          1041
+        ],
+        [
+          1564504500000,
+          943
+        ],
+        [
+          1565534100000,
+          971
+        ],
+        [
+          1565715300000,
+          984
+        ],
+        [
+          1571245500000,
+          1109
+        ],
+        [
+          1571569500000,
+          1094
+        ],
+        [
+          1571763000000,
+          1045
+        ],
+        [
+          1574869800000,
+          1023
+        ],
+        [
+          1579448100000,
+          1055
+        ],
+        [
+          1579711500000,
+          1109
+        ],
+        [
+          1580315700000,
+          1139
+        ],
+        [
+          1584637500000,
+          1120
+        ],
+        [
+          1587486900000,
+          1122
+        ],
+        [
+          1589042100000,
+          1223
+        ],
+        [
+          1589636100000,
+          1214
+        ],
+        [
+          1589714400000,
+          1278
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "张振远",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1552329300000,
+          1434
+        ],
+        [
+          1553013300000,
+          1387
+        ],
+        [
+          1555171500000,
+          1344
+        ],
+        [
+          1555608900000,
+          1230
+        ],
+        [
+          1555950900000,
+          1187
+        ],
+        [
+          1556123700000,
+          1219
+        ],
+        [
+          1556555700000,
+          1140
+        ],
+        [
+          1557678900000,
+          1086
+        ],
+        [
+          1557851700000,
+          1135
+        ],
+        [
+          1557938100000,
+          1182
+        ],
+        [
+          1559916300000,
+          1207
+        ],
+        [
+          1563381300000,
+          1188
+        ],
+        [
+          1563813300000,
+          1236
+        ],
+        [
+          1564504500000,
+          1262
+        ],
+        [
+          1565534100000,
+          1249
+        ],
+        [
+          1565715300000,
+          1255
+        ],
+        [
+          1566318900000,
+          1223
+        ],
+        [
+          1567596900000,
+          1254
+        ],
+        [
+          1567701300000,
+          1330
+        ],
+        [
+          1568910900000,
+          1347
+        ],
+        [
+          1569056700000,
+          1349
+        ],
+        [
+          1571245500000,
+          1362
+        ],
+        [
+          1572880500000,
+          1431
+        ],
+        [
+          1575045300000,
+          1411
+        ],
+        [
+          1576328700000,
+          1453
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "蒋宇航",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571245500000,
+          1371
+        ],
+        [
+          1571763000000,
+          1276
+        ],
+        [
+          1580661300000,
+          1168
+        ],
+        [
+          1580834100000,
+          1113
+        ],
+        [
+          1587486900000,
+          1105
+        ],
+        [
+          1589042100000,
+          1147
+        ],
+        [
+          1590334500000,
+          1067
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "王茹梦",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571763000000,
+          1367
+        ],
+        [
+          1572880500000,
+          1248
+        ],
+        [
+          1579019700000,
+          1138
+        ],
+        [
+          1579711500000,
+          1125
+        ],
+        [
+          1589042100000,
+          1113
+        ],
+        [
+          1589714400000,
+          1041
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "陈梦婷",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571763000000,
+          1367
+        ],
+        [
+          1572626100000,
+          1250
+        ],
+        [
+          1572880500000,
+          1138
+        ],
+        [
+          1579448100000,
+          1035
+        ],
+        [
+          1589042100000,
+          1072
+        ],
+        [
+          1589714400000,
+          1006
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "阮海滨",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1554048300000,
+          1400
+        ],
+        [
+          1555432500000,
+          1316
+        ],
+        [
+          1557421500000,
+          1307
+        ],
+        [
+          1557678900000,
+          1189
+        ],
+        [
+          1557851700000,
+          1138
+        ],
+        [
+          1563986100000,
+          1044
+        ],
+        [
+          1565534100000,
+          1013
+        ],
+        [
+          1565715300000,
+          1018
+        ],
+        [
+          1571245500000,
+          1072
+        ],
+        [
+          1571326500000,
+          1072
+        ],
+        [
+          1571763000000,
+          1083
+        ],
+        [
+          1571936700000,
+          1128
+        ],
+        [
+          1572626100000,
+          1104
+        ],
+        [
+          1573662900000,
+          1112
+        ],
+        [
+          1574869800000,
+          1091
+        ],
+        [
+          1579448100000,
+          1090
+        ],
+        [
+          1579711500000,
+          1155
+        ],
+        [
+          1580834100000,
+          1111
+        ],
+        [
+          1589042100000,
+          1201
+        ],
+        [
+          1589636100000,
+          1198
+        ],
+        [
+          1589714400000,
+          1266
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "姚佳烨",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571936700000,
+          1369
+        ],
+        [
+          1572880500000,
+          1292
+        ],
+        [
+          1574869800000,
+          1180
+        ],
+        [
+          1575045300000,
+          1190
+        ],
+        [
+          1576933500000,
+          1193
+        ],
+        [
+          1589042100000,
+          1134
+        ],
+        [
+          1589295900000,
+          1031
+        ],
+        [
+          1590334500000,
+          998
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "潘忠鸿",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571245500000,
+          1430
+        ],
+        [
+          1571936700000,
+          1338
+        ],
+        [
+          1574181300000,
+          1274
+        ],
+        [
+          1575045300000,
+          1232
+        ],
+        [
+          1576408500000,
+          1220
+        ],
+        [
+          1578148500000,
+          1200
+        ],
+        [
+          1579448100000,
+          1203
+        ],
+        [
+          1583254200000,
+          1152
+        ],
+        [
+          1584025500000,
+          1215
+        ],
+        [
+          1585670700000,
+          1225
+        ],
+        [
+          1586363700000,
+          1310
+        ],
+        [
+          1586795700000,
+          1325
+        ],
+        [
+          1587662100000,
+          1325
+        ],
+        [
+          1588352700000,
+          1356
+        ],
+        [
+          1589636100000,
+          1398
+        ],
+        [
+          1590683700000,
+          1369
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "丁宇欣",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1555432500000,
+          1367
+        ],
+        [
+          1556296500000,
+          1253
+        ],
+        [
+          1557851700000,
+          1192
+        ],
+        [
+          1563813300000,
+          1168
+        ],
+        [
+          1563986100000,
+          1117
+        ],
+        [
+          1565534100000,
+          1109
+        ],
+        [
+          1565715300000,
+          1112
+        ],
+        [
+          1567701300000,
+          1027
+        ],
+        [
+          1571326500000,
+          1010
+        ],
+        [
+          1571936700000,
+          912
+        ],
+        [
+          1572880500000,
+          935
+        ],
+        [
+          1575045300000,
+          844
+        ],
+        [
+          1587918900000,
+          754
+        ],
+        [
+          1589042100000,
+          1023
+        ],
+        [
+          1589636100000,
+          1055
+        ],
+        [
+          1590510900000,
+          1056
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "董文韬",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571326500000,
+          1405
+        ],
+        [
+          1571936700000,
+          1283
+        ],
+        [
+          1572880500000,
+          1242
+        ],
+        [
+          1576328700000,
+          1176
+        ],
+        [
+          1576393500000,
+          1172
+        ],
+        [
+          1577639100000,
+          1138
+        ],
+        [
+          1580661300000,
+          1038
+        ],
+        [
+          1580834100000,
+          1017
+        ],
+        [
+          1583339700000,
+          1156
+        ],
+        [
+          1584203700000,
+          1204
+        ],
+        [
+          1585670700000,
+          1193
+        ],
+        [
+          1585931700000,
+          1220
+        ],
+        [
+          1588352700000,
+          1269
+        ],
+        [
+          1589042100000,
+          1326
+        ],
+        [
+          1589295900000,
+          1359
+        ],
+        [
+          1589474100000,
+          1443
+        ],
+        [
+          1589714400000,
+          1386
+        ],
+        [
+          1590510900000,
+          1443
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "潘友利",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1572626100000,
+          1401
+        ],
+        [
+          1580315700000,
+          1326
+        ],
+        [
+          1580661300000,
+          1274
+        ],
+        [
+          1581525300000,
+          1202
+        ],
+        [
+          1581961800000,
+          1146
+        ],
+        [
+          1589042100000,
+          1140
+        ],
+        [
+          1590510900000,
+          1074
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "林志杰",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571763000000,
+          1387
+        ],
+        [
+          1572880500000,
+          1312
+        ],
+        [
+          1573662900000,
+          1280
+        ],
+        [
+          1574869800000,
+          1237
+        ],
+        [
+          1576328700000,
+          1184
+        ],
+        [
+          1579448100000,
+          1078
+        ],
+        [
+          1580834100000,
+          1111
+        ],
+        [
+          1587918900000,
+          1107
+        ],
+        [
+          1588352700000,
+          1101
+        ],
+        [
+          1589474100000,
+          1127
+        ],
+        [
+          1589714400000,
+          1151
+        ],
+        [
+          1590334500000,
+          1104
+        ],
+        [
+          1590683700000,
+          1124
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "俞敏",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1555432500000,
+          1399
+        ],
+        [
+          1557421500000,
+          1348
+        ],
+        [
+          1557851700000,
+          1231
+        ],
+        [
+          1571326500000,
+          1120
+        ],
+        [
+          1571569500000,
+          1018
+        ],
+        [
+          1571763000000,
+          1070
+        ],
+        [
+          1576164900000,
+          1159
+        ],
+        [
+          1589042100000,
+          1249
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "吴岚涛",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1554048300000,
+          1418
+        ],
+        [
+          1555432500000,
+          1380
+        ],
+        [
+          1556123700000,
+          1300
+        ],
+        [
+          1556555700000,
+          1316
+        ],
+        [
+          1557678900000,
+          1292
+        ],
+        [
+          1557851700000,
+          1235
+        ],
+        [
+          1558892100000,
+          1225
+        ],
+        [
+          1560098100000,
+          1148
+        ],
+        [
+          1560684900000,
+          1048
+        ],
+        [
+          1560963600000,
+          1086
+        ],
+        [
+          1563381300000,
+          1067
+        ],
+        [
+          1563813300000,
+          1183
+        ],
+        [
+          1564504500000,
+          1217
+        ],
+        [
+          1565195700000,
+          1225
+        ],
+        [
+          1565534100000,
+          1279
+        ],
+        [
+          1565715300000,
+          1232
+        ],
+        [
+          1566318900000,
+          1293
+        ],
+        [
+          1567701300000,
+          1197
+        ],
+        [
+          1568475300000,
+          1226
+        ],
+        [
+          1568910900000,
+          1264
+        ],
+        [
+          1569056700000,
+          1304
+        ],
+        [
+          1569256500000,
+          1375
+        ],
+        [
+          1569769500000,
+          1411
+        ],
+        [
+          1570553700000,
+          1390
+        ],
+        [
+          1570964700000,
+          1426
+        ],
+        [
+          1571245500000,
+          1304
+        ],
+        [
+          1571569500000,
+          1283
+        ],
+        [
+          1571936700000,
+          1316
+        ],
+        [
+          1572095100000,
+          1279
+        ],
+        [
+          1572626100000,
+          1275
+        ],
+        [
+          1572880500000,
+          1262
+        ],
+        [
+          1573059900000,
+          1340
+        ],
+        [
+          1573662900000,
+          1390
+        ],
+        [
+          1573922100000,
+          1272
+        ],
+        [
+          1574181300000,
+          1282
+        ],
+        [
+          1574589900000,
+          1257
+        ],
+        [
+          1574869800000,
+          1304
+        ],
+        [
+          1576328700000,
+          1192
+        ],
+        [
+          1577639100000,
+          1148
+        ],
+        [
+          1578148500000,
+          1193
+        ],
+        [
+          1578240300000,
+          1169
+        ],
+        [
+          1578673200000,
+          1163
+        ],
+        [
+          1579448100000,
+          1162
+        ],
+        [
+          1580315700000,
+          1240
+        ],
+        [
+          1580661300000,
+          1321
+        ],
+        [
+          1580834100000,
+          1350
+        ],
+        [
+          1582562100000,
+          1407
+        ],
+        [
+          1584981300000,
+          1415
+        ],
+        [
+          1589636100000,
+          1386
+        ],
+        [
+          1589714400000,
+          1438
+        ],
+        [
+          1590334500000,
+          1401
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "宁俊钦",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571245500000,
+          1406
+        ],
+        [
+          1571763000000,
+          1299
+        ],
+        [
+          1579448100000,
+          1264
+        ],
+        [
+          1579711500000,
+          1253
+        ],
+        [
+          1580315700000,
+          1269
+        ],
+        [
+          1587918900000,
+          1204
+        ],
+        [
+          1589042100000,
+          1224
+        ],
+        [
+          1589295900000,
+          1205
+        ],
+        [
+          1589714400000,
+          1186
+        ],
+        [
+          1590510900000,
+          1157
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "陈静",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571569500000,
+          1372
+        ],
+        [
+          1572095100000,
+          1275
+        ],
+        [
+          1572880500000,
+          1162
+        ],
+        [
+          1576933500000,
+          1119
+        ],
+        [
+          1579448100000,
+          1017
+        ],
+        [
+          1580315700000,
+          1035
+        ],
+        [
+          1581779100000,
+          1034
+        ],
+        [
+          1581961800000,
+          1022
+        ],
+        [
+          1589042100000,
+          1092
+        ],
+        [
+          1589295900000,
+          991
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "练旻皓",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1554048300000,
+          1369
+        ],
+        [
+          1555432500000,
+          1374
+        ],
+        [
+          1579448100000,
+          1361
+        ],
+        [
+          1579711500000,
+          1341
+        ],
+        [
+          1580834100000,
+          1392
+        ],
+        [
+          1584025500000,
+          1302
+        ],
+        [
+          1586795700000,
+          1323
+        ],
+        [
+          1589042100000,
+          1324
+        ],
+        [
+          1589474100000,
+          1372
+        ],
+        [
+          1590334500000,
+          1396
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "孔涛",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1554048300000,
+          1408
+        ],
+        [
+          1557678900000,
+          1383
+        ],
+        [
+          1557851700000,
+          1347
+        ],
+        [
+          1563813300000,
+          1275
+        ],
+        [
+          1565534100000,
+          1258
+        ],
+        [
+          1571245500000,
+          1297
+        ],
+        [
+          1571569500000,
+          1286
+        ],
+        [
+          1572626100000,
+          1286
+        ],
+        [
+          1579448100000,
+          1292
+        ],
+        [
+          1579711500000,
+          1335
+        ],
+        [
+          1580834100000,
+          1300
+        ],
+        [
+          1589714400000,
+          1339
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "陈宇霆",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571763000000,
+          1385
+        ],
+        [
+          1572626100000,
+          1266
+        ],
+        [
+          1572880500000,
+          1153
+        ],
+        [
+          1573662900000,
+          1092
+        ],
+        [
+          1574869800000,
+          991
+        ],
+        [
+          1575563700000,
+          892
+        ],
+        [
+          1580315700000,
+          981
+        ],
+        [
+          1580834100000,
+          879
+        ],
+        [
+          1581264300000,
+          934
+        ],
+        [
+          1581525300000,
+          913
+        ],
+        [
+          1581611700000,
+          978
+        ],
+        [
+          1581779100000,
+          988
+        ],
+        [
+          1581961800000,
+          1080
+        ],
+        [
+          1582562100000,
+          1047
+        ],
+        [
+          1587918900000,
+          1039
+        ],
+        [
+          1589042100000,
+          1052
+        ],
+        [
+          1589714400000,
+          1064
+        ],
+        [
+          1590510900000,
+          1054
+        ],
+        [
+          1590683700000,
+          1060
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "杨祎琛",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1571763000000,
+          1367
+        ],
+        [
+          1573922100000,
+          1250
+        ],
+        [
+          1576933500000,
+          1187
+        ],
+        [
+          1577205300000,
+          1186
+        ],
+        [
+          1577559900000,
+          1162
+        ],
+        [
+          1577639100000,
+          1142
+        ],
+        [
+          1579711500000,
+          1096
+        ],
+        [
+          1589042100000,
+          984
+        ],
+        [
+          1590334500000,
+          925
+        ],
+        [
+          1590510900000,
+          1025
+        ],
+        [
+          1590683700000,
+          1041
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "余晓聪",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1589042100000,
+          1408
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    },
+    {
+      "name": "谢臣浩",
+      "symbolSize": 4,
+      "itemStyle": {
+        "normal": {
+          "lineStyle": {
+            "width": 2
+          }
+        }
+      },
+      "smooth": false,
+      "type": "line",
+      "data": [
+        [
+          1556555700000,
+          1387
+        ],
+        [
+          1557851700000,
+          1306
+        ],
+        [
+          1559916300000,
+          1223
+        ],
+        [
+          1563813300000,
+          1159
+        ],
+        [
+          1564504500000,
+          1182
+        ],
+        [
+          1571245500000,
+          1226
+        ],
+        [
+          1571569500000,
+          1200
+        ]
+      ],
+      "animationDuration": 2800,
+      "animationEasing": "cubicInOut"
+    }
+  ]
+}

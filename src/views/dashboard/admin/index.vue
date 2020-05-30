@@ -5,10 +5,10 @@
     <panel-group @handleSetLineChartData="handleSetLineChartData" />
 
     <el-row style="background:#fff;padding:16px 16px 0;margin-bottom:32px;">
-      <line-chart :chart-data="lineChartData" />
+      <line-chart :chart-data="lineChartData" v-loading="false" />
     </el-row>
 
-    <el-row :gutter="32">
+    <el-row :gutter="32" hidden="hidden">
       <el-col :xs="24" :sm="24" :lg="8">
         <div class="chart-wrapper">
           <raddar-chart />
@@ -26,7 +26,7 @@
       </el-col>
     </el-row>
 
-    <el-row :gutter="8">
+    <el-row :gutter="8" hidden="hidden">
       <el-col :xs="{span: 24}" :sm="{span: 24}" :md="{span: 24}" :lg="{span: 12}" :xl="{span: 12}" style="padding-right:8px;margin-bottom:30px;">
         <transaction-table />
       </el-col>
@@ -50,8 +50,10 @@ import BarChart from './components/BarChart'
 import TransactionTable from './components/TransactionTable'
 import TodoList from './components/TodoList'
 import BoxCard from './components/BoxCard'
+const cf_rating_data = require('./cf_rating_linechart_data')
 
 const lineChartData = {
+  cf_rating:cf_rating_data,
   newVisitis: {
     expectedData: [100, 120, 161, 134, 105, 160, 165],
     actualData: [120, 82, 91, 154, 162, 140, 145]
@@ -85,7 +87,7 @@ export default {
   },
   data() {
     return {
-      lineChartData: lineChartData.newVisitis
+      lineChartData: lineChartData.cf_rating
     }
   },
   methods: {
@@ -104,7 +106,7 @@ export default {
 
   .github-corner {
     position: absolute;
-    top: 0px;
+    top: 0;
     border: 0;
     right: 0;
   }

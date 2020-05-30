@@ -1,8 +1,311 @@
-Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
-Accept-Encoding: gzip, deflate, br
-Accept-Language: zh-Hans-CN, zh-Hans; q=0.8, en-US; q=0.5, en; q=0.3
-Cache-Control: no-cache
-Cookie: _ga=GA1.2.473181003.1565802426
-Host: vjudge.net
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362
+{
+  "status": "OK",
+  "result": [
+    {
+      "contestId": 844,
+      "contestName": "AIM Tech Round 4 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 2920,
+      "ratingUpdateTimeSeconds": 1503601500,
+      "oldRating": 0,
+      "newRating": 1374
+    },
+    {
+      "contestId": 1076,
+      "contestName": "Educational Codeforces Round 54 (Rated for Div. 2)",
+      "handle": "Deft_t",
+      "rank": 2229,
+      "ratingUpdateTimeSeconds": 1542040500,
+      "oldRating": 1374,
+      "newRating": 1361
+    },
+    {
+      "contestId": 1077,
+      "contestName": "Codeforces Round #521 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 879,
+      "ratingUpdateTimeSeconds": 1542386100,
+      "oldRating": 1361,
+      "newRating": 1417
+    },
+    {
+      "contestId": 1061,
+      "contestName": "Codeforces Round #523 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 1882,
+      "ratingUpdateTimeSeconds": 1542908700,
+      "oldRating": 1417,
+      "newRating": 1427
+    },
+    {
+      "contestId": 1088,
+      "contestName": "Codeforces Round #525 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 1647,
+      "ratingUpdateTimeSeconds": 1543941300,
+      "oldRating": 1427,
+      "newRating": 1452
+    },
+    {
+      "contestId": 1084,
+      "contestName": "Codeforces Round #526 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 1677,
+      "ratingUpdateTimeSeconds": 1544466900,
+      "oldRating": 1452,
+      "newRating": 1426
+    },
+    {
+      "contestId": 1093,
+      "contestName": "Educational Codeforces Round 56 (Rated for Div. 2)",
+      "handle": "Deft_t",
+      "rank": 3748,
+      "ratingUpdateTimeSeconds": 1544891700,
+      "oldRating": 1426,
+      "newRating": 1338
+    },
+    {
+      "contestId": 1092,
+      "contestName": "Codeforces Round #527 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 2599,
+      "ratingUpdateTimeSeconds": 1545150900,
+      "oldRating": 1338,
+      "newRating": 1312
+    },
+    {
+      "contestId": 1087,
+      "contestName": "Codeforces Round #528 (Div. 2, based on Technocup 2019 Elimination Round 4)",
+      "handle": "Deft_t",
+      "rank": 2753,
+      "ratingUpdateTimeSeconds": 1545579300,
+      "oldRating": 1312,
+      "newRating": 1274
+    },
+    {
+      "contestId": 1097,
+      "contestName": "Hello 2019",
+      "handle": "Deft_t",
+      "rank": 5994,
+      "ratingUpdateTimeSeconds": 1546623900,
+      "oldRating": 1274,
+      "newRating": 1228
+    },
+    {
+      "contestId": 1099,
+      "contestName": "Codeforces Round #530 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 2991,
+      "ratingUpdateTimeSeconds": 1546715100,
+      "oldRating": 1228,
+      "newRating": 1238
+    },
+    {
+      "contestId": 1104,
+      "contestName": "Codeforces Round #534 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 3264,
+      "ratingUpdateTimeSeconds": 1548174900,
+      "oldRating": 1238,
+      "newRating": 1256
+    },
+    {
+      "contestId": 1108,
+      "contestName": "Codeforces Round #535 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 1023,
+      "ratingUpdateTimeSeconds": 1548261300,
+      "oldRating": 1256,
+      "newRating": 1354
+    },
+    {
+      "contestId": 1107,
+      "contestName": "Educational Codeforces Round 59 (Rated for Div. 2)",
+      "handle": "Deft_t",
+      "rank": 2957,
+      "ratingUpdateTimeSeconds": 1548524100,
+      "oldRating": 1354,
+      "newRating": 1324
+    },
+    {
+      "contestId": 1110,
+      "contestName": "Codeforces Global Round 1",
+      "handle": "Deft_t",
+      "rank": 4072,
+      "ratingUpdateTimeSeconds": 1549553700,
+      "oldRating": 1324,
+      "newRating": 1323
+    },
+    {
+      "contestId": 1114,
+      "contestName": "Codeforces Round #538 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 1298,
+      "ratingUpdateTimeSeconds": 1549814700,
+      "oldRating": 1323,
+      "newRating": 1436
+    },
+    {
+      "contestId": 1117,
+      "contestName": "Educational Codeforces Round 60 (Rated for Div. 2)",
+      "handle": "Deft_t",
+      "rank": 2412,
+      "ratingUpdateTimeSeconds": 1550511600,
+      "oldRating": 1436,
+      "newRating": 1430
+    },
+    {
+      "contestId": 1118,
+      "contestName": "Codeforces Round #540 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 863,
+      "ratingUpdateTimeSeconds": 1550595000,
+      "oldRating": 1430,
+      "newRating": 1474
+    },
+    {
+      "contestId": 1133,
+      "contestName": "Codeforces Round #544 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 309,
+      "ratingUpdateTimeSeconds": 1551978300,
+      "oldRating": 1474,
+      "newRating": 1561
+    },
+    {
+      "contestId": 1141,
+      "contestName": "Codeforces Round #547 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 2207,
+      "ratingUpdateTimeSeconds": 1553013300,
+      "oldRating": 1561,
+      "newRating": 1514
+    },
+    {
+      "contestId": 1139,
+      "contestName": "Codeforces Round #548 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 4401,
+      "ratingUpdateTimeSeconds": 1553189700,
+      "oldRating": 1514,
+      "newRating": 1413
+    },
+    {
+      "contestId": 1140,
+      "contestName": "Educational Codeforces Round 62 (Rated for Div. 2)",
+      "handle": "Deft_t",
+      "rank": 1569,
+      "ratingUpdateTimeSeconds": 1553274300,
+      "oldRating": 1413,
+      "newRating": 1451
+    },
+    {
+      "contestId": 1144,
+      "contestName": "Codeforces Round #550 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 335,
+      "ratingUpdateTimeSeconds": 1554048300,
+      "oldRating": 1451,
+      "newRating": 1538
+    },
+    {
+      "contestId": 1119,
+      "contestName": "Codeforces Global Round 2",
+      "handle": "Deft_t",
+      "rank": 2995,
+      "ratingUpdateTimeSeconds": 1554557700,
+      "oldRating": 1538,
+      "newRating": 1494
+    },
+    {
+      "contestId": 1153,
+      "contestName": "Codeforces Round #551 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 2079,
+      "ratingUpdateTimeSeconds": 1555171500,
+      "oldRating": 1494,
+      "newRating": 1491
+    },
+    {
+      "contestId": 1154,
+      "contestName": "Codeforces Round #552 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 1368,
+      "ratingUpdateTimeSeconds": 1555432500,
+      "oldRating": 1491,
+      "newRating": 1493
+    },
+    {
+      "contestId": 1151,
+      "contestName": "Codeforces Round #553 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 2429,
+      "ratingUpdateTimeSeconds": 1555608900,
+      "oldRating": 1493,
+      "newRating": 1461
+    },
+    {
+      "contestId": 1155,
+      "contestName": "Educational Codeforces Round 63 (Rated for Div. 2)",
+      "handle": "Deft_t",
+      "rank": 1322,
+      "ratingUpdateTimeSeconds": 1555950900,
+      "oldRating": 1461,
+      "newRating": 1501
+    },
+    {
+      "contestId": 1163,
+      "contestName": "Codeforces Round #558 (Div. 2)",
+      "handle": "Deft_t",
+      "rank": 1152,
+      "ratingUpdateTimeSeconds": 1557421500,
+      "oldRating": 1501,
+      "newRating": 1528
+    },
+    {
+      "contestId": 1165,
+      "contestName": "Codeforces Round #560 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 1521,
+      "ratingUpdateTimeSeconds": 1557851700,
+      "oldRating": 1528,
+      "newRating": 1494
+    },
+    {
+      "contestId": 1148,
+      "contestName": "Codeforces Global Round 3",
+      "handle": "Deft_t",
+      "rank": 851,
+      "ratingUpdateTimeSeconds": 1559407800,
+      "oldRating": 1494,
+      "newRating": 1606
+    },
+    {
+      "contestId": 1237,
+      "contestName": "Codeforces Global Round 5",
+      "handle": "Deft_t",
+      "rank": 3478,
+      "ratingUpdateTimeSeconds": 1571245500,
+      "oldRating": 1606,
+      "newRating": 1563
+    },
+    {
+      "contestId": 1256,
+      "contestName": "Codeforces Round #598 (Div. 3)",
+      "handle": "Deft_t",
+      "rank": 118,
+      "ratingUpdateTimeSeconds": 1572880500,
+      "oldRating": 1563,
+      "newRating": 1690
+    },
+    {
+      "contestId": 1277,
+      "contestName": "Codeforces Round #606 (Div. 2, based on Technocup 2020 Elimination Round 4)",
+      "handle": "Deft_t",
+      "rank": 949,
+      "ratingUpdateTimeSeconds": 1576328700,
+      "oldRating": 1690,
+      "newRating": 1676
+    }
+  ]
+}

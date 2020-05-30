@@ -25,16 +25,31 @@ const crawlers_map = cralwers_map_init()
 //   console.log(result)
 // })
 
+const date = new Date();
+const Y = date.getFullYear() + '-';
+const M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1) + '-';
+const D = date.getDate();
+const nowdate = Y+M+D
+
+/**
+ * 获取所有人raing变化测试
+ */
+// const get_cf_contest_info = require('./get_cf_contest_info')
+//
+// get_cf_contest_info().then(result=>{
+//
+// })
+
 /**
  * 查询示范,promise需要使用then
  * 异步方式，适用于每一单元格动态更新table
  */
-const username = 'BlueLine' //  BlueLine     DeftHaHa
-const oj_name = 'leetcode_cn' //  leetcode_cn     vjudge
-oj_crawler(username, crawlers_map.get(oj_name), oj_name).then(result => {
-  console.log(result)
-})
-console.log('####')
+// const username = 'DeftHaHa' //  BlueLine     DeftHaHa
+// const oj_name = 'vjudge' //  leetcode_cn     vjudge
+// oj_crawler(username, crawlers_map.get(oj_name), oj_name).then(result => {
+//   console.log(result)
+// })
+// console.log('####')
 
 /**
  * excel导出的json数据架构转换
